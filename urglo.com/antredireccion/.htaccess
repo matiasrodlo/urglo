@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond contacto !-d
-RewriteCond contacto.html -f
-RewriteRule ^(.*)$ contacto.html 
