@@ -1,0 +1,791 @@
+[27-Oct-2014 16:21:05 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cyanokrc/public_html/miembros/realizarpedido.php on line 29
+[03-Nov-2014 20:52:25 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/cyanokrc/public_html/miembros/modelos/bd.php on line 42
+[03-Nov-2014 20:52:25 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/cyanokrc/public_html/miembros/modelos/bd.php on line 43
+[03-Nov-2014 20:52:36 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/cyanokrc/public_html/miembros/modelos/bd.php on line 42
+[03-Nov-2014 20:52:36 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/cyanokrc/public_html/miembros/modelos/bd.php on line 43
+[03-Nov-2014 20:52:44 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/cyanokrc/public_html/miembros/modelos/mensajes.php on line 110
+[03-Nov-2014 20:58:10 America/New_York] PHP Fatal error:  Class 'Mensajes' not found in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 8
+[03-Nov-2014 21:05:37 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 561
+[03-Nov-2014 21:06:19 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cyanokrc/public_html/miembros/controladores/mensajes.php:547) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 551
+[03-Nov-2014 21:06:25 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cyanokrc/public_html/miembros/controladores/mensajes.php:547) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 551
+[03-Nov-2014 22:50:37 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 383
+[03-Nov-2014 22:50:38 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 383
+[03-Nov-2014 22:50:39 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/cyanokrc/public_html/miembros/controladores/mensajes.php on line 383
+[01-Feb-2017 21:43:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 21:43:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 21:43:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 22:08:32 America/New_York] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 22:10:51 America/New_York] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 22:12:17 America/New_York] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 22:21:22 America/New_York] PHP Parse error:  syntax error, unexpected '$fecha' (T_VARIABLE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 22:21:47 America/New_York] PHP Parse error:  syntax error, unexpected '$fecha' (T_VARIABLE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 22:22:49 America/New_York] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_payu_chile.php on line 6
+[01-Feb-2017 23:16:49 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:16:49 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:16:49 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:16:58 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:16:58 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:16:58 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:18:14 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:18:14 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:18:14 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[01-Feb-2017 23:18:22 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[01-Feb-2017 23:18:22 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[07-Feb-2017 19:46:30 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:46:30 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:46:30 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:48:55 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:48:55 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:48:55 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[07-Feb-2017 19:56:59 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[07-Feb-2017 19:56:59 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[13-Feb-2017 16:19:26 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:19:29 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:32 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:34 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:34 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:34 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:35 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:35 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:19:36 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:20:38 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:20:38 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:20:39 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:12 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:22:18 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:19 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:20 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:21 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:21 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:30 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:31 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:31 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:32 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:32 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:22:44 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:22:46 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:26:22 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 70
+[13-Feb-2017 16:26:24 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 70
+[13-Feb-2017 16:26:53 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 70
+[13-Feb-2017 16:27:21 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:27:23 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:27:25 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:27:31 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:28:54 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:33:46 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:33:52 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:34:03 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 3
+[13-Feb-2017 16:34:03 America/New_York] PHP Notice:  Undefined index: total in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 4
+[13-Feb-2017 16:34:04 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:34:06 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 3
+[13-Feb-2017 16:34:06 America/New_York] PHP Notice:  Undefined index: total in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 4
+[13-Feb-2017 16:34:06 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:34:09 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago_chile.php on line 3
+[13-Feb-2017 16:34:09 America/New_York] PHP Notice:  Undefined index: total in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago_chile.php on line 4
+[13-Feb-2017 16:34:10 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago_chile.php(21): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(45): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(58): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:34:17 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 3
+[13-Feb-2017 16:34:17 America/New_York] PHP Notice:  Undefined index: total in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 4
+[13-Feb-2017 16:34:17 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[13-Feb-2017 16:34:19 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 69
+[13-Feb-2017 16:34:59 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 91
+[13-Feb-2017 16:43:56 America/New_York] PHP Notice:  Undefined variable: precio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/orden_boosting_1_libre.php on line 91
+[13-Feb-2017 16:45:22 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 3
+[13-Feb-2017 16:45:22 America/New_York] PHP Notice:  Undefined index: total in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php on line 4
+[13-Feb-2017 16:45:23 America/New_York] PHP Fatal error:  Uncaught exception 'MercadoPagoException' with message 'unit_price invalid' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php:528
+Stack trace:
+#0 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(557): MPRestClient::exec(Array)
+#1 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php(215): MPRestClient::post(Array)
+#2 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/payment_mercadopago.php(24): MP->create_preference(Array)
+#3 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php(41): require_once('/home/meyzjcmc/...')
+#4 /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/index.php(54): require_once('/home/meyzjcmc/...')
+#5 {main}
+  thrown in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/mercadopago.php on line 528
+[15-Feb-2017 07:35:29 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:35:29 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:35:29 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:35:39 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:35:39 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:35:39 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:11 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:11 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:11 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:16 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:16 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:16 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:31 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:31 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:31 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:48 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:48 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:36:48 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 07:37:22 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:37:22 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:37:41 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:37:41 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:37:47 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:37:47 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:37:49 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:37:49 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:37:52 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:37:52 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:38:29 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[15-Feb-2017 07:38:29 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[15-Feb-2017 07:40:01 America/New_York] PHP Notice:  Undefined index: id_conver in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 381
+[15-Feb-2017 09:07:54 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 09:07:54 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[15-Feb-2017 09:07:54 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 15:52:37 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_1a8e64d407.png): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 15:52:37 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 15:58:00 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_f85173e0d3.png): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 15:58:00 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 15:58:59 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_5344e2a7b6.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 15:58:59 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:05:14 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 31
+[17-Feb-2017 16:05:14 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 32
+[17-Feb-2017 16:05:14 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 33
+[17-Feb-2017 16:05:14 America/New_York] PHP Notice:  Undefined variable: dcm in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 37
+[17-Feb-2017 16:05:15 America/New_York] PHP Notice:  Undefined index: billing in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 27
+[17-Feb-2017 16:05:15 America/New_York] PHP Notice:  Undefined index: tbilling in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 28
+[17-Feb-2017 16:05:15 America/New_York] PHP Notice:  Undefined index: pbilling in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 29
+[17-Feb-2017 16:17:12 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_4b211ed1b2.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:17:12 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:17:22 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_066b957ee7.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:17:22 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:17:41 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_320f4b946d.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:17:41 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:19:26 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_46ad1d6513.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:19:26 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:19:40 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.com/miembros/images/user/perfil_d0612a718f.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:19:40 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:20:23 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.comeloboost/miembros/images/user/perfil_e844270127.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:20:23 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 16:21:53 America/New_York] PHP Warning:  imagejpeg(/home/meyzjcmc/public_html/urglo.comeloboost/miembros/images/user/perfil_eccc6ba4fb.jpg): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 326
+[17-Feb-2017 16:21:53 America/New_York] PHP Warning:  chmod(): No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 330
+[17-Feb-2017 17:02:32 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:02:32 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:02:32 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:02:52 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 17:02:52 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 17:03:11 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 17:03:11 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 17:06:27 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:06:27 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 98
+[17-Feb-2017 17:06:27 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:06:27 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:06:34 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:06:34 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:06:34 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:07:16 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:07:16 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 98
+[17-Feb-2017 17:07:16 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:07:16 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:37:54 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 129
+[17-Feb-2017 17:38:01 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 129
+[17-Feb-2017 17:39:57 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:39:57 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:39:57 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:40:12 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:12 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 98
+[17-Feb-2017 17:40:12 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:12 America/New_York] PHP Notice:  Undefined variable: level_actual in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:20 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:20 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:20 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:40:27 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:27 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:27 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:40:34 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:34 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:34 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:40:41 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:41 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:40:41 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:40:47 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:40:54 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:41:02 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:41:09 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:41:09 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:41:09 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:41:14 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:41:14 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:41:14 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:41:33 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:41:33 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:41:33 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:42:49 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:42:49 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:42:49 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:42:56 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:42:56 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:42:56 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:42:59 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:42:59 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:42:59 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:43:06 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:43:06 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:43:06 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:43:10 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:43:10 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:43:10 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:07 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:07 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:07 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:10 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:10 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:10 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:20 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:20 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:20 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:24 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:24 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:24 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:35 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:35 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:35 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:39 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:39 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:39 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:44:56 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:44:56 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:44:56 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:45:02 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 129
+[17-Feb-2017 17:46:06 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:46:06 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:46:06 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:46:11 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:46:11 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:46:11 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:46:23 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:46:23 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:46:23 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 138
+[17-Feb-2017 17:46:42 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:46:42 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:46:42 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 138
+[17-Feb-2017 17:46:47 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:46:47 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:46:47 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 137
+[17-Feb-2017 17:47:03 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 94
+[17-Feb-2017 17:47:03 America/New_York] PHP Notice:  Undefined variable: level_inicio in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 100
+[17-Feb-2017 17:47:03 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_4_activa.php on line 138
+[17-Feb-2017 17:49:06 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 129
+[17-Feb-2017 17:58:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:58:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:58:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 17:58:25 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:28 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:32 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:32 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 17:58:32 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 17:58:34 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:37 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:40 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:43 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:46 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:49 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:52 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:55 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:58:59 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:01 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:04 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:08 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:10 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:13 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:17 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:19 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:22 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:25 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:28 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:31 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:34 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:37 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:41 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:43 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:46 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:50 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 17:59:52 America/New_York] PHP Notice:  Undefined index: id_coach in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 455
+[17-Feb-2017 18:01:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 18:01:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 18:01:24 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 18:57:30 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:32 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:33 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:46 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:51 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:52 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:57:53 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 55
+[17-Feb-2017 18:58:52 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 18:58:54 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 18:59:49 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 18:59:51 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:08 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:11 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:11 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:11 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:20 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:35 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:35 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:35 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:36 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:36 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:00:36 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/usuarios.php on line 94
+[17-Feb-2017 19:13:52 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:13:52 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:13:54 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:13:54 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:14:51 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:14:51 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:11 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:11 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:15 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:15 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:20 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:16:20 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:17:04 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:17:04 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:25:57 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:25:57 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 31
+[17-Feb-2017 19:27:12 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 19:27:12 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 19:27:42 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 19:27:42 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 19:27:56 America/New_York] PHP Notice:  Undefined variable: resultado in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 19:27:56 America/New_York] PHP Notice:  Undefined variable: i in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/desconectado/logicas/contacto.php on line 29
+[17-Feb-2017 22:26:18 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:26:18 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:26:18 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:26:24 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 22:26:24 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 22:27:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:27:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:27:52 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 22:28:08 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 22:28:08 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 22:28:22 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 22:28:22 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:29:41 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:29:41 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:29:41 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 143
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 150
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 153
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 157
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 161
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 165
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 169
+[17-Feb-2017 23:29:44 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 173
+[17-Feb-2017 23:29:49 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:29:49 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:29:57 America/New_York] PHP Notice:  Undefined index: usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 101
+[17-Feb-2017 23:29:57 America/New_York] PHP Notice:  Undefined variable: id_usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:29:57 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:29:57 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:29:57 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 109
+[17-Feb-2017 23:32:09 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:32:09 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:32:09 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:32:35 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:32:35 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:32:41 America/New_York] PHP Notice:  Undefined index: usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 101
+[17-Feb-2017 23:32:41 America/New_York] PHP Notice:  Undefined variable: id_usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:32:41 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:32:41 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:32:41 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 109
+[17-Feb-2017 23:33:07 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:19 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:21 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:24 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:27 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:43 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:46 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:33:54 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:34:00 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:34:25 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:35:09 America/New_York] PHP Fatal error:  Class 'Pedidos' not found in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php on line 10
+[17-Feb-2017 23:35:10 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:35:11 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:35:12 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:35:14 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:35:48 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 111
+[17-Feb-2017 23:37:01 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:37:01 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:37:01 America/New_York] PHP Notice:  Undefined index: tipo in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/index.php on line 835
+[17-Feb-2017 23:37:05 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:37:05 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:37:14 America/New_York] PHP Notice:  Undefined index: usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 101
+[17-Feb-2017 23:37:14 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:37:14 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:37:14 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 109
+[17-Feb-2017 23:38:04 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:38:04 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:38:09 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:38:09 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:38:17 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:38:17 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:38:17 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 108
+[17-Feb-2017 23:38:54 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:38:54 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:39:00 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:39:00 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:39:00 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:39:02 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:39:02 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:39:38 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:39:38 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:39:44 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:39:44 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:39:49 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:39:49 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:39:49 America/New_York] PHP Notice:  Undefined variable: codigosql in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:39:49 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 105
+[17-Feb-2017 23:40:02 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:40:02 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:40:26 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:40:26 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:40:26 America/New_York] PHP Notice:  Undefined variable: codigosql in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:40:26 America/New_York] PHP Fatal error:  Cannot access empty property in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:40:34 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:40:34 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:40:35 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:40:35 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:40:35 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:40:35 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:41:35 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 922
+[17-Feb-2017 23:41:52 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:41:52 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:41:58 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:41:58 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:41:58 America/New_York] PHP Notice:  Undefined variable: codigosql in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:41:58 America/New_York] PHP Fatal error:  Cannot access empty property in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:42:40 America/New_York] PHP Fatal error:  Class 'Pedidos' not found in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php on line 10
+[17-Feb-2017 23:42:42 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:42:42 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:42:46 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:42:46 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 103
+[17-Feb-2017 23:42:46 America/New_York] PHP Notice:  Undefined variable: fecha in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:42:46 America/New_York] PHP Notice:  Undefined variable: hora in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 104
+[17-Feb-2017 23:42:46 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 105
+[17-Feb-2017 23:43:49 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:43:49 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:43:55 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:44:30 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:44:30 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:44:37 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:46:31 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:46:31 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:46:36 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:48:32 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 90
+[17-Feb-2017 23:48:32 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 91
+[17-Feb-2017 23:49:10 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:49:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:49:16 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 107
+[17-Feb-2017 23:49:16 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 109
+[17-Feb-2017 23:51:05 America/New_York] PHP Fatal error:  Class 'Pedidos' not found in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/pedidos.php on line 9
+[17-Feb-2017 23:51:25 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:51:25 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:54:10 America/New_York] PHP Notice:  Undefined index: imagen in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 58
+[17-Feb-2017 23:54:10 America/New_York] PHP Notice:  Undefined index: nombre in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/lista_pedidos_libres.php on line 59
+[17-Feb-2017 23:57:37 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 129
+[17-Feb-2017 23:58:17 America/New_York] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 253
+[17-Feb-2017 23:58:18 America/New_York] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 253
+[17-Feb-2017 23:58:20 America/New_York] PHP Parse error:  syntax error, unexpected '$cliente' (T_VARIABLE) in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 253
+[17-Feb-2017 23:58:53 America/New_York] PHP Fatal error:  Class 'Pedidos' not found in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/usuarios.php on line 10
+[17-Feb-2017 23:59:00 America/New_York] PHP Notice:  Undefined index: usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 249
+[18-Feb-2017 00:03:14 America/New_York] PHP Notice:  Undefined index: usuario in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 249
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 31
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 32
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined variable: datos in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 33
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined variable: dcm in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/realizarpedido.php on line 37
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined index: billing in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 27
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined index: tbilling in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 28
+[26-Apr-2017 20:19:58 America/New_York] PHP Notice:  Undefined index: pbilling in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/pedido.php on line 29
+[07-May-2017 12:45:00 America/New_York] PHP Notice:  Undefined variable: datos_lol in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/editar_perfil.php on line 17
+[21-May-2017 17:52:24 America/New_York] PHP Warning:  file_get_contents(vistas/user/boosting.html): failed to open stream: No such file or directory in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/user/logicas/boosting.php on line 2
+[24-May-2017 06:25:34 America/New_York] PHP Notice:  Undefined index: id_conver in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/controladores/mensajes.php on line 381
+[25-May-2017 00:27:14 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 158
+[25-May-2017 04:35:15 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 158
+[26-May-2017 00:39:16 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 158
+[26-May-2017 05:48:28 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 158
+[26-May-2017 06:11:27 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/elobooster/logicas/orden_boosting_1_activa.php on line 158
+[26-May-2017 06:11:39 America/New_York] PHP Notice:  Undefined offset: 0 in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/modelos/pedidos.php on line 578
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 179
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 182
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 186
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 190
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 194
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 198
+[26-May-2017 06:34:48 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 202
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 179
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 182
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 186
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 190
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 194
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 198
+[21-Jun-2017 19:08:21 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 202
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 179
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 182
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 186
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 190
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 194
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 198
+[21-Jun-2017 19:08:31 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 202
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 179
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 182
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 186
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 190
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 194
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 198
+[21-Jun-2017 19:08:43 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 202
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: r in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 179
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 182
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 186
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 190
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 194
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: division_currrent in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 198
+[29-Jun-2017 02:02:05 America/New_York] PHP Notice:  Undefined variable: progressd in /home/meyzjcmc/public_html/urglo.com/eloboost/miembros/vistas/admin/logicas/orden_boosting_1_terminada.php on line 202
