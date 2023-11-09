@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Orden de {tipo}</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo.css?{time}" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="{ruta_index}js/actions_user.js?{time}" type="text/javascript"></script>
+	<script src="{ruta_index}js/jquery.autosize.js?{time}" type="text/javascript"></script>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="{ruta_index}js/menu.js?{time}" type="text/javascript"></script>
+</head>
+<body>
+	{header}
+	<ul class="breadcrumbs">
+		<div class="wrapper-whilox">
+			<li><a href="{ruta_index}">Home</a></li>
+			<span class="separator"></span>
+			<li><a href="{ruta_index}coaching">coaching</a></li>
+			<span class="separator"></span>
+			<li><a href="{ruta_index}coaching/mis_ordenes/">Mis Ordenes</a></li>
+			<span class="separator"></span>
+			<li>Pedido: {tipo}</li>
+		</div>
+	</ul>
+	<section class="wrapper-whilox">
+		<div class="box-info" style="display:inline-block;vertical-align:top">
+			<div class="widgettitle">
+				<h4><b>{tipo}</b> Detalles del pedido</h4>
+			</div>
+			
+			<div class="widgetcontent" align="center">
+				<div class="w-ordetail" style="padding: 10px 20px 0px 20px">
+					<div class="purchased">
+						<span class="titlex" style="margin-bottom:20px;"><small>Comprado</small></span>
+						<h4 style="font-size:38.5px">{games_purchased}</h4>
+						<span style="display:block;text-transform:uppercase;color:#333;margin-top:20px;">
+							Games
+						</span>
+					</div>
+					<div class="league">
+						<span class="titlex"><small>Liga</small></span>
+						<img src="{ruta_index}images/Game/{img_league}" style="height:140px;display:block"/>
+						<span class="levelx">
+							{level}
+						</span>
+					</div>
+					<div class="current">
+						<span class="titlex" style="margin-bottom:20px;"><small>Estado Actual</small></span>
+						<h4 style="font-size:38.5px">{games_current}</h4>
+						<span style="display:block;text-transform:uppercase;color:#333;margin-top:20px;">
+							Games
+						</span>
+					</div>
+					<div class="w-nm" align="center" style="margin-top:20px;">
+						<div class="progress progress-striped active">
+	                        <div id="cphContentPanel_divProgress" style="width:{porcentaje_progress}%" class="bar"></div>
+	                    </div>
+	                    <div id="servicio" class="btn_ag" data="{estado_user}" style="padding:5px;text-align:center;"></div>
+	                	<div id="s_elo" data="{estado_elo}" style="border: 1px solid #ccc;padding:5px;text-align:center;background: #f2f2f2;"></div>
+	                	<div id="resultado_t"></div>
+	                </div>
+				</div>
+			</div>
+			<h4 class="widgettitle rounded" style="margin-bottom:5px;background-color: #232323;">Chat con <i>{user_coacher}</i></h4>
+			<div class="topicpanel rounded" style="margin-top:5px;padding:0px;">
+	            <div id="chatbox" class="topic-content chat-content" style="margin-left:0px">
+	            	{chat}
+	            	<div class="ult"></div>
+	            	<div id="resultado"></div>
+	            </div>
+	            <div class="chat-user">
+	            	<img src="{ruta_index}/images/user/{user_coach_img}" width="42px" height="42px">
+	            	<textarea id="chatText" placeholder="Escribir mensaje.."></textarea>
+	            	<input type="hidden" id="chatboxid" value="{id_usuario}"/>
+	            	<input type="hidden" id="chatboxrecep" value="{id_elo}"/>
+	            	<input type="hidden" id="trabajo" value="{id_trabajo}" />
+	            	<div id="chatSendx" class="btn_ag">Enviar</div>
+	            </div>
+	        </div>
+		</div>
+	</section>	
+	{footer}
+	<script type="text/javascript">
+		function service()
+		{
+			var serv_u = {estado_user};
+			var serv_e = {estado_elo};
+			if(serv_u == '0')
+			{
+				$("#servicio").html("Pausar Servicio");
+			}
+			else if(serv_u == '1')
+			{
+				$("#servicio").html("Reanudar Servicio");
+			}
+			if(serv_e == '0')
+			{
+				$("#s_elo").html("El coacher no esta trabajando con el servicio en este momento.");
+			}
+			else if(serv_e == '1')
+			{
+				$("#s_elo").html("El coacher esta trabajando con el servicio.");
+			}
+		}
+		service();
+		function loadLog()
+		{
+			var oldscrollHeight = $("#chatbox").height() - 20;
+			var newscrollHeight = $("#chatbox").height() - 20; 
+			if(newscrollHeight >= oldscrollHeight)
+			{
+				$("#chatbox").animate({ scrollTop: newscrollHeight }, 'normal'); 
+			}
+		}
+		$("#chatText").autosize();
+		loadLog();
+		function chat()
+	    {
+	        var id_user = $("#chatboxid").val();
+	        var receptor = $("#chatboxrecep").val();
+	        var trabajo = $("#trabajo").val();
+
+	        $.ajax
+	        ({  
+	            async:true,
+	            type:'POST',
+	            url: 'http://urglo.com/miembros/mensajes/conversacion_coaching',
+	            data: {trabajo: trabajo, id_user: id_user, receptor: receptor},
+	            beforeSend: function(){},
+	            timeout: 50000,
+	            success: function(data){$('#resultado').html(data);loadLog();},
+	        });
+	        return false;
+	    }
+		setInterval(chat, 3000);
+   		chat();
+	</script>
+</body>
+</html>
