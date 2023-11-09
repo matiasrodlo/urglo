@@ -10,31 +10,29 @@
     <meta name="csrf-token" content="f3TDzHmxN-PWev3wiYMZKUBPaKGmyslLCsraoImXki49tjKhgMGsuZ6Qgl7nCy67OxTzRo_vUStFNSzwuRnfzQ==">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Urglo: Coaching profesional en esports</title>
+    <title>Urglo</title>
 
-    <meta name="description" content="Coaching profesional en esports
-">
+    <meta name="description" content="Coaching profesional en esports">
 
 
     <link rel="shortcut icon" href="/favicon.png">
 
-    <meta property="og:title" content="Coaching profesional en esports">
+    <meta property="og:title" content="Urglo">
     <meta property="og:url" content="https://urglo.com/">
-    <meta property="og:description" content="Coaching profesional en esports
-">
+    <meta property="og:description" content="Coaching profesional en esports">
 
+    
 
-  <link rel="stylesheet" href="css/custom.css">
-      <link rel="stylesheet" href="css/css1.css">
-  <link rel="stylesheet" href="css/css3.css">
-  <link rel="stylesheet" href="css/css4.css">
-  <link rel="stylesheet" href="css/css5.css">
-  <link rel="stylesheet" href="css/css6.css">
+    
 
-  <script defer src="js/js1.js"></script>
-  <script defer src="js/js2.js"></script>
+    <link rel="stylesheet" href="css/css-contacto-2.css" />
+    <link rel="stylesheet" href="css/css-contacto-1.css" />
 
+    <link rel="stylesheet" href="css/css-proximamente-1.css" />
+    <script defer src="js/js2.js"></script>
+    <link rel="stylesheet" href="css/custom-formularios.css" />
 
+    
     <style type="text/css">
 .globalFooterNav{
   padding-top: 30px;
@@ -47,16 +45,27 @@
     .common-FlagIcon--un:before{background-image: url('img/flags/Unknown.png');background-size: 21px 18px;background-position: 0px 0px;}
     </style>
 
-
-    <link rel="stylesheet" href="//cloud.typography.com/711858/764882/css/fonts.css" />
-
-
-
-      <link rel="stylesheet" href="http://stripe.com//assets/atlas/atlas-f2ff73e4ed6c10773b367f60cef68cbc.css">
-
+    <style>
+.rootLink {
+      color: #91A0B0 !important;}
+    body{
+    background-image:none  !important;
+    background-color: #FFFFFF !important;
+}
+article{
+    background-image:none  !important;
+}
+.globalFooterNav{
+    background-color: white  !important;
+}
+#main-content {
+  width:100%;
+    background-color: white  !important;
+    padding:50px !important ;
+    padding-top: 0px !important;
+}
+</style>
     
-    
-
 
   <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -81,7 +90,7 @@ ga('send', 'pageview');
 
 
       <li class="navSection logo">
-        <a class="rootLink item-home colorize" href="/"><img src="img/urglo-logo-claro.png" style="max-width: 150px;"/></a>
+        <a class="rootLink item-home colorize" href="/"><img src="img/urglo-logo-oscuro.png" style="max-width: 150px;"/></a>
       </li>
 
       <li class="navSection primary">
@@ -118,7 +127,7 @@ ga('send', 'pageview');
         <a
           class="rootLink item-dashboard colorize"
           data-adroll-segment='submit_two'
-          href="/miembros/"
+          href="coaching/miembros/"
           data-analytics-source="global_nav"
             data-analytics-action="sign_in"
         >
@@ -207,7 +216,7 @@ ga('send', 'pageview');
                 </ul>
               </div>
             </div>
-              <a class="mobileSignIn" data-adroll-segment="submit_two" href="/miembros/" data-analytics-source="mobile_nav" data-analytics-action="sign_in">
+              <a class="mobileSignIn" data-adroll-segment="submit_two" href="coaching/miembros/" data-analytics-source="mobile_nav" data-analytics-action="sign_in">
                 Área de Miembros
             </a>
           </div>
@@ -347,115 +356,46 @@ ga('send', 'pageview');
 
     </div>
   </div>
-
+  <div style="text-align: center;margin-bottom: 3%;margin-top: 3%;">
+<img src="img/separator.png" style="max-width:80%">
+</div>
 </header>
 
+<div style="height: 100px;"></div>  
+      <div id="main-content">
+        
+  <div class='main inner-col'>
+    <header class='title'>
+      <h1>Contacto</h1>
+      <p>Contacta con nosotros y cuéntanos cómo podemos ayudarte.</p>
+    </header>
 
-    <div class="globalContent">
-      
-<main>
-  <header  style="height:650px;">
-    <div id="stripes" style="height: 650px;">
-    </div>
-
-    <section id="intro">
-      <div class="container-lg">
-
-        <h1 class="titleport" STYLE="">
-          <span style="color:#CBE1F3;">Urglo:</span> Coaching profesional en esports</h1>
-        <span class="cta_input_email_wrapper" style="float:left;width:50%;margin-left: 30%;">
-            <select class="selectloco" name="producto" id="producto" type="email" spellcheck="false" id="inline_input" placeholder="Email address" class="input_email input_inline small_right_margin">
-        <option data-default='true' disabled selected>Elige juego...</option>
-            <option value="coaching">League Of Legends</option>
-            <option value="csgo">Counter Strike GO</option>
-            <option value="csgo">Dota 2</option>
-            <option value="csgo">World of Warcraft</option>
-            <option value="csgo">Overwatch</option>     
-            <option value="csgo">Heroes Of The Storm</option>       
-            </select>
-        </span>
-        <ul class="prejuego" style="float:left;margin:0px 0px 0px 4%;">
-          <li class="irjuego">
-            <a
-              onclick="VerProducto()"
-              class="common-Button"
-              data-analytics-action="payments"
-              data-analytics-source="header_cta"
-            style=" color: white;padding: 6px;height: 100%;display: block !important;">
-              <svg width="14" height="13">
-                <polygon fill="#0a7261" points="5.4 6 .8 9.7 2.1 11.3 8.6 6 2.1 .7 .8 2.3"/>
-                <rect fill="#0a7261" x="7" y="11" width="7" height="2"/>
-              </svg>
-              Ir al Juego
-            </a >
-          </li>
-        </ul>
-      </div>
-      </p>
-    </section>
-  </header> 
-<script type="text/javascript">
-  function VerProducto(){
-    if(document.getElementById('producto').value != "Elige juego...")
-    location.href= 'http://urglo.com/' + document.getElementById('producto').value;
-  }
-</script> 
-
-
-  <section class="main setup" id="seller-setup" style="padding-top: 0px !important;">
-    <div class="content">
-      <header class="icon">
-        <h2>Es hora de llegar al siguiente nivel</h2>
-        <p>¡Perfecciona tu rendimiento con los mejores a tu lado! Estamos aquí para impulsarte hacia el siguiente nivel; tu compromiso de entrenar arduamente y mostrar tu espíritu ganador completa el camino hacia el éxito.</p>
-      </header>
-      <aside>
-    
-        <figure >
-          <div class="front "></div>
-        </figure>
-        <p>Hemos creado una plataforma personalizada que te brinda la capacidad de realizar un seguimiento detallado de los avances en tu cuenta, procesar pagos mediante métodos de pago locales y mucho más.</p>
-      </aside>
-      <ul class="features">
-        <li class="setup">
-          <h3>¿Cómo lo hacemos?</h3>
-          <p>
-En Urglo, colaboramos con los jugadores más destacados de toda la región, quienes están listos para entrenar contigo. Esta oportunidad te permitirá perfeccionar rápidamente tus habilidades dentro del juego.
-        <li class="custom">
-          <h3>Potente metodología de aprendiza</h3>
-          <p>Una excelente manera de desarrollar nuevas habilidades en el juego es observar en tiempo real cómo un jugador experimentado resuelve con éxito las mismas situaciones a las que te enfrentas diariamente.</p>
+    <nav>
+      <ul>
+        <li>
+          <a href="empleo" class="sales">
+            <h2>Empleo</h2>
+            <p>Nos encantaría hablar contigo sobre cómo podemos trabajar juntos.</p>
+          </a>
         </li>
-        <li class="payouts">
-          <h3>Chat en vivo</h3>
-          <p>Con el objetivo de optimizar tu proceso de aprendizaje y facilitar la comunicación con nuestros jugadores, hemos incorporado un chat que te permite enviar tus consultas.</p>
+        <li class="spacer"></li>
+        <li>
+          <a href='soporte' class='support'>
+            <h2>Ayuda & Consultas</h2>
+            <p>Estamos a tu disposición para resolver cualquier duda.</p>
+          </a>
         </li>
+        <li class="spacer"></li>
       </ul>
-    </div>
-  </section>
+    </nav>
+  </div>
+  </div>
+  <div style="text-align: center;padding-top: 30px;padding-bottom: 30px;border-style: solid; border-width: 1px;border-color: #E6EAEF;background-color: #F5F7F9;">
+        <h3>Comunicación General</h3>
+        <p>Para consultas generales o sobre las posibilidades de empleo en Urglo, escríbenos a <a href="mailto:c@urglo.com">c@urglo.com</a>.</p>
+</div>
+  </aside>
 
-    
-<section id="end-actions" class="nav-animation-element">
-    <div class="inner-col">
-      <p>
-        <strong>¿Eres un jugador profesional?</strong>
-        Envianos tus datos y nos pondremos en contacto contigo.
-      </p>
-      <section class="call-to-action">
-        <div class="request-access">
-          <span class="shadow"></span>
-          <button class="main-action" onclick="Formulario()" data-analytics-modal="request_access" data-analytics-source="footer_cta">
-            Enviar Solicitud
-          </button>
-        </div>
-      </section>
-    </div>
-  </section>
-
-<script type="text/javascript">
-  function Formulario(){
-    location.href= 'http://urglo.com/empleo';
-  }
-</script> 
-      
 
   
     <footer class='globalFooter'>
@@ -575,6 +515,7 @@ document.getElementById('pais').innerHTML = $pais;
       <div class="column">
         <h4>Recursos</h4>
         <ul>
+          
           <li><a href="terminosycondiciones">Privacidad y condiciones</a></li>
         </ul>
       </div>

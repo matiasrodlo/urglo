@@ -10,53 +10,73 @@
     <meta name="csrf-token" content="f3TDzHmxN-PWev3wiYMZKUBPaKGmyslLCsraoImXki49tjKhgMGsuZ6Qgl7nCy67OxTzRo_vUStFNSzwuRnfzQ==">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Urglo: Coaching profesional en esports</title>
+    <title>Urglo</title>
 
-    <meta name="description" content="Coaching profesional en esports
-">
+    <meta name="description" content="Coaching profesional en esports">
 
 
     <link rel="shortcut icon" href="/favicon.png">
 
-    <meta property="og:title" content="Coaching profesional en esports">
+    <meta property="og:title" content="Urglo">
     <meta property="og:url" content="https://urglo.com/">
-    <meta property="og:description" content="Coaching profesional en esports
-">
+    <meta property="og:description" content="Coaching profesional en esports">
 
+
+    
+
+    
 
   <link rel="stylesheet" href="css/custom.css">
-      <link rel="stylesheet" href="css/css1.css">
-  <link rel="stylesheet" href="css/css3.css">
-  <link rel="stylesheet" href="css/css4.css">
-  <link rel="stylesheet" href="css/css5.css">
-  <link rel="stylesheet" href="css/css6.css">
 
-  <script defer src="js/js1.js"></script>
-  <script defer src="js/js2.js"></script>
-
-
-    <style type="text/css">
+    <link rel="stylesheet" href="css/css-proximamente-1.css" />
+    <link rel="stylesheet" href="css/css-proximamente-2.css" />
+    <link rel="stylesheet" href="css/css-proximamente-3.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/css-proximamente-4.css" />
+    <script defer src="js/js-proximamente-1"></script>
+    <script defer src="js/js-proximamente-2"></script>
+      <script>
+    window.current_country = 'AU';
+  </script>
+    <script defer src="js/js-proximamente-3"></script>
+    <script defer src="js/js-proximamente-4"></script>
+    <script defer src="js/js2.js"></script>
+   
+<style>
 .globalFooterNav{
   padding-top: 30px;
   padding-bottom: 30px;
-}.common-FlagIcon--ar:before{background-image: url('img/flags/Argentina.png');background-size: 21px 18px;background-position: 0px 0px;}
+}
+.rootLink{
+  color: #91A0B0 !important;
+}
+body{
+    background-image:none  !important;
+    background-color: #FFFFFF !important;
+}
+article{
+    background-image:none  !important;
+    background-color: #FFFFFF;
+}
+.globalFooterNav{
+    background-color: #F5F7F9  !important;
+} 
+.inner-col{
+    background-color: white  !important;
+    border: 1px #E6EAEF !important;
+    padding:50px !important ;
+}
+</style>
+    
+    
+
+    <style type="text/css">.common-FlagIcon--ar:before{background-image: url('img/flags/Argentina.png');background-size: 21px 18px;background-position: 0px 0px;}
     .common-FlagIcon--mx:before{background-image: url('img/flags/Mexico.png');background-size: 21px 18px;background-position: 0px 0px;}
     .common-FlagIcon--co:before{background-image: url('img/flags/Colombia.png');background-size: 21px 18px;background-position: 0px 0px;}
     .common-FlagIcon--cl:before{background-image: url('img/flags/Chile.png');background-size: 21px 18px;background-position: 0px 0px;}
     .common-FlagIcon--pe:before{background-image: url('img/flags/Peru.png');background-size: 21px 18px;background-position: 0px 0px;}
     .common-FlagIcon--un:before{background-image: url('img/flags/Unknown.png');background-size: 21px 18px;background-position: 0px 0px;}
     </style>
-
-
-    <link rel="stylesheet" href="//cloud.typography.com/711858/764882/css/fonts.css" />
-
-
-
-      <link rel="stylesheet" href="http://stripe.com//assets/atlas/atlas-f2ff73e4ed6c10773b367f60cef68cbc.css">
-
-    
-    
-
 
   <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -81,7 +101,7 @@ ga('send', 'pageview');
 
 
       <li class="navSection logo">
-        <a class="rootLink item-home colorize" href="/"><img src="img/urglo-logo-claro.png" style="max-width: 150px;"/></a>
+        <a class="rootLink item-home colorize" href="/"><img src="img/urglo-logo-oscuro.png" style="max-width: 150px;"/></a>
       </li>
 
       <li class="navSection primary">
@@ -118,7 +138,7 @@ ga('send', 'pageview');
         <a
           class="rootLink item-dashboard colorize"
           data-adroll-segment='submit_two'
-          href="/miembros/"
+          href="coaching/miembros/"
           data-analytics-source="global_nav"
             data-analytics-action="sign_in"
         >
@@ -207,7 +227,7 @@ ga('send', 'pageview');
                 </ul>
               </div>
             </div>
-              <a class="mobileSignIn" data-adroll-segment="submit_two" href="/miembros/" data-analytics-source="mobile_nav" data-analytics-action="sign_in">
+              <a class="mobileSignIn" data-adroll-segment="submit_two" href="coaching/miembros/" data-analytics-source="mobile_nav" data-analytics-action="sign_in">
                 Área de Miembros
             </a>
           </div>
@@ -256,7 +276,7 @@ ga('send', 'pageview');
                   
                 <img src="img/ico-csgo.png" style="max-width: 50px;">
                  <div class='productLinkContent'>
-                    <h3 class="linkTitle" style="color:#dea628;">CS Global Ofensive<span class="new-badge" style="color: #92a1b1 ;border: 1px #92a1b1 ;background-color: white;">Pronto</span></h3>
+                    <h3 class="linkTitle" style="color:#ffa200;">CS Global Ofensive<span class="new-badge" style="color: #92a1b1 ;border: 1px #92a1b1 ;background-color: white;">Pronto</span></h3>
                     <p class="linkSub">Ingresa a la élite mundial y domina a tus oponentes</p>
                   </div>
                 </a>
@@ -348,114 +368,185 @@ ga('send', 'pageview');
     </div>
   </div>
 
+  <div style="text-align: center;margin-bottom: 3%;margin-top: 3%;">
+<img src="img/separator.png" style="max-width:80%">
+</div>
+
+
 </header>
-
-
+<div style="height: 100px;"></div>
     <div class="globalContent">
-      
-<main>
-  <header  style="height:650px;">
-    <div id="stripes" style="height: 650px;">
-    </div>
+      <div id="main-content">
+  
 
-    <section id="intro">
-      <div class="container-lg">
 
-        <h1 class="titleport" STYLE="">
-          <span style="color:#CBE1F3;">Urglo:</span> Coaching profesional en esports</h1>
-        <span class="cta_input_email_wrapper" style="float:left;width:50%;margin-left: 30%;">
-            <select class="selectloco" name="producto" id="producto" type="email" spellcheck="false" id="inline_input" placeholder="Email address" class="input_email input_inline small_right_margin">
-        <option data-default='true' disabled selected>Elige juego...</option>
-            <option value="coaching">League Of Legends</option>
-            <option value="csgo">Counter Strike GO</option>
-            <option value="csgo">Dota 2</option>
-            <option value="csgo">World of Warcraft</option>
-            <option value="csgo">Overwatch</option>     
-            <option value="csgo">Heroes Of The Storm</option>       
-            </select>
-        </span>
-        <ul class="prejuego" style="float:left;margin:0px 0px 0px 4%;">
-          <li class="irjuego">
-            <a
-              onclick="VerProducto()"
-              class="common-Button"
-              data-analytics-action="payments"
-              data-analytics-source="header_cta"
-            style=" color: white;padding: 6px;height: 100%;display: block !important;">
-              <svg width="14" height="13">
-                <polygon fill="#0a7261" points="5.4 6 .8 9.7 2.1 11.3 8.6 6 2.1 .7 .8 2.3"/>
-                <rect fill="#0a7261" x="7" y="11" width="7" height="2"/>
-              </svg>
-              Ir al Juego
-            </a >
+
+  <article class="laptop">
+    <div class='inner-col'>
+
+    <section class='availability'>
+      <header>
+        <h2>Actualmente disponible en más de 5 países.  </h2>
+        <p>Realiza pagos como siempre, fácil y seguro.</p>
+      </header>
+        <ul class='optionList'>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--ar"
+              onclick="ElegirPais('Argentina')"
+              
+             ><span>Argentina</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--cl"
+              onclick="ElegirPais('Chile')"
+              
+             ><span>Chile</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--pe"
+              onclick="ElegirPais('Perú')"
+              
+             ><span>Perú</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--co"
+              onclick="ElegirPais('Colombia')"
+              
+             ><span>Colombia</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--mx"
+              onclick="ElegirPais('Mexico')"
+              
+             ><span>Mexico</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--un"
+              onclick="ElegirPais('Global')"
+              
+             ><span>Global</span
+             >
+            </a>
           </li>
         </ul>
-      </div>
-      </p>
     </section>
-  </header> 
-<script type="text/javascript">
-  function VerProducto(){
-    if(document.getElementById('producto').value != "Elige juego...")
-    location.href= 'http://urglo.com/' + document.getElementById('producto').value;
-  }
-</script> 
+
+    <section class='status' >
+
+    
+<div id='success' style="display: block;bottom: -10px; position: relative;width:auto;">
+<?php
+error_reporting(0); 
+  mail ( "contacto@urglo.com,d@urglo.com" , 'Nuevo Juegador intereado en Juego - Urglo.com' , "Buenas Administracion,\nTe mandamos este mensaje porque hay un nuevo contacto de Interes desde el sitio web de un visitante.\n\nnombre: ".$_POST['producto']."\nEmail: ".$_POST['email']."\n\nSaludos\nUrglo.com - Administracion", 'From: '.$_POST['email'] . "\r\n" .
+    'Reply-To: '.$_POST['email'] . "\r\n" .
+    'X-Mailer: PHP/' . phpversion());
+echo ' ¡Gracias! Nos pondremos en contacto.';
+?>
+</div>
+<p class='' style=" padding-top: 100px; position: relative;    bottom: 44px;
+    color: #a0a9ae;
+    font-weight: 300;
+    font-size: 1.4em;">
+ Actualmente estamos trabajando para ofrecer nuestros servicios para la mayor cantidad de juegos posibles y lógicamente para tu favorito.
+</p>
+      </div>
+
+    </section>
+
+    </div>
+  </article>
 
 
-  <section class="main setup" id="seller-setup" style="padding-top: 0px !important;">
-    <div class="content">
-      <header class="icon">
-        <h2>Es hora de llegar al siguiente nivel</h2>
-        <p>¡Perfecciona tu rendimiento con los mejores a tu lado! Estamos aquí para impulsarte hacia el siguiente nivel; tu compromiso de entrenar arduamente y mostrar tu espíritu ganador completa el camino hacia el éxito.</p>
+      </div>
+
+
+    <section class='availability movil tablet' style="width: 100%;display: block; float:none;padding: 5%;">
+      <header>
+        <h2>Actualmente disponible en más de 5 países.  </h2>
+        <p>Realiza pagos como siempre, fácil y seguro.</p>
       </header>
-      <aside>
-    
-        <figure >
-          <div class="front "></div>
-        </figure>
-        <p>Hemos creado una plataforma personalizada que te brinda la capacidad de realizar un seguimiento detallado de los avances en tu cuenta, procesar pagos mediante métodos de pago locales y mucho más.</p>
-      </aside>
-      <ul class="features">
-        <li class="setup">
-          <h3>¿Cómo lo hacemos?</h3>
-          <p>
-En Urglo, colaboramos con los jugadores más destacados de toda la región, quienes están listos para entrenar contigo. Esta oportunidad te permitirá perfeccionar rápidamente tus habilidades dentro del juego.
-        <li class="custom">
-          <h3>Potente metodología de aprendiza</h3>
-          <p>Una excelente manera de desarrollar nuevas habilidades en el juego es observar en tiempo real cómo un jugador experimentado resuelve con éxito las mismas situaciones a las que te enfrentas diariamente.</p>
-        </li>
-        <li class="payouts">
-          <h3>Chat en vivo</h3>
-          <p>Con el objetivo de optimizar tu proceso de aprendizaje y facilitar la comunicación con nuestros jugadores, hemos incorporado un chat que te permite enviar tus consultas.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
+        <ul class='optionList'>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--ar"
+              onclick="ElegirPais('Argentina')"
+              
+             ><span>Argentina</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--cl"
+              onclick="ElegirPais('Chile')"
+              
+             ><span>Chile</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--pe"
+              onclick="ElegirPais('Perú')"
+              
+             ><span>Perú</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--co"
+              onclick="ElegirPais('Colombia')"
+              
+             ><span>Colombia</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--mx"
+              onclick="ElegirPais('Mexico')"
+              
+             ><span>Mexico</span
+             >
+            </a>
+          </li>
+          <li>
+            <a class="common-FlagIcon common-FlagIcon--un"
+              onclick="ElegirPais('Global')"
+              
+             ><span>Global</span
+             >
+            </a>
+          </li>
+        </ul>
+    </section>
 
-    
-<section id="end-actions" class="nav-animation-element">
-    <div class="inner-col">
-      <p>
-        <strong>¿Eres un jugador profesional?</strong>
-        Envianos tus datos y nos pondremos en contacto contigo.
-      </p>
-      <section class="call-to-action">
-        <div class="request-access">
-          <span class="shadow"></span>
-          <button class="main-action" onclick="Formulario()" data-analytics-modal="request_access" data-analytics-source="footer_cta">
-            Enviar Solicitud
-          </button>
-        </div>
-      </section>
-    </div>
-  </section>
+    <section class='status movil tablet' style="width: 100%;display: block; float:none;padding: 5%;height: 425px; ">
 
-<script type="text/javascript">
-  function Formulario(){
-    location.href= 'http://urglo.com/empleo';
-  }
-</script> 
-      
+<div id='success' style="display: block;bottom: -10px; position: relative;width:auto;">
+<?php
+error_reporting(0); 
+echo ' ¡Gracias! Nos pondremos en contacto.';
+?>
+</div>
+<p class='' style=" padding-top: 100px; position: relative;    bottom: 44px;
+    color: #a0a9ae;
+    font-weight: 300;
+    font-size: 1.4em;">
+ Actualmente estamos trabajando para ofrecer nuestros servicios para la mayor cantidad de juegos posibles y lógicamente para tu favorito.
+</p>
+      </div>
+    </section>
+
+
+      </div>
+    </div>
 
   
     <footer class='globalFooter'>
