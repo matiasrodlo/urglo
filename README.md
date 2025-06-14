@@ -3,6 +3,12 @@
 ## Overview
 Urglo is a professional esports coaching platform that connects gamers from Latin America (Chile, Perú, México, Colombia, and Argentina) with experienced coaches. The platform offers personalized guidance, strategic insights, and tailored training sessions for popular games like League of Legends, CS:GO, Dota 2, and Overwatch.
 
+<p>
+  <a href="#">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/52969662/281887769-b9511aef-aae5-451d-9a79-e212ef13beea.jpg" alt="urglo-prototype">
+  </a>
+</p>
+
 ## Features
 - Multi-game coaching support (LoL, CS:GO, Dota 2, Overwatch)
 - User authentication and role-based access (Admin, Coach, User)
@@ -90,13 +96,6 @@ urglo/
 
 ## Context
 This project was developed in 2014 as part of an entrepreneurial journey after high school. It represents an early attempt to professionalize esports coaching in Latin America, providing a structured platform for gamers to improve their skills through professional guidance.
-
-## Screenshots
-<p>
-  <a href="#">
-    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/52969662/281887769-b9511aef-aae5-451d-9a79-e212ef13beea.jpg" alt="urglo-prototype">
-  </a>
-</p>
 
 ## Note
 This is a legacy project from 2014 and may contain outdated dependencies or security practices. Use with caution in production environments.
