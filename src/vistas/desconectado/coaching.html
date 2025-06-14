@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>coaching</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo_desconectado.css" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+</head>
+<body>
+	{header}
+	<script type="text/javascript">
+		function coaching()
+		{
+			var calc = $("select[name='coachingmode']").val();
+			if (calc == 1) 
+			{
+                if ($("#coaching-calc").is(":visible"))
+                    $("#coaching-calc").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc2").is(":visible"))
+                    $("#coaching-calc2").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc3").is(":visible"))
+                    $("#coaching-calc3").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc4").is(":visible"))
+                    $("#coaching-calc4").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc5").is(":visible"))
+                    $("#coaching-calc5").fadeOut(200, function () { showCalculator(calc); });
+                else
+                    showCalculator(calc);
+            }
+            else if (calc == 2) 
+            {
+                if ($("#coaching-calc").is(":visible"))
+                    $("#coaching-calc").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc2").is(":visible"))
+                    $("#coaching-calc2").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc3").is(":visible"))
+                    $("#coaching-calc3").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc4").is(":visible"))
+                    $("#coaching-calc4").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc5").is(":visible"))
+                    $("#coaching-calc5").fadeOut(200, function () { showCalculator(calc); });
+                else
+                    showCalculator(calc);
+            }
+            else if (calc == 3) 
+            {
+                if ($("#coaching-calc").is(":visible"))
+                    $("#coaching-calc").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc2").is(":visible"))
+                    $("#coaching-calc2").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc3").is(":visible"))
+                    $("#coaching-calc3").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc4").is(":visible"))
+                    $("#coaching-calc4").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc5").is(":visible"))
+                    $("#coaching-calc5").fadeOut(200, function () { showCalculator(calc); });
+                else
+                    showCalculator(calc);
+            }
+            else if (calc == 4) 
+            {
+                if ($("#coaching-calc").is(":visible"))
+                    $("#coaching-calc").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc2").is(":visible"))
+                    $("#coaching-calc2").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc3").is(":visible"))
+                    $("#coaching-calc3").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc4").is(":visible"))
+                    $("#coaching-calc4").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc5").is(":visible"))
+                    $("#coaching-calc5").fadeOut(200, function () { showCalculator(calc); });
+                else
+                    showCalculator(calc);
+            }
+            else if (calc == 5) {
+                if ($("#coaching-calc").is(":visible"))
+                    $("#coaching-calc").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc2").is(":visible"))
+                    $("#coaching-calc2").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc3").is(":visible"))
+                    $("#coaching-calc3").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc4").is(":visible"))
+                    $("#coaching-calc4").fadeOut(200, function () { showCalculator(calc); });
+                else if ($("#coaching-calc5").is(":visible"))
+                    $("#coaching-calc5").fadeOut(200, function () { showCalculator(calc); });
+                else
+                    showCalculator(calc);
+            }
+	    }
+
+	    function showCalculator(value) 
+	    {
+	    	if(value == '1')
+	    	{
+	    		$("#coaching-calc").fadeIn(200);
+	    	}
+	    	else
+	    	{
+	    		$("#coaching-calc" + value).fadeIn(200);
+	    	}
+	    }
+
+	    function selectLeaguecoachingFromLeague() {
+        $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val($("#ddlLeaguecoachingCurrentLeague").val());
+        $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val("");
+        $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val("");
+        $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val("");
+        fillLeaguecoachingDivisionsFrom();
+        setLeaguecoachingFromImage();
+        fillLeaguecoachingLeaguesTo();
+        fillLeaguecoachingDivisionsTo();
+        setLeaguecoachingToImage();
+        updateLeaguecoachingPrice();
+    }
+
+    function selectLeaguecoachingFromDivision() {
+        $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val($("#ddlLeaguecoachingCurrentDivision").val());
+        $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val("");
+        $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val("");
+        setLeaguecoachingFromImage();
+        fillLeaguecoachingLeaguesTo();
+        fillLeaguecoachingDivisionsTo();
+        setLeaguecoachingToImage();
+        updateLeaguecoachingPrice();
+    }
+
+    function selectLeaguecoachingToDivision() {
+        $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val($("#ddlLeaguecoachingDesiredDivision").val());
+        setLeaguecoachingToImage();
+        updateLeaguecoachingPrice();
+    }
+
+    function selectLeaguecoachingToLeague() {
+        $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val($("#ddlLeaguecoachingDesiredLeague").val());
+        $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val("");
+        fillLeaguecoachingDivisionsTo();
+        setLeaguecoachingToImage();
+        updateLeaguecoachingPrice();
+    }
+    $("#cphBody_ucDivisioncoaching1_txtCurrentLp").keyup(function () {
+        var min = parseInt($(this).attr("min"));
+        var max = parseInt($(this).attr("max"));
+        var val = parseInt($(this).val());
+
+        if (isNaN(val))
+            val = 0;
+
+        if (val < min) {
+            val = min;
+        }
+        else if (val > max) {
+            val = max;
+        }
+        $(this).val(val);
+        updateLeaguecoachingPrice();
+    });
+
+    $("#cphBody_ucDivisioncoaching1_txtCurrentLPG").keyup(function () {
+        var min = parseInt($(this).attr("min"));
+        var max = parseInt($(this).attr("max"));
+        var val = parseInt($(this).val());
+
+        if (isNaN(val))
+            val = 0;
+
+        if (val < min) {
+            val = min;
+        }
+        else if (val > max) {
+            val = max;
+        }
+        $(this).val(val);
+        updateLeaguecoachingPrice();
+    });
+    function updateLeaguecoachingPrice() {
+        var currLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var currDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+        var nextLeague = $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val();
+        var nextDivision = $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val();
+        var lp = $("#cphBody_ucDivisioncoaching1_txtCurrentLp").val();
+        var lpg = $("#cphBody_ucDivisioncoaching1_txtCurrentLPG").val();
+
+        var price = getLeaguecoachingPrice(currLeague, currDivision, nextLeague, nextDivision, lp, lpg);
+        price = price * getCurrencyRateDB();
+        price = price.toFixed(0);
+        if (price > 0) {
+            $("#cphBody_ucDivisioncoaching1_hfPrice").val(price);
+            $("#cphBody_ucDivisioncoaching1_lbBuyNow").html("Realizar Compra : <b>" + getCurrencySignDB() + price + "</b>");
+            $("#cphBody_ucDivisioncoaching1_lbNotBuy").html("Realizar Compra : <b>" + getCurrencySignDB() + price + "</b>");
+        }
+        else {
+            $("#cphBody_ucDivisioncoaching1_hfPrice").val("0");
+            $("#cphBody_ucDivisioncoaching1_lbBuyNow").html("Select coaching");
+            $("#cphBody_ucDivisioncoaching1_lbNotBuy").html("Select coaching");
+        }
+    }
+    
+    function fillLeaguecoachingLeaguesFrom() {
+        var leaguesList = $("#cphBody_ucDivisioncoaching1_hfFromLeagues").val();
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+
+        $("#ddlLeaguecoachingCurrentLeague").html("");
+        if (leaguesList != "") {
+            var rows = leaguesList.split('|');
+            for (var i = 0; i < rows.length; i++) {
+                var values = rows[i].split(';');
+                var leagueId = values[0];
+                var leagueName = values[1];
+
+                $("#ddlLeaguecoachingCurrentLeague").append($("<option></option>").val(leagueId).html(leagueName));
+            }
+            if (currentLeague != "")
+                $("#ddlLeaguecoachingCurrentLeague").val(currentLeague);
+            else {
+                $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val($("#ddlLeaguecoachingCurrentLeague").val());
+            }
+        }
+    }
+
+
+    function fillLeaguecoachingLeaguesTo() {
+        
+        var leagueArray = []
+        //var divisionArray = [];
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var currentDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+        var currLine = getLeaguecoachingLine(currentLeague, currentDivision);
+
+        while (currLine != null) {
+            var nextLeague = currLine[3];
+            var nextDivision = currLine[4];
+            if ($.inArray(nextLeague, leagueArray) < 0)
+                leagueArray.push(nextLeague);
+            //if ($.inArray(nextDivision, divisionArray) < 0)
+            //    divisionArray.push(nextLeague);
+
+            currLine = getLeaguecoachingLine(nextLeague, nextDivision);
+        }
+
+        var leaguesList = $("#cphBody_ucDivisioncoaching1_hfToLeagues").val();
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val();
+
+        $("#ddlLeaguecoachingDesiredLeague").html("");
+        if (leaguesList != "") {
+            var rows = leaguesList.split('|');
+            for (var i = 0; i < rows.length; i++) {
+                var values = rows[i].split(';');
+                var leagueId = values[0];
+                var leagueName = values[1];
+
+                if ($.inArray(leagueId,leagueArray) > -1)
+                    $("#ddlLeaguecoachingDesiredLeague").append($("<option></option>").val(leagueId).html(leagueName));
+            }
+            if (currentLeague != "")
+                $("#ddlLeaguecoachingDesiredLeague").val(currentLeague);
+            else {
+                $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val($("#ddlLeaguecoachingDesiredLeague").val());
+            }
+        }
+    }
+
+    function fillLeaguecoachingDivisionsFrom() {
+        var divisionsList = $("#cphBody_ucDivisioncoaching1_hfFromDivisions").val();
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var currentDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+
+        $("#ddlLeaguecoachingCurrentDivision").html("");
+        if (divisionsList != "") {
+            var rows = divisionsList.split('|');
+            for (var i = 0; i < rows.length; i++) {
+                var values = rows[i].split(';');
+                var divisionId = values[0];
+                var divisionLeague = values[1];
+                var divisionName = values[2];
+                if (divisionLeague == currentLeague) {
+                    $("#ddlLeaguecoachingCurrentDivision").append($("<option></option>").val(divisionId).html(divisionName));
+                }
+            }
+            if (currentDivision != "")
+                $("#ddlLeaguecoachingCurrentDivision").val(currentDivision);
+            else {
+                $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val($("#ddlLeaguecoachingCurrentDivision").val());
+            }
+        }
+    }
+
+    function fillLeaguecoachingDivisionsTo() {
+        //var leagueArray = []
+        var divisionArray = [];
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var currentDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+        var currLine = getLeaguecoachingLine(currentLeague, currentDivision);
+
+        while (currLine != null) {
+            var nextLeague = currLine[3];
+            var nextDivision = currLine[4];
+            //if ($.inArray(nextLeague, leagueArray) < 0)
+            //    leagueArray.push(nextLeague);
+            if ($.inArray(nextDivision, divisionArray) < 0)
+                divisionArray.push(nextDivision);
+
+            currLine = getLeaguecoachingLine(nextLeague, nextDivision);
+        }
+
+        var divisionsList = $("#cphBody_ucDivisioncoaching1_hfToDivisions").val();
+        var currentLeague = $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val();
+        var currentDivision = $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val();
+
+        $("#ddlLeaguecoachingDesiredDivision").html("");
+        if (divisionsList != "") {
+            var rows = divisionsList.split('|');
+            for (var i = 0; i < rows.length; i++) {
+                var values = rows[i].split(';');
+                var divisionId = values[0];
+                var divisionLeague = values[1];
+                var divisionName = values[2];
+                if (divisionLeague == currentLeague && $.inArray(divisionId, divisionArray) > -1) {
+                    $("#ddlLeaguecoachingDesiredDivision").append($("<option></option>").val(divisionId).html(divisionName));
+                }
+            }
+            if (currentDivision != "")
+                $("#ddlLeaguecoachingDesiredDivision").val(currentDivision);
+            else {
+                $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val($("#ddlLeaguecoachingDesiredDivision").val());
+            }
+        }
+    }
+    
+    function setLeaguecoachingFromImage() {
+        var currLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var currDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+        var img = "";
+        if (currDivision != "") {
+            var list = $("#cphBody_ucDivisioncoaching1_hfFromDivisions").val();
+            if (list != "") {
+                var rows = list.split('|');
+                for (var i = 0; i < rows.length; i++) {
+                    var values = rows[i].split(';');
+                    var divisionId = values[0];
+                    var divisionIcon = values[3];
+
+                    if (divisionId == currDivision) {
+                        img = divisionIcon;
+                        break;
+                    }
+
+                }
+            }
+
+        }
+        else {
+            var list = $("#cphBody_ucDivisioncoaching1_hfFromLeagues").val();
+            if (list != "") {
+                var rows = list.split('|');
+                for (var i = 0; i < rows.length; i++) {
+                    var values = rows[i].split(';');
+                    var leagueId = values[0];
+                    var leagueIcon = values[2];
+
+                    if (leagueId == currLeague) {
+                        img = leagueIcon;
+                        break;
+                    }
+                }
+            }
+        }
+
+        if (img != "") {
+            if ($("#cphBody_ucDivisioncoaching1_imgCurrentIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+                $("#cphBody_ucDivisioncoaching1_imgCurrentIcon").fadeOut(200, function () {
+                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+                    $(this).fadeIn(200);
+                });
+            }
+        }
+    }
+
+    function setLeaguecoachingToImage() {
+        var currLeague = $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val();
+        var currDivision = $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val();
+        var img = "";
+        if (currDivision != "") {
+            var list = $("#cphBody_ucDivisioncoaching1_hfToDivisions").val();
+            if (list != "") {
+                var rows = list.split('|');
+                for (var i = 0; i < rows.length; i++) {
+                    var values = rows[i].split(';');
+                    var divisionId = values[0];
+                    var divisionIcon = values[3];
+
+                    if (divisionId == currDivision) {
+                        img = divisionIcon;
+                        break;
+                    }
+
+                }
+            }
+
+        }
+        else {
+            var list = $("#cphBody_ucDivisioncoaching1_hfToLeagues").val();
+            if (list != "") {
+                var rows = list.split('|');
+                for (var i = 0; i < rows.length; i++) {
+                    var values = rows[i].split(';');
+                    var leagueId = values[0];
+                    var leagueIcon = values[2];
+
+                    if (leagueId == currLeague) {
+                        img = leagueIcon;
+                        break;
+                    }
+                }
+            }
+        }
+
+        if (img != "") {
+            if ($("#cphBody_ucDivisioncoaching1_imgDesiredIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+                $("#cphBody_ucDivisioncoaching1_imgDesiredIcon").fadeOut(200, function () {
+                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+                    $(this).fadeIn(200);
+                });
+            }
+        }    
+    }
+
+    function getLeaguecoachingPrice(leagueFrom, divisionFrom, leagueTo, divisionTo, lp, lpg) {
+        var totalPrice = parseFloat("0");
+        var currLeague = leagueFrom;
+        var currDivision = divisionFrom;
+
+        var price = parseFloat("0");
+        var tax = parseFloat("0");
+        var discount = parseFloat("0");
+        var lpcalculated = false;
+
+        var currLine = getLeaguecoachingLine(currLeague, currDivision);
+
+        while (currLeague != leagueTo || currDivision != divisionTo) {
+            if (currLine != null &&
+                currLine[3] != "" &&
+                currLine[4] != "") {
+                price = parseFloat(currLine[5]); // price index
+
+                if (!lpcalculated) {
+
+                    if (parseInt(lp) <= 20) {
+                        discount = parseFloat(currLine[6]);
+                    }
+                    else if (parseInt(lp) > 20 && parseInt(lp) <= 40) {
+                        discount = parseFloat(currLine[7]);
+                    }
+                    else if (parseInt(lp) > 40 && parseInt(lp) <= 60) {
+                        discount = parseFloat(currLine[8]);
+                    }
+                    else if (parseInt(lp) > 60 && parseInt(lp) <= 80) {
+                        discount = parseFloat(currLine[9]);
+                    }
+                    else if (parseInt(lp) > 80 && parseInt(lp) <= 100) {
+                        discount = parseFloat(currLine[10]);
+                    }
+
+                    if (parseInt(lpg) >= 0 && parseInt(lpg) <= 3) {
+                        tax = parseFloat(currLine[11]);
+                    }
+                    else if (parseInt(lpg) > 3 && parseInt(lpg) <= 7) {
+                        tax = parseFloat(currLine[12]);
+                    }
+                    else if (parseInt(lpg) > 7 && parseInt(lpg) <= 11) {
+                        tax = parseFloat(currLine[13]);
+                    }
+                    else if (parseInt(lpg) > 11 && parseInt(lpg) <= 14) {
+                        tax = parseFloat(currLine[14]);
+                    }
+                    else if (parseInt(lpg) > 14) {
+                        tax = parseFloat(currLine[15]);
+                    }
+                    lpcalculated = true;
+                }
+                else {
+                    tax = 0;
+                    discount = 0;
+                }
+
+                totalPrice = totalPrice + ((price + tax) - discount);
+
+                currLeague = currLine[3];
+                currDivision = currLine[4];
+                currLine = getLeaguecoachingLine(currLeague, currDivision);
+            }
+            else {
+                totalPrice = 0;
+                break;
+            }
+        }
+
+        return totalPrice;
+    }
+
+    function setLeaguecoachingStartup() {
+
+        var cfLeague = $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val();
+        var cfDivision = $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val();
+        var ctLeague = $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val();
+        var ctDivision = $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val();
+
+        var leaguefFound = false;
+        var divisionfFound = false;
+        var leaguetFound = false;
+        var divisiontFound = false;
+
+        var fleagues = $("#cphBody_ucDivisioncoaching1_hfFromLeagues").val().split("|");
+        var fdivisions = $("#cphBody_ucDivisioncoaching1_hfFromDivisions").val().split("|");
+        var tleagues = $("#cphBody_ucDivisioncoaching1_hfToLeagues").val().split("|");
+        var tdivisions = $("#cphBody_ucDivisioncoaching1_hfToDivisions").val().split("|");
+
+        for (var i = 0; i < fleagues.length; i++) {
+            var values = fleagues[i].split(';');
+            if (values[0] == cfLeague) {
+                leaguefFound = true;
+                break;
+            }
+        }
+
+        for (var i = 0; i < tleagues.length; i++) {
+            var values = tleagues[i].split(';');
+            if (values[0] == ctLeague) {
+                leaguetFound = true;
+                break;
+            }
+        }
+
+        for (var i = 0; i < fdivisions.length; i++) {
+            var values = fdivisions[i].split(';');
+            if (values[0] == cfDivision) {
+                divisionfFound = true;
+                break;
+            }
+        }
+
+        for (var i = 0; i < tdivisions.length; i++) {
+            var values = tdivisions[i].split(';');
+            if (values[0] == ctDivision) {
+                divisiontFound = true;
+                break;
+            }
+        }
+
+
+        if (leaguefFound == false)
+            $("#cphBody_ucDivisioncoaching1_hfFromLeagueSelected").val("");
+        if (divisionfFound == false)
+            $("#cphBody_ucDivisioncoaching1_hfFromDivisionSelected").val("");
+        if (leaguetFound == false)
+            $("#cphBody_ucDivisioncoaching1_hfToLeagueSelected").val("");
+        if (divisiontFound == false)
+            $("#cphBody_ucDivisioncoaching1_hfToDivisionSelected").val("");
+        
+        fillLeaguecoachingLeaguesFrom();
+        fillLeaguecoachingDivisionsFrom();
+        fillLeaguecoachingLeaguesTo();
+        fillLeaguecoachingDivisionsTo();
+        setLeaguecoachingFromImage();
+        setLeaguecoachingToImage();
+        updateLeaguecoachingPrice();
+        termsOfUseDB();
+    }
+    function termsOfUseDB() {
+        if ($("#cphBody_ucDivisioncoaching1_chkAgree").is(':checked') &&
+            $("#cphBody_ucDivisioncoaching1_hfPrice").val() != "0") 
+        {
+            $("#cphBody_ucDivisioncoaching1_lbBuyNow").show();
+            $("#cphBody_ucDivisioncoaching1_lbNotBuy").hide();
+        }
+        else {
+            $("#cphBody_ucDivisioncoaching1_lbBuyNow").hide();
+            $("#cphBody_ucDivisioncoaching1_lbNotBuy").show();
+        }
+    }
+    function getCurrencySignDB() {
+        if ($("#cphBody_ucDivisioncoaching1_ddlDesiredCurrency").val() != "") {
+            var values = $("#cphBody_ucDivisioncoaching1_ddlDesiredCurrency").val().split(';');
+            return values[1];
+        }
+        return "";
+    }
+    function getCurrencyRateDB() {
+        if ($("#cphBody_ucDivisioncoaching1_ddlDesiredCurrency").val() != "") {
+            var values = $("#cphBody_ucDivisioncoaching1_ddlDesiredCurrency").val().split(';');
+            return parseFloat(values[2]);
+        }
+
+        return 1;
+    }
+
+    function getLeaguecoachingLine(league, division) {
+        var line = null;
+        var values = $("#cphBody_ucDivisioncoaching1_hfPrices").val()
+        if (values != "") {
+            var l = values.split('|');
+            for (var i = 0; i < l.length; i++) {
+                var check = l[i].split(';');
+                if (league == check[1] && division == check[2]) 
+                {
+                    line = check;
+                    break;
+                }
+            }
+        }
+        return line;
+    }
+    $(document).on('click', '#tyc', function(){
+        $("#pop-tyc").css("display", "block");
+        jQuery.fn.center = function () 
+        {
+            this.css("position", "fixed");
+            this.css("z-index", "901");
+            this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+            this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+            return this;
+        }
+
+        $(window).resize(function () {
+            $("#pop").css("display", "block");
+            $('#pop-tyc').each(function () {
+                $(this).center();
+            });
+        });
+
+        function centerAll() {
+            $('#pop-tyc').each(function () {
+                $(this).center();
+            });
+        }
+        $('#pop-tyc').each(function () {
+            $(this).center();
+        });
+    });
+    $(document).on('click','#cphBody_ucDivisioncoaching1_lbBuyNow', function(){
+        $("#pop").css("display", "block");
+        $("#pop-int").css("display", "block");
+        jQuery.fn.center = function () 
+        {
+            this.css("position", "fixed");
+            this.css("z-index", "901");
+            this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+            this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+            return this;
+        }
+
+        $(window).resize(function () {
+            $('#pop-int').each(function () {
+                $(this).center();
+            });
+        });
+
+        function centerAll() {
+            $('#pop-int').each(function () {
+                $(this).center();
+            });
+        }
+        $('#pop-int').each(function () {
+            $(this).center();
+        });
+    });
+	</script>
+	<section class="wrapper-whilox">
+		<div class="title">
+			<h1 style="font-size:32px">BARATO, RÁPIDO Y SEGURO - coachingPOR PROFESIONALES</h1>
+			<p>DESDE CUENTAS UNRANKED, HASTA RETADOR</p>
+		</div>
+		<p align="center">Haz clic en la flecha de abajo para ver los diferentes tipos de impulsar que ofrecemos, entre ellos: Impulso de Liga, Victorias Unranked, Impulso Liga Sin clasificar, Impulso Victorias y más.</p>
+		<section class="formcoach">
+			<div class="selc">
+				<select name="coachingmode" onchange="coaching();">
+					<option value="1">Impulso Liga  / División</option>
+					<option value="2">Impulso Duo Queue</option>
+					<option value="3">Victorias Unranked</option>
+					<option value="4">Impulso Sin clasificar Liga / División</option>
+					<option value="5">Impulso Victorias</option>
+				</select>
+				<a class="btn-blue" id="tyc">Ver Terminos y Condiciones</a>
+                <div style="display:none" id="pop-tyc">
+                    <div class="popup-title">
+                        <h2 class="marr10">Terminos y Condiciones</h2>
+                    </div>
+                    <div class="popup-body pad10">
+                        1.1.1   Tenga en cuenta  y asegúrese de leer cada uno de los términos y condiciones antes de contratar alguno de nuestros servicios, a continuación usted se encontrara con todas las reglas y funciones legales del servicio que usted necesita saber. Dicho esto nuestro cliente acepta que mediante el uso de nuestro servicio ya son conscientes de todo los que en este documento acontece.<br><br>
+                        1.1.2   Si por cualquier motivo usted no está de acuerdo con nuestros términos y condiciones asegúrese de ponerse en contacto con nosotros (utilizando el área de “contacto” de nuestro sitio web) de modo que pueda hablar de sus razones y motivos que comprometen su desacuerdo.
+                        <br><br>
+                        1.1.3   Nuestros servicios se alojan bajo el sitio web www.urglo.com, de modo que somos responsables únicamente de los compromisos acordados dentro de este margen, excluyendo cualquier otra entidad.
+                        <br><br>
+                        1.1.4   Todos y cada uno de nuestros empleados no están habilitados bajo ninguna circunstancia ofrecer servicio alguno en nombre de la compañía fuera de nuestro sitio web. El cliente si llega a aceptar alguna propuesta externa a nosotros, él es quien asume totalidad de los riesgos que esto conlleva.
+                        <br><br>
+                        1.1.5   urglo.com, hace ninguna representación en cuanto a utilización, propiedad o transferencia de Riot Games o sus afiliados. Y el clientes está consciente de esto.
+                        <br><br>
+                        1.1.6   El contenido en este sitio y todas las extensiones de este sitio son mostradas "tal cual" y sin ninguna garantía de ningún tipo. A la completa extensión que la ley pueda otorgar, urglo.com rechaza  todas las garantías impuestas o expresadas, incluyendo pero no limitadas a garantías impuestas a mercantibilidad por un propósito en particular. En relación a todos los servicios, urglo.com esta solo proveyendo un servicio al cliente; ningún bien, ninguna propiedad o ninguna extensión de un producto físico están siendo vendidos por urglo.com. urglo.com no hace ningún reclamo al título referente a ninguna propiedad intelectual sin autorización y solo está actuando como un "third-party" con el cliente. Una ves que el pago haya sido efectuado a urglo.com, y los servicios prometidos hayan sido completados por este, urglo.com no tomara poder de ninguna cuenta no autorizada por el cliente. Al final de cualquier transacción entre el cliente y urglo.com, el cliente asumirá que urglo.com meramente funciona como un licenciado de la propiedad intelectual no autorizada y garantiza a urglo.com inmunidad en el tratado completo. urglo.com no clama ningún título por ningún interés de propiedad intelectual del consumidor. Ninguna propiedad intelectual son transferidas al cliente por parte de urglo.com en ninguna transacción.
+                        <br><br>
+                        1.1.7   urglo.com se reserva el derecho de cambiar o modificar cualquiera de las condiciones del sitio, término o política. Estas pueden ser realizadas con o sin notificación tanto a clientes, miembros y visitantes de www.urglo.com así como de nuestras respectivas extensiones.<br><br>
+                        1.1.8   League Of Legends es una marca registrada por Riotgames Inc. urglo.com no es de ninguna manera un afiliado, asociado o endosado por Riot Games Inc.
+                        <br><br>
+                        2.- Deberes y derechos de quienes quieran utilizar nuestros servicios
+                        <br><br>
+                        2.1.1  urglo.com no está asociado con Riot Games o con ninguna entidad en ninguna forma o manera. urglo.com advierte a cualquier cliente o cliente potencial de abstenerse de violar, infringir o realizar cualquier accion ilegal en referencia a los derechos de propiedad intelectual de Riot Games o de cualquier entidad no autorizada.
+                        <br><br>
+                        2.1.2 Al entrar a nuestra página web o cualquier extensión de esta, o a nuestra página en facebook o a cualquier foro relacionado con nuestro servicio o a cualquier contenido dentro de el/los sitio(s), usted declara bajo penalidad o perjurio y bajo las leyes de cualquier país bajo las Leyes de la Union Europea que usted no está empleado o afiliado con Riot Games y sus respectivos afiliados y subsidiarios. 
+                        <br><br>
+                        2.1.3 Al utilizar cualquier servicio ofrecido por urglo.com, usted, el cliente acepta y conoce todos los derechos legales y es consciente de lo que asume al contratar cualquier servicio pagado, y así mismo jura y me comprometo a ingresar información completamente real y efectiva en cual sea el caso en que esta se le solicite.
+                        <br><br>
+                        2.1.4 Usted, el cliente, acepta que si urglo.com se da cuenta de que el monto de partidas ganadas o League Points (LP) que usted compro no cuadran exactamente con la división que usted posee actualmente bajo su nombre de invocador (summoner name), usted, el cliente, acepta y autoriza que el servicio se efectúe a la real división que usted está. Por ejemplo, si usted compra un servicio de coach de "20 triunfos" en "Plata 4" y usted está en estos momentos en "Plata 2", usted sera "coacheado" a la proporcion exacta en precios en estas divisiones. Entonces, el servicio sera "(número de partidas a ganar*X/Y)", donde "X=division en la cual compraste ELO" y "Y=division en la cual efectivamente el cliente esta".
+                        <br><br>
+                        2.1.5 Usted, el cliente, acepta que comprando nuestro servicio, usted está al tanto que no puede disputar ninguna compra con urglo.com después de que el servicio haya sido completado o parcialmente completado y que usted, como el cliente no puede violar las reglas estipuladas en cualquier método de pago proveído por urglo.com.
+                        <br><br>
+                        2.1.6 Usted, el cliente, acepta que comprando nuestros servicios y al finalizar estos, no pedirá el dinero de vuelta. Si esto sucede, abra consecuencias refiriéndose a las layes y que usted acepta cualquier penalidad que se pueda aplicar.
+                        <br><br>
+                        2.1.7 Usted, el cliente, acepta que si entra a su cuenta y pierde Puntos de Liga (LP)  es solamente responsabilidad suya. También, los coaches se reservan el derecho de cambiar sus runas y maestrías. También, usted, el cliente, acepta que el coach haga uso de los Puntos de Influencia (PI) y que compre runas y campeones con ellos.
+                        <br><br>
+                        2.1.8 Usted, el cliente, acepta que usted no jugara ninguna partida de promoción, y si lo hace, nos reservamos el derecho de decir que el trabajo ha sido completado y finalizado. También, si usted juega cualquier partida entre la promoción, nos reservamos el derecho de jugar las demás partidas sin garantizar ganar la promoción.
+                        <br><br>
+                        2.1.9 Usted, el cliente, acepta que si usted juega cualquier juego ranked mientras haya comprado un coach de división, nos reservamos el derecho de detener el servicio y anunciar el trabajo como completado, sin devolución de dinero.
+                        <br><br>
+                        2.1.10 Usted, el cliente, acepta que si lo que gana de LP es menor a 12 LP por juego ganado en cualquier división, deberá pagar extra dependiendo de la calculadora de coaching.
+                        <br><br>
+                        2.1.11 Usted, el cliente, acepta que una vez que la compra haya sido procesada y el servicio comenzado, no será posible un reembolso. Si el servicio no es completado por urglo.com, usted tiene el derecho de recibir crédito a lo que faltaba por completar de su coaching.
+                        <br><br>
+                        2.1.12 Usted, el cliente, acepta que si pide o efectúa un reembolso, usted está en quiebre de las reglas y está ligado a pagar una cantidad de multa y poder ser demandado.
+                        <br><br>
+                        2.1.13 Usted, el cliente, acepta que si abre un reclamo luego de que la orden haya sido procesada o el servicio haya comenzado o terminado, está quebrando las reglas de urglo.com y los términos y condiciones. Si esto ocurre, podría ser demandado.
+                        <br><br>
+                        2.1.14 Usted, el cliente, acepta que una vez que la compra haya sido procesada y un coach haya sido asignado, usted no es elegible de recibir un reembolso completo. Si el servicio no ha sido completado por urglo.com , usted tiene el derecho de recibir compensación igual a lo que se le debe.
+                        <br><br>
+                        2.1.15 Usted, el cliente, acepta que si usted obtiene un reembolso después de que el trabajo haya sido efectuado,  y no devuelve el dinero, su deuda será enviada a una agencia de colector de deudas. Si esto sucede, usted también acepta en que será cobrado por cualquier gasto adicional.
+                        <br><br>
+                        2.1.16 Usted, el cliente, acepta que urglo.com no es responsable por ninguna acción disciplinaria impuesta a usted por contratar servicios de coaching.
+                        <br><br>
+                        2.1.17 No se otorgaran reembolsos por ninguna acción tomada en su contra por contratar servicios de coaching. Si usted obtiene algún reembolso por eso, estará rompiendo las reglas de este acuerdo y usted está de acuerdo que deberá devolver el dinero o acción judiciales comenzaran en su contra.
+                        <br><br>
+                        2.1.18 Fallo en seguir nuestros términos podría resultar en la cancelación de nuestro servicio.
+                        <br><br>
+                        2.2 Derechos del consumidor.
+                        <br><br>
+                        2.2.1 Clientes se reservan el derecho de espectar cualquier partida durante el proceso y preguntar cualquier duda directamente a los contactos de urglo.com
+                        <br><br>
+                        2.2.2 Clientes se reservan el derecho de poder hablar con sus coaches mientras se efectue el servicio de coaching a través del software preferido de el cliente.
+                        <br><br>
+                        2.2.3 Clientes se reservan el derecho de exigir que los servicios comprados sean efectuados en la cuenta de LoL nombrada por el cliente después de que el pago sea procesado, siempre y cuando el cliente haya leído los término y condiciones.
+                        <br><br>
+                    </div>
+                    <div style="text-align:center">
+                        <a id="closetyc" class="linkbutton">Cerrar Terminos y Condiciones</a>
+                    </div>
+                </div>
+			</div>
+			<form style="width:700px;display:block;margin:20px auto;" method="POST" id="coaching-calc">
+				<h1 id="titcoach" align="center" style="padding-bottom:25px;">Impulso Liga  / División</h1>
+				<div class="div1">
+					<center>
+						<h3>Estadística Actual</h3>
+						<img id="cphBody_ucDivisioncoaching1_imgCurrentIcon" src="{ruta_index}images/Game/54462111-6c03-47d1-b42d-01be036c2712.png" style="height: 160px;display:inline"/>
+					</center>
+					<label>
+						<span>Liga</span>
+						<select name="glcoachingleaguecurrent" id="ddlLeaguecoachingCurrentLeague" onchange="selectLeaguecoachingFromLeague();">
+							<option value="6">Bronce</option>
+							<option value="5">Plata</option>
+							<option value="4">Oro</option>
+							<option value="3">Platino</option>
+							<option value="2">Diamante</option>
+						</select>
+					</label>
+					<label>
+						<span>Division</span>
+						<select id="ddlLeaguecoachingCurrentDivision" name="glcoachingdivisioncurrent" onchange="selectLeaguecoachingFromDivision();">
+							<option value="26">V</option>
+							<option value="25">IV</option>
+							<option value="24">III</option>
+							<option value="23">II</option>
+							<option value="22">I</option>
+						</select>
+					</label>
+					<label>
+						<span>Puntos</span>
+						<input type="text" name="points" class="numeric" max="100" min="0" value="0" id="cphBody_ucDivisioncoaching1_txtCurrentLp"/>
+					</label>
+					<label>
+						<span>Ganancias LP</span>
+						<input type="text" name="lpgain" class="numeric" value="15" max="30" min="0" id="cphBody_ucDivisioncoaching1_txtCurrentLPG"/>
+					</label>
+					<label>
+						<input id="cphBody_ucDivisioncoaching1_chkAgree" type="checkbox" name="ctl00$cphBody$ucDivisioncoaching1$chkAgree" onclick="termsOfUseDB();" style="width:13px;">
+						<b>Confirmo que toda la información introducida es correcta y estoy de acuerdo con los términos y condiciones.<br/><br/>
+                        NOTA: Porfavor revise sus ganancias de LP por partida (Sus ganancias de LP se mostraran después de una victoria en clasificatoria en la pantalla final del juego) Si tu cuenta posee ganancias de LP más bajo que lo que haz seleccionado, se requerirá el pago adicional para completar su impulso.</b>
+					</label>
+				</div>
+				<div class="div2">
+					<center>
+						<h3>Estadística Deseada</h3>
+						<img id="cphBody_ucDivisioncoaching1_imgDesiredIcon" src="{ruta_index}images/Game/54462111-6c03-47d1-b42d-01be036c2712.png" style="height: 160px;display:inline"/>
+					</center>
+					<label>
+						<span>Liga</span>
+						<select id="ddlLeaguecoachingDesiredLeague" name="glcoachingleaguedesired" onchange="selectLeaguecoachingToLeague();">
+							<option value="6">Bronce</option>
+							<option value="5">Plata</option>
+							<option value="4">Oro</option>
+							<option value="3">Platino</option>
+							<option value="2">Diamante</option>
+							<option value="7">Retador</option>
+						</select>
+					</label>
+					<label>
+						<span>Division</span>
+						<select id="ddlLeaguecoachingDesiredDivision" name="glcoachingdivisiondesired" onchange="selectLeaguecoachingToDivision();">
+							<option value="26">V</option>
+							<option value="25">IV</option>
+							<option value="24">III</option>
+							<option value="23">II</option>
+							<option value="22">I</option>
+						</select>
+					</label>
+                    <label>
+                        <span>Moneda</span>
+                        <select id="cphBody_ucDivisioncoaching1_ddlDesiredCurrency" onchange="updateLeaguecoachingPrice();">
+                            <option value="USD;$US;1.00">US Dollar</option>
+                            <option value="CLP;$;500.00">Peso Chileno</option>
+                        </select>
+                    </label>
+					<label>
+						<center>
+                            <div id="cphBody_ucDivisioncoaching1_lbBuyNow" class="linkbutton" style="display:none;"></div>
+	                    	<div id="cphBody_ucDivisioncoaching1_lbNotBuy" class="linkbutton-d"></div>
+                   	 	</center>
+					</label>
+				</div>
+			</form>
+			<input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfPrice" id="cphBody_ucDivisioncoaching1_hfPrice" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromLeagueSelected" id="cphBody_ucDivisioncoaching1_hfFromLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromLP" id="cphBody_ucDivisioncoaching1_hfFromLP" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromLPG" id="cphBody_ucDivisioncoaching1_hfFromLPG" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromDivisionSelected" id="cphBody_ucDivisioncoaching1_hfFromDivisionSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfToLeagueSelected" id="cphBody_ucDivisioncoaching1_hfToLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfToDivisionSelected" id="cphBody_ucDivisioncoaching1_hfToDivisionSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromLeagues" id="cphBody_ucDivisioncoaching1_hfFromLeagues" value="6;Bronce;8c968910-4914-49fe-829a-b62742d27747.png|5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfToLeagues" id="cphBody_ucDivisioncoaching1_hfToLeagues" value="6;Bronce;8c968910-4914-49fe-829a-b62742d27747.png|5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png|7;Retador;37e1498f-d22e-4352-8f66-4a530691f021.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfFromDivisions" id="cphBody_ucDivisioncoaching1_hfFromDivisions" value="5;6;V;54462111-6c03-47d1-b42d-01be036c2712.png|10;5;V;62003196-fcc1-4b45-9e3a-3e84fa95db9d.png|16;2;V;210f3b0b-1faa-4e20-aa78-7ef1ee0c2139.png|21;3;V;4932644a-65a6-4475-9a4e-80be930bd8d6.png|26;4;V;b3c8b95a-82cf-4d86-8cba-f6ceffd45d65.png|4;6;IV;34c46afd-0042-44b7-9363-b52373b0d7b6.png|9;5;IV;bf91db2a-2b72-4d07-9e18-440720ed1ae9.png|15;2;IV;266848b9-8b95-490e-9041-b9d95cfcc31a.png|20;3;IV;33d258b1-e222-45ea-8518-4da73b2a0578.png|25;4;IV;ddb3ecbe-3f37-4f3b-877b-01ee03f1f0a1.png|3;6;III;1cd507e9-1426-454b-906d-ca2901b6c006.png|8;5;III;87e396f5-d22a-40fa-987b-91c32526e9ae.png|14;2;III;0c757285-76ad-455a-a8d6-884d3c9bb821.png|19;3;III;b98cb628-7cd3-4e3e-98d3-54e636505a31.png|24;4;III;8eb10d7f-3ffd-4ae2-a584-dbe443615695.png|2;6;II;bcea731d-3e32-4d77-9fa5-f767f8bfd491.png|7;5;II;92e80b91-b388-4d61-b173-d04739e43fb8.png|13;2;II;6d2eb145-76cc-4a5c-925b-eefb5307ee77.png|18;3;II;69654f19-c11d-409b-b296-0227a60e9f3d.png|23;4;II;3dc8fb37-5653-4c05-8ee8-7dbdcc3f2bf4.png|1;6;I;30852b39-89e9-4bad-9cf0-a637b6917fc1.png|6;5;I;52570517-9566-4459-911a-dde96be9e2b1.png|12;2;I;4eba264c-9bf4-4d71-b16b-81a8949b984f.png|17;3;I;f18ef92a-ec97-4642-a37a-f031306b8640.png|22;4;I;dbed347e-55e1-4b8e-a01e-712594dcb8a2.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfToDivisions" id="cphBody_ucDivisioncoaching1_hfToDivisions" value="10;5;V;62003196-fcc1-4b45-9e3a-3e84fa95db9d.png|16;2;V;210f3b0b-1faa-4e20-aa78-7ef1ee0c2139.png|21;3;V;4932644a-65a6-4475-9a4e-80be930bd8d6.png|26;4;V;b3c8b95a-82cf-4d86-8cba-f6ceffd45d65.png|4;6;IV;34c46afd-0042-44b7-9363-b52373b0d7b6.png|9;5;IV;bf91db2a-2b72-4d07-9e18-440720ed1ae9.png|15;2;IV;266848b9-8b95-490e-9041-b9d95cfcc31a.png|20;3;IV;33d258b1-e222-45ea-8518-4da73b2a0578.png|25;4;IV;ddb3ecbe-3f37-4f3b-877b-01ee03f1f0a1.png|3;6;III;1cd507e9-1426-454b-906d-ca2901b6c006.png|8;5;III;87e396f5-d22a-40fa-987b-91c32526e9ae.png|14;2;III;0c757285-76ad-455a-a8d6-884d3c9bb821.png|19;3;III;b98cb628-7cd3-4e3e-98d3-54e636505a31.png|24;4;III;8eb10d7f-3ffd-4ae2-a584-dbe443615695.png|2;6;II;bcea731d-3e32-4d77-9fa5-f767f8bfd491.png|7;5;II;92e80b91-b388-4d61-b173-d04739e43fb8.png|13;2;II;6d2eb145-76cc-4a5c-925b-eefb5307ee77.png|18;3;II;69654f19-c11d-409b-b296-0227a60e9f3d.png|23;4;II;3dc8fb37-5653-4c05-8ee8-7dbdcc3f2bf4.png|1;6;I;30852b39-89e9-4bad-9cf0-a637b6917fc1.png|6;5;I;52570517-9566-4459-911a-dde96be9e2b1.png|12;2;I;4eba264c-9bf4-4d71-b16b-81a8949b984f.png|17;3;I;f18ef92a-ec97-4642-a37a-f031306b8640.png|22;4;I;dbed347e-55e1-4b8e-a01e-712594dcb8a2.png|30;7;;d7a48073-e32c-4aa6-a35b-21ef5d08c8e3.png" />
+            <input type="hidden" name="ctl00$cphBody$ucDivisioncoaching1$hfPrices" id="cphBody_ucDivisioncoaching1_hfPrices" value="USD;6;5;6;4;10.00;0.00;2.00;4.00;6.00;8.00;26.00;10.00;10.00;6.00;0.00|USD;6;4;6;3;10.00;0.00;2.00;4.00;6.00;8.00;26.00;10.00;10.00;6.00;0.00|USD;6;3;6;2;10.00;0.00;2.00;4.00;6.00;8.00;26.00;10.00;10.00;6.00;0.00|USD;6;2;6;1;10.00;0.00;2.00;4.00;6.00;8.00;26.00;10.00;10.00;6.00;0.00|USD;6;1;5;10;16.00;0.00;2.00;4.00;6.00;8.00;26.00;10.00;10.00;6.00;0.00|USD;5;10;5;9;16.00;0.00;4.00;6.00;8.00;10.00;16.00;26.00;16.00;6.00;0.00|USD;5;9;5;8;16.00;0.00;4.00;6.00;8.00;10.00;16.00;26.00;16.00;6.00;0.00|USD;5;8;5;7;16.00;0.00;4.00;6.00;8.00;10.00;16.00;26.00;16.00;6.00;0.00|USD;5;7;5;6;16.00;0.00;4.00;6.00;8.00;10.00;16.00;26.00;16.00;6.00;0.00|USD;5;6;4;26;22.00;0.00;4.00;6.00;8.00;10.00;36.00;16.00;10.00;6.00;0.00|USD;4;26;4;25;22.00;0.00;6.00;10.00;14.00;18.00;60.00;40.00;10.00;6.00;0.00|USD;4;25;4;24;22.00;0.00;6.00;10.00;14.00;18.00;60.00;40.00;10.00;6.00;0.00|USD;4;24;4;23;22.00;0.00;6.00;10.00;14.00;18.00;60.00;40.00;10.00;6.00;0.00|USD;4;23;4;22;22.00;0.00;6.00;10.00;14.00;18.00;60.00;40.00;10.00;6.00;0.00|USD;4;22;3;21;32.00;0.00;6.00;10.00;14.00;18.00;32.00;50.00;16.00;10.00;0.00|USD;3;21;3;20;32.00;0.00;6.00;12.00;16.00;22.00;32.00;32.00;40.00;10.00;0.00|USD;3;20;3;19;32.00;0.00;6.00;12.00;16.00;22.00;32.00;32.00;40.00;10.00;0.00|USD;3;19;3;18;32.00;0.00;6.00;12.00;16.00;22.00;32.00;32.00;40.00;10.00;0.00|USD;3;18;3;17;32.00;0.00;6.00;12.00;16.00;22.00;32.00;32.00;40.00;10.00;0.00|USD;3;17;2;16;44.00;0.00;6.00;12.00;16.00;22.00;100.00;32.00;40.00;10.00;0.00|USD;2;16;2;15;54.00;0.00;10.00;34.00;22.00;68.00;120.00;32.00;50.00;16.00;0.00|USD;2;15;2;14;54.00;0.00;10.00;34.00;22.00;68.00;120.00;32.00;50.00;16.00;0.00|USD;2;14;2;13;54.00;0.00;20.00;34.00;22.00;68.00;120.00;32.00;50.00;16.00;0.00|USD;2;13;2;12;54.00;0.00;10.00;34.00;22.00;68.00;120.00;32.00;50.00;16.00;0.00|USD;2;12;7;30;82.00;0.00;26.00;40.00;22.00;100.00;500.00;250.00;100.00;50.00;0.00" />
+			<form style="width:700px;display:none;margin:20px auto;" id="coaching-calc2">
+				<h1 align="center" style="padding-bottom:25px;">Impulso Duo Queue</h1>
+				<div class="div1">
+					<center>
+						<h3>Estadística Actual</h3>
+						<img id="cphBody_ucDuoQuecoaching1_imgCurrentIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+					</center>
+					<label>
+						<span>Liga</span>
+						<select id="ddlDuoQueuecoachingCurrentLeague" name="duoqueuecoachingcurrentleague" onchange="selectDuoQueuecoachingFromLeague();">
+							<option value="1">Unranked</option>
+							<option value="6">Bronce</option>
+							<option value="5">Plata</option>
+							<option value="4">Oro</option>
+							<option value="3">Platino</option>
+							<option value="2">Diamante</option>
+						</select>
+					</label>
+					<label>
+						<span>Division</span>
+						<select id="ddlDuoQueuecoachingCurrentDivision" name="duoqueuecoachingcurrentcoachingdivision" onchange="selectDuoQueuecoachingFromDivision();">
+							<option value="5">V</option>
+							<option value="4">IV</option>
+							<option value="3">III</option>
+							<option value="2">II</option>
+							<option value="1">I</option>
+						</select>
+					</label>
+                    <label>
+                       <input id="cphBody_ucDuoQuecoaching1_chkAgree" type="checkbox" name="ctl00$cphBody$ucDuoQuecoaching1$chkAgree" onclick="termsOfUseDQB();" style="width:13px;">
+                        <b>Confirmo que toda la información introducida es correcta y estoy de acuerdo con los términos y condiciones.<br/><br/>
+                        NOTA: Porfavor revise sus ganancias de LP por partida (Sus ganancias de LP se mostraran después de una victoria en clasificatoria en la pantalla final del juego) Si tu cuenta posee ganancias de LP más bajo que lo que haz seleccionado, se requerirá el pago adicional para completar su impulso.</b>
+                    </label>
+				</div>
+				<div class="div2">
+					<center>
+						<h3>Partida Deseadas</h3>
+						<img id="cphBody_ucDuoQuecoaching1_imgDesiredIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+					<label>
+						Seleccione el número de <b>juegos</b>
+					</label>
+					<label>
+						<input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfGameAmount" id="cphBody_ucDuoQuecoaching1_hfGameAmount" value="2">
+                        <div id="cphBody_ucDuoQuecoaching1_slSliderGames" style="width:150px; float:left;margin-left:50px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                        	<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 7.142857142857142%;"></div>
+                        	<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 7.142857142857142%;"></a>
+                        </div>
+                        <input name="ctl00$cphBody$ucDuoQuecoaching1$txtNumberOfGames" type="text" id="cphBody_ucDuoQuecoaching1_txtNumberOfGames" class="numeric marl10 floatLeft" max="15" min="1" style="width:36px;margin-right:60px;">
+					</label>
+					<label>
+						<a id="cphBody_ucDuoQuecoaching1_lbBuyNow" class="linkbutton pad10" style="display:none;"></a>
+                        <div id="cphBody_ucDuoQuecoaching1_lbNotBuy" class="linkbutton-d pad10"></div>
+					</label>
+					</center>
+				</div>
+			</form>
+			<input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfPrice" id="cphBody_ucDuoQuecoaching1_hfPrice" />
+		    <input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfPrices" id="cphBody_ucDuoQuecoaching1_hfPrices" value="USD;1;29;7.00|USD;6;5;5.00|USD;6;4;5.00|USD;6;3;5.00|USD;6;2;5.00|USD;6;1;5.00|USD;5;10;5.00|USD;5;9;5.00|USD;5;8;5.00|USD;5;7;5.00|USD;5;6;6.00|USD;4;26;7.00|USD;4;25;7.00|USD;4;24;8.00|USD;4;23;8.00|USD;4;22;10.00|USD;3;21;10.00|USD;3;20;11.00|USD;3;19;12.00|USD;3;18;13.00|USD;3;17;15.00|USD;2;16;17.00|USD;2;15;20.00|USD;2;14;25.00|USD;2;13;30.00|USD;2;12;35.00" />
+		    <input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfLeagues" id="cphBody_ucDuoQuecoaching1_hfLeagues" value="1;Unranked;cdd340be-cd00-445a-ac22-70db7e5ec109.png|6;Bronce;8c968910-4914-49fe-829a-b62742d27747.png|5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfDivisions" id="cphBody_ucDuoQuecoaching1_hfDivisions" value="5;6;V;54462111-6c03-47d1-b42d-01be036c2712.png|10;5;V;62003196-fcc1-4b45-9e3a-3e84fa95db9d.png|16;2;V;210f3b0b-1faa-4e20-aa78-7ef1ee0c2139.png|21;3;V;4932644a-65a6-4475-9a4e-80be930bd8d6.png|26;4;V;b3c8b95a-82cf-4d86-8cba-f6ceffd45d65.png|4;6;IV;34c46afd-0042-44b7-9363-b52373b0d7b6.png|9;5;IV;bf91db2a-2b72-4d07-9e18-440720ed1ae9.png|15;2;IV;266848b9-8b95-490e-9041-b9d95cfcc31a.png|20;3;IV;33d258b1-e222-45ea-8518-4da73b2a0578.png|25;4;IV;ddb3ecbe-3f37-4f3b-877b-01ee03f1f0a1.png|3;6;III;1cd507e9-1426-454b-906d-ca2901b6c006.png|8;5;III;87e396f5-d22a-40fa-987b-91c32526e9ae.png|14;2;III;0c757285-76ad-455a-a8d6-884d3c9bb821.png|19;3;III;b98cb628-7cd3-4e3e-98d3-54e636505a31.png|24;4;III;8eb10d7f-3ffd-4ae2-a584-dbe443615695.png|2;6;II;bcea731d-3e32-4d77-9fa5-f767f8bfd491.png|7;5;II;92e80b91-b388-4d61-b173-d04739e43fb8.png|13;2;II;6d2eb145-76cc-4a5c-925b-eefb5307ee77.png|18;3;II;69654f19-c11d-409b-b296-0227a60e9f3d.png|23;4;II;3dc8fb37-5653-4c05-8ee8-7dbdcc3f2bf4.png|1;6;I;30852b39-89e9-4bad-9cf0-a637b6917fc1.png|6;5;I;52570517-9566-4459-911a-dde96be9e2b1.png|12;2;I;4eba264c-9bf4-4d71-b16b-81a8949b984f.png|17;3;I;f18ef92a-ec97-4642-a37a-f031306b8640.png|22;4;I;dbed347e-55e1-4b8e-a01e-712594dcb8a2.png|29;1;;09a0bb05-7367-4694-add5-f7aad8a5dd25.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfLeagueSelected" id="cphBody_ucDuoQuecoaching1_hfLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucDuoQuecoaching1$hfDivisionSelected" id="cphBody_ucDuoQuecoaching1_hfDivisionSelected" />
+			<script type="text/javascript">
+				function selectDuoQueuecoachingFromLeague()
+				{
+		            $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val($("#ddlDuoQueuecoachingCurrentLeague").val());
+		            $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val("");
+		            fillDuoQueuecoachingDivisions();
+		            setDuoQueuecoachingImages();
+		            startDuoQueuecoachingCalculator();
+		        }
+
+		        function selectDuoQueuecoachingFromDivision() {
+		            $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val($("#ddlDuoQueuecoachingCurrentDivision").val());
+		            setDuoQueuecoachingImages();
+		            updateDuoQueuecoachingPrice();
+		        }
+		        function termsOfUseDQB() {
+		            if ($("#cphBody_ucDuoQuecoaching1_chkAgree").is(':checked') &&
+		            $("#cphBody_ucDuoQuecoaching1_hfPrice").html() != "0") {
+		                $("#cphBody_ucDuoQuecoaching1_lbBuyNow").show();
+		                $("#cphBody_ucDuoQuecoaching1_lbNotBuy").hide();
+		            }
+		            else {
+		                $("#cphBody_ucDuoQuecoaching1_lbBuyNow").hide();
+		                $("#cphBody_ucDuoQuecoaching1_lbNotBuy").show();
+		            }
+		        }
+		        function fillDuoQueuecoachingLeagues() {
+		            var leaguesList = $("#cphBody_ucDuoQuecoaching1_hfLeagues").val();
+		            var currentLeague = $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val();
+
+		            $("#ddlDuoQueuecoachingCurrentLeague").html("");
+		            if (leaguesList != "") {
+		                var rows = leaguesList.split('|');
+		                for (var i = 0; i < rows.length; i++) 
+		                {
+		                    var values = rows[i].split(';');
+		                    var leagueId = values[0];
+		                    var leagueName = values[1];
+
+		                    $("#ddlDuoQueuecoachingCurrentLeague").append($("<option></option>").val(leagueId).html(leagueName));
+		                }
+		                if (currentLeague != "")
+		                    $("#ddlDuoQueuecoachingCurrentLeague").val(currentLeague);
+		                else {
+		                    $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val($("#ddlDuoQueuecoachingCurrentLeague").val());
+		                }
+		            }
+		        }
+
+		        function fillDuoQueuecoachingDivisions() {
+		            
+		            var divisionsList = $("#cphBody_ucDuoQuecoaching1_hfDivisions").val();
+		            var currentLeague = $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val();
+		            var currentDivision = $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val();
+
+		            $("#ddlDuoQueuecoachingCurrentDivision").html("");
+		            if (divisionsList != "") {
+		                var rows = divisionsList.split('|');
+		                for (var i = 0; i < rows.length; i++) {
+		                    var values = rows[i].split(';');
+		                    var divisionId = values[0];
+		                    var divisionLeague = values[1];
+		                    var divisionName = values[2];
+
+		                    if (divisionLeague == currentLeague) 
+		                    {
+		                        $("#ddlDuoQueuecoachingCurrentDivision").append($("<option></option>").val(divisionId).html(divisionName));
+		                    }
+		                }
+		                if(currentDivision != "")
+		                    $("#ddlDuoQueuecoachingCurrentDivision").val(currentDivision);
+		                else
+		                {
+		                    $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val($("#ddlDuoQueuecoachingCurrentDivision").val());
+		                }
+		            }
+		            
+		        }
+
+		        function setDuoQueuecoachingImages() {
+		            var currLeague = $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val();
+		            var currDivision = $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val();
+		            var img = "";
+		            if (currDivision != "") {
+		                var list = $("#cphBody_ucDuoQuecoaching1_hfDivisions").val();
+		                if (list != "") {
+		                    var rows = list.split('|');
+		                    for (var i = 0; i < rows.length; i++) {
+		                        var values = rows[i].split(';');
+		                        var divisionId = values[0];
+		                        var divisionIcon = values[3];
+
+		                        if (divisionId == currDivision) {
+		                            img = divisionIcon;
+		                            break;
+		                        }
+		                        
+		                    }
+		                }
+		                
+		            }
+		            else {
+		                var list = $("#cphBody_ucDuoQuecoaching1_hfLeagues").val();
+		                if (list != "") {
+		                    var rows = list.split('|');
+		                    for (var i = 0; i < rows.length; i++) {
+		                        var values = rows[i].split(';');
+		                        var leagueId = values[0];
+		                        var leagueIcon = values[2];
+
+		                        if (leagueId == currLeague) {
+		                            img = leagueIcon;
+		                            break;
+		                        }
+		                    }
+		                }
+		            }
+
+		            if (img != "") {
+		                if ($("#cphBody_ucDuoQuecoaching1_imgCurrentIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+		                    $("#cphBody_ucDuoQuecoaching1_imgCurrentIcon").fadeOut(200, function () {
+		                        $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                        $(this).fadeIn(200);
+		                    });
+		                    $("#cphBody_ucDuoQuecoaching1_imgDesiredIcon").fadeOut(200, function () {
+		                        $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                        $(this).fadeIn(200);
+		                    });
+		                }
+		            }
+		        }
+		        $("#cphBody_ucDuoQuecoaching1_txtNumberOfGames").keyup(function () {
+		            var min = parseInt($(this).attr("min"));
+		            var max = parseInt($(this).attr("max"));
+		            var val = parseInt($(this).val());
+
+		            if (isNaN(val))
+		                val = 0;
+
+		            if (val < min) {
+		                val = min;
+		            }
+		            else if (val > max) {
+		                val = max;
+		            }
+		            $("#cphBody_ucDuoQuecoaching1_slSliderGames").slider({ value: val });
+		            setDuoQueuecoachingPrice(val);
+		        });
+		        function setDuoQueuecoachingPrice(value) {
+		            
+		            $("#cphBody_ucDuoQuecoaching1_hfGameAmount").val(value);
+		            $("#cphBody_ucDuoQuecoaching1_txtNumberOfGames").val($("#cphBody_ucDuoQuecoaching1_hfGameAmount").val());
+		            updateDuoQueuecoachingPrice();
+		        }
+
+		        function setupDuoQueuecoachingStartup() {
+		            $("#cphBody_ucDuoQuecoaching1_slSliderGames").slider({ min: 1, max: 15, range: "min", value: $("#cphBody_ucDuoQuecoaching1_hfGameAmount").val(), slide: function (event, ui) { setDuoQueuecoachingPrice(ui.value); } });
+		            var hid = $("#cphBody_ucDuoQuecoaching1_hfGameAmount").val();
+		            $("#cphBody_ucDuoQuecoaching1_txtNumberOfGames").val(hid);
+		            startDuoQueuecoachingCalculator();
+		        }
+		        function startDuoQueuecoachingCalculator() {
+		            var cLeague = $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val();
+		            var cDivision = $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val();
+
+		            var leagueFound = false;
+		            var divisionFound = false;
+		            var leagues = $("#cphBody_ucDuoQuecoaching1_hfLeagues").val().split("|");
+		            var divisions = $("#cphBody_ucDuoQuecoaching1_hfDivisions").val().split("|");
+
+		            for (var i = 0; i < leagues.length; i++) {
+		                var values = leagues[i].split(';');
+		                if (values[0] == cLeague) {
+		                    leagueFound = true;
+		                    break;
+		                }
+		            }
+
+		            for (var i = 0; i < divisions.length; i++) {
+		                var values = divisions[i].split(';');
+		                if (values[0] == cDivision) {
+		                    divisionFound = true;
+		                    break;
+		                }
+		            }
+
+		            if (!leagueFound)
+		                $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val("");
+		            if (!divisionFound)
+		                $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val("");
+
+		            fillDuoQueuecoachingLeagues();
+		            fillDuoQueuecoachingDivisions();
+		            setDuoQueuecoachingImages();
+		            updateDuoQueuecoachingPrice();
+		            termsOfUseDQB();
+		        }
+		        function updateDuoQueuecoachingPrice() {
+		            var currLeague = $("#cphBody_ucDuoQuecoaching1_hfLeagueSelected").val();
+		            var currDivision = $("#cphBody_ucDuoQuecoaching1_hfDivisionSelected").val();
+		            var gamesCount = $("#cphBody_ucDuoQuecoaching1_hfGameAmount").val();
+		            var price = getDuoQueuecoachingPrice(currLeague, currDivision, gamesCount)
+		            if (price > 0) {
+		                $("#cphBody_ucDuoQuecoaching1_hfPrice").val(price);
+		                $("#cphBody_ucDuoQuecoaching1_lbBuyNow").html("Realizar Compra : <b>" + getCurrencySignDQB() + price + "</b>");
+		                $("#cphBody_ucDuoQuecoaching1_lbNotBuy").html("Realizar Compra : <b>" + getCurrencySignDQB() + price + "</b>");
+		            }
+		            else {
+		                $("#cphBody_ucDuoQuecoaching1_hfPrice").val("0");
+		                $("#cphBody_ucDuoQuecoaching1_lbBuyNow").html("Select coaching");
+		                $("#cphBody_ucDuoQuecoaching1_lbNotBuy").html("Select coaching");
+		            }
+		        }
+
+		        function getDuoQueuecoachingPrice(league, division, gamesCount) {
+		            var totalPrice = parseFloat("0");
+		            var currentLeague = league;
+		            var currentDivision = division;
+		            var currLine = getDuoQueuecoachingLine(league, division);
+
+		            if (currLine != null) {
+		                var price = parseFloat(currLine[3].replace(',', '.').replace(' ', ''));
+		                totalPrice = (price * parseFloat(gamesCount));
+		            }
+
+		            return totalPrice;
+		        }
+
+		        function getCurrencySignDQB() {
+		            return "$";
+		        }
+
+		        function getDuoQueuecoachingLine(league, division) {
+		            var line = null;
+		            var values = $("#cphBody_ucDuoQuecoaching1_hfPrices").val();
+		            if (values != "") {
+		                var l = values.split('|');
+		                for (var i = 0; i < l.length; i++) {
+		                    var check = l[i].split(';');
+		                    if (league == check[1] && division == check[2]) {
+		                        line = check;
+		                        break;
+		                    }
+		                }
+		            }
+		            return line;
+		        }
+                $(document).on('click','#cphBody_ucDuoQuecoaching1_lbBuyNow', function(){
+                    $("#pop").css("display", "block");
+                    $("#pop-int").css("display", "block");
+                    jQuery.fn.center = function () 
+                    {
+                        this.css("position", "fixed");
+                        this.css("z-index", "901");
+                        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+                        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+                        return this;
+                    }
+
+                    $(window).resize(function () {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    });
+
+                    function centerAll() {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    }
+                    $('#pop-int').each(function () {
+                        $(this).center();
+                    });
+                });
+			</script>
+			<form style="width:700px;display:none;margin:20px auto;" id="coaching-calc3">
+                <h1 align="center" style="padding-bottom:25px;">Victorias Unranked</h1>
+                <div class="div1">
+                    <center>
+                        <h3>Estadística Actual</h3>
+                        <img id="cphBody_ucUnrankedWincoaching1_imgCurrentIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+                    </center>
+                    <label>
+                        <span>Liga</span>
+                        <select id="ddlUnrankedWincoachingCurrentLeague" name="unrankedwincoachingcurrentleague" onchange="sselectUnrankedWincoachingFromLeague();">
+                            <option value="1">Unranked</option>
+                        </select>
+                    </label>
+                    <label>
+                        <input id="cphBody_ucUnrankedWincoaching1_chkAgree" type="checkbox" name="ctl00$cphBody$ucUnrankedWincoaching1$chkAgree" onclick="termsOfUseUWB();" style="width:13px;">
+                        <b>Confirmo que toda la información introducida es correcta y estoy de acuerdo con los términos de uso.<br/>
+                        NOTA: Usted está comprando victorias netas, lo que significa que siempre recibirá la cantidad de victorias de comprar + victorias adicionales que coincidan con la cantidad de juegos que nuestro jugador pueda perder. Ejemplo: Usted compra 10 victorias, refuerzo perder 3 juegos, recibirá 13 victorias.</b>
+                    </label>
+                </div>
+                <div class="div2">
+                    <center>
+                        <h3>Victorias deseados</h3>
+                        <img id="cphBody_ucUnrankedWincoaching1_imgDesiredIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+                    
+                    <label>
+                        Seleccione el número de <b>victorias</b>
+                    </label>
+                    <label>
+                        <input type="hidden" name="ctl00$cphBody$ucUnrankedWincoaching1$hfWinAmount" id="cphBody_ucUnrankedWincoaching1_hfWinAmount" value="1">
+                        <div id="cphBody_ucUnrankedWincoaching1_slSliderWins" style="width:150px; float:left;margin-left:50px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                            <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div>
+                            <a class="ui-slider-handle ui-state-default ui-corner-all ui-state-hover" href="#" style="left: 0%;"></a>
+                        </div>
+                        <input name="ctl00$cphBody$ucUnrankedWincoaching1$txtNumberOfWins" type="text" id="cphBody_ucUnrankedWincoaching1_txtNumberOfWins" class="numeric marl10 floatLeft" max="10" min="1" style="width:36px;margin-right:60px;">
+                    </label>
+                    <label>
+                        <span>Moneda</span>
+                        <select id="cphBody_ucUnrankedWincoaching1_ddlDesiredCurrency" onchange="updateUnrankedWincoachingPrice();">
+                            <option value="USD;$US;1.00">US Dollar</option>
+                            <option value="CLP;$;500.00">Peso Chileno</option>
+                        </select>
+                    </label>
+                    <label>
+                        <a id="cphBody_ucUnrankedWincoaching1_lbBuyNow" class="linkbutton pad10" style="display:none;"></a>
+                        <div id="cphBody_ucUnrankedWincoaching1_lbNotBuy" class="linkbutton-d pad10"></div>
+                    </label>
+                    </center>
+                </div> 
+            </form>
+			<input type="hidden" name="ctl00$cphBody$ucUnrankedWincoaching1$hfPrices" id="cphBody_ucUnrankedWincoaching1_hfPrices" value="USD;1;8.00" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedWincoaching1$hfPrice" id="cphBody_ucUnrankedWincoaching1_hfPrice" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedWincoaching1$hfLeagues" id="cphBody_ucUnrankedWincoaching1_hfLeagues" value="1;Unranked;cdd340be-cd00-445a-ac22-70db7e5ec109.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedWincoaching1$hfLeagueSelected" id="cphBody_ucUnrankedWincoaching1_hfLeagueSelected" />
+			<script type="text/javascript">
+			function selectUnrankedWincoachingFromLeague() 
+			{
+		        $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val($("#ddlWincoachingCurrentLeague").val());
+		        setUnrankedWincoachingImages();
+		        updateUnrankedWincoachingPrice();
+		    }
+
+		    function setUnrankedWincoachingImages() {
+		        var currLeague = $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val();
+		        var img = "";
+		        var list = $("#cphBody_ucUnrankedWincoaching1_hfLeagues").val();
+
+		        if (list != "") {
+		            var rows = list.split('|');
+		            for (var i = 0; i < rows.length; i++) {
+		                var values = rows[i].split(';');
+		                var leagueId = values[0];
+		                var leagueIcon = values[2];
+
+		                if (leagueId == currLeague) {
+		                    img = leagueIcon;
+		                    break;
+		                }
+		            }
+		        }
+
+		        if (img != "") {
+		            if ($("#cphBody_ucUnrankedWincoaching1_imgCurrentIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+		                $("#cphBody_ucUnrankedWincoaching1_imgCurrentIcon").fadeOut(200, function () {
+		                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                    $(this).fadeIn(200);
+		                });
+		                $("#cphBody_ucUnrankedWincoaching1_imgDesiredIcon").fadeOut(200, function () {
+		                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                    $(this).fadeIn(200);
+		                });
+		            }
+		        }
+		    }
+		    function termsOfUseUWB() {
+		        if ($("#cphBody_ucUnrankedWincoaching1_chkAgree").is(':checked') &&
+		            $("#cphBody_ucUnrankedWincoaching1_hfPrice").html() != "0") {
+		            $("#cphBody_ucUnrankedWincoaching1_lbBuyNow").show();
+		            $("#cphBody_ucUnrankedWincoaching1_lbNotBuy").hide();
+		        }
+		        else {
+		            $("#cphBody_ucUnrankedWincoaching1_lbBuyNow").hide();
+		            $("#cphBody_ucUnrankedWincoaching1_lbNotBuy").show();
+		        }
+		    }
+		    function fillUnrankedWincoachingLeagues() {
+		        var leaguesList = $("#cphBody_ucUnrankedWincoaching1_hfLeagues").val();
+		        var currentLeague = $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val();
+
+		        $("#ddlUnrankedWincoachingCurrentLeague").html("");
+		        if (leaguesList != "") {
+		            var rows = leaguesList.split('|');
+		            for (var i = 0; i < rows.length; i++) {
+		                var values = rows[i].split(';');
+		                var leagueId = values[0];
+		                var leagueName = values[1];
+
+		                $("#ddlUnrankedWincoachingCurrentLeague").append($("<option></option>").val(leagueId).html(leagueName));
+		            }
+		            if (currentLeague != "")
+		                $("#ddlUnrankedWincoachingCurrentLeague").val(currentLeague);
+		            else {
+		                $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val($("#ddlUnrankedWincoachingCurrentLeague").val());
+		            }
+		        }
+		    }
+		    $("#cphBody_ucUnrankedWincoaching1_txtNumberOfWins").keyup(function () {
+		        var min = parseInt($(this).attr("min"));
+		        var max = parseInt($(this).attr("max"));
+		        var val = parseInt($(this).val());
+
+		        if (isNaN(val))
+		            val = 0;
+
+		        if (val < min) {
+		            val = min;
+		        }
+		        else if (val > max) {
+		            val = max;
+		        }
+		        $("#cphBody_ucUnrankedWincoaching1_slSliderWins").slider({ value: val });
+		        setUnrankedWincoachingPrice(val);
+		    });
+		    
+		    function setUnrankedWincoachingPrice(value) {
+		        $("#cphBody_ucUnrankedWincoaching1_hfWinAmount").val(value);
+		        $("#cphBody_ucUnrankedWincoaching1_txtNumberOfWins").val($("#cphBody_ucUnrankedWincoaching1_hfWinAmount").val());
+		        updateUnrankedWincoachingPrice();
+		    }
+
+		    function setupUnrankedWincoachingStartup() {
+
+		        $("#cphBody_ucUnrankedWincoaching1_slSliderWins").slider({ min: 1, max: 10, range: "min", value: $("#cphBody_ucUnrankedWincoaching1_hfWinAmount").val(), slide: function (event, ui) { setUnrankedWincoachingPrice(ui.value); } });
+		        $("#cphBody_ucUnrankedWincoaching1_txtNumberOfWins").val($("#cphBody_ucUnrankedWincoaching1_hfWinAmount").val());
+
+		        var cLeague = $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val();
+		        var leagueFound = false;
+		        var leagues = $("#cphBody_ucUnrankedWincoaching1_hfLeagues").val().split("|");
+
+		        for (var i = 0; i < leagues.length; i++) {
+		            var values = leagues[i].split(';');
+		            if (values[0] == cLeague) {
+		                leagueFound = true;
+		                break;
+		            }
+		        }
+
+		        if (!leagueFound)
+		            $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val("");
+
+		        fillUnrankedWincoachingLeagues();
+		        setUnrankedWincoachingImages();
+		        updateUnrankedWincoachingPrice();
+		        termsOfUseUWB();
+		    }
+
+		    function updateUnrankedWincoachingPrice() {
+		        var currLeague = $("#cphBody_ucUnrankedWincoaching1_hfLeagueSelected").val();
+		        var winsCount = $("#cphBody_ucUnrankedWincoaching1_hfWinAmount").val();
+		        var price = 0;
+		        var currLine = getUnrankedWincoachingLine(currLeague);
+		        if (currLine != null) {
+		            price = parseInt(winsCount) * parseFloat(currLine[2]);
+		        }
+                price = price * getCurrencyRateUWB();
+                price = price.toFixed(0);
+		        if (price > 0) {
+		            $("#cphBody_ucUnrankedWincoaching1_hfPrice").val(price);
+		            $("#cphBody_ucUnrankedWincoaching1_lbBuyNow").html("Realizar Compra : <b>" + getCurrencySignUWB() + price + "</b>");
+		            $("#cphBody_ucUnrankedWincoaching1_lbNotBuy").html("Realizar Compra : <b>" + getCurrencySignUWB() + price + "</b>");
+		        }
+		        else {
+		            $("#cphBody_ucUnrankedWincoaching1_lbBuyNow").html("Select coaching");
+		            $("#cphBody_ucUnrankedWincoaching1_lbNotBuy").html("Select coaching");
+		        }
+		    }
+
+            function getCurrencySignUWB() {
+                if ($("#cphBody_ucUnrankedWincoaching1_ddlDesiredCurrency").val() != "") {
+                    var values = $("#cphBody_ucUnrankedWincoaching1_ddlDesiredCurrency").val().split(';');
+                    return values[1];
+                }
+                return "";
+            }
+            function getCurrencyRateUWB() {
+                if ($("#cphBody_ucUnrankedWincoaching1_ddlDesiredCurrency").val() != "") {
+                    var values = $("#cphBody_ucUnrankedWincoaching1_ddlDesiredCurrency").val().split(';');
+                    return parseFloat(values[2]);
+                }
+                return 1;
+            }
+
+		    function getUnrankedWincoachingLine(league) {
+		        var line = null;
+		        var values = $("#cphBody_ucUnrankedWincoaching1_hfPrices").val()
+		        if (values != "") {
+		            var l = values.split('|');
+		            for (var i = 0; i < l.length; i++) {
+		                var check = l[i].split(';');
+		                if (league == check[1]) {
+		                    line = check;
+		                    break;
+		                }
+		            }
+		        }
+		        return line;
+		    }
+            $(document).on('click','#cphBody_ucUnrankedWincoaching1_lbBuyNow', function(){
+                $("#pop").css("display", "block");
+                $("#pop-int").css("display", "block");
+                jQuery.fn.center = function () 
+                {
+                    this.css("position", "fixed");
+                    this.css("z-index", "901");
+                    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+                    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+                    return this;
+                }
+
+                $(window).resize(function () {
+                    $('#pop-int').each(function () {
+                        $(this).center();
+                    });
+                });
+
+                function centerAll() {
+                    $('#pop-int').each(function () {
+                        $(this).center();
+                    });
+                }
+                $('#pop-int').each(function () {
+                    $(this).center();
+                });
+            });
+			</script>
+			<form style="width:700px;display:none;margin:20px auto;" id="coaching-calc4">
+				<h1 align="center" style="padding-bottom:25px;">Impulso Sin clasificar Liga / División</h1>
+				<div class="div1">
+					<center>
+						<h3>Estadísticas Ultima Temporada</h3>
+						<img id="cphBody_ucUnrankedcoaching1_imgCurrentIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+					</center>
+					<label>
+						<span>Liga</span>
+						<select id="ddlUnrankedcoachingCurrentLeague" name="unrankedcoachingcurrentleague" onchange="selectUnrankedcoachingFromLeague();">
+							<option value="1">Unranked</option>
+							<option value="6">Bronce</option>
+							<option value="5">Plata</option>
+							<option value="4">Oro</option>
+							<option value="3">Platino</option>
+							<option value="2">Diamante</option>
+						</select>
+					</label>
+                    <label>
+                        <input id="cphBody_ucUnrankedcoaching1_chkAgree" type="checkbox" name="ctl00$cphBody$ucUnrankedcoaching1$chkAgree" onclick="termsOfUseUB();">
+                        <b>Para ustedes que han clasificado 0 pérdidas en esta temporada.
+                        Confirmo que toda la información introducida es correcta y estoy de acuerdo con los términos de uso.<br/><br/>
+                        NOTA: Si usted termino entre ORO V – DIAMANTE V la temporada pasada los precios sólo varían ligeramente puesto que el MMR de salida será similar. Si el ranking temporada anterior es inferior a lo que elija aquí, se requerirá el pago adicional.</b>
+                    </label>
+				</div>
+				<div class="div2">
+					<center>
+						<h3>Estadísticas Deseadas</h3>
+						<img id="cphBody_ucUnrankedcoaching1_imgDesiredIcon" src="{ruta_index}images/Game/09a0bb05-7367-4694-add5-f7aad8a5dd25.png" style="height: 160px;display:inline"/>
+						<label>
+							<span>Liga</span>
+							<select id="ddlUnrankedcoachingDesiredLeague" name="unrankedcoachingcurrentleague" onchange="selectUnrankedcoachingToLeague();">
+								<option value="5">Plata</option>
+								<option value="4">Oro</option>
+								<option value="3">Platino</option>
+								<option value="2">Diamante</option>
+							</select>
+						</label>
+						<label>
+							<span>Division</span>
+							<select id="ddlUnrankedcoachingDesiredDivision" >
+								<option value="5">V</option>
+							</select>
+						</label>
+                        <label>
+                            <span>Moneda</span>
+                            <select id="cphBody_ucUnrankedcoaching1_ddlDesiredCurrency" onchange="updateUnrankedcoachingPrice();">
+                                <option value="USD;$US;1.00">US Dollar</option>
+                                <option value="CLP;$;500.00">Peso Chileno</option>
+                            </select>
+                        </label>
+						<label>
+							<center>
+								<a id="cphBody_ucUnrankedcoaching1_lbBuyNow" class="linkbutton pad10" style="display: none;"></a>
+								<div id="cphBody_ucUnrankedcoaching1_lbNotBuy" class="linkbutton-d pad10"></div>
+							</center>
+						</label>
+					</center>
+				</div>
+			</form>
+			<input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfFromLeagues" id="cphBody_ucUnrankedcoaching1_hfFromLeagues" value="1;Unranked;cdd340be-cd00-445a-ac22-70db7e5ec109.png|6;Bronce;8c968910-4914-49fe-829a-b62742d27747.png|5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfToLeagues" id="cphBody_ucUnrankedcoaching1_hfToLeagues" value="5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfToDivisions" id="cphBody_ucUnrankedcoaching1_hfToDivisions" value="10;5;V;62003196-fcc1-4b45-9e3a-3e84fa95db9d.png|16;2;V;210f3b0b-1faa-4e20-aa78-7ef1ee0c2139.png|21;3;V;4932644a-65a6-4475-9a4e-80be930bd8d6.png|26;4;V;b3c8b95a-82cf-4d86-8cba-f6ceffd45d65.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfPrices" id="cphBody_ucUnrankedcoaching1_hfPrices" value="USD;1;;4;26;116.00|USD;1;;3;21;390.00|USD;1;;2;16;780.00|USD;1;;5;10;70.00|USD;6;;5;10;70.00|USD;5;;5;10;70.00|USD;6;;4;26;220.00|USD;6;;3;21;470.00|USD;6;;2;16;870.00|USD;5;;4;26;130.00|USD;5;;3;21;420.00|USD;5;;2;16;820.00|USD;4;;5;10;70.00|USD;4;;4;26;100.00|USD;4;;3;21;350.00|USD;4;;2;16;750.00|USD;3;;5;10;70.00|USD;3;;4;26;90.00|USD;3;;3;21;320.00|USD;3;;2;16;730.00|USD;2;;5;10;70.00|USD;2;;4;26;86.00|USD;2;;3;21;300.00|USD;2;;2;16;700.00" /> 
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfPrice" id="cphBody_ucUnrankedcoaching1_hfPrice" /> 
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfFromLeagueSelected" id="cphBody_ucUnrankedcoaching1_hfFromLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfToLeagueSelected" id="cphBody_ucUnrankedcoaching1_hfToLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucUnrankedcoaching1$hfToDivisionSelected" id="cphBody_ucUnrankedcoaching1_hfToDivisionSelected" />
+			<script type="text/javascript">
+			    function selectUnrankedcoachingFromLeague() {
+			        $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val($("#ddlUnrankedcoachingCurrentLeague").val());
+			        $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val("");
+			        $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val("");
+			        setUnrankedcoachingFromImage();
+			        fillUnrankedcoachingLeaguesTo();
+			        fillUnrankedcoachingDivisionsTo();
+			        setUnrankedcoachingToImage();
+			        updateUnrankedcoachingPrice();
+			    }
+			    function termsOfUseUB() {
+			        if ($("#cphBody_ucUnrankedcoaching1_chkAgree").is(':checked') &&
+			            $("#cphBody_ucUnrankedcoaching1_hfPrice").html() != "0") {
+			            $("#cphBody_ucUnrankedcoaching1_lbBuyNow").show();
+			            $("#cphBody_ucUnrankedcoaching1_lbNotBuy").hide();
+			        }
+			        else {
+			            $("#cphBody_ucUnrankedcoaching1_lbBuyNow").hide();
+			            $("#cphBody_ucUnrankedcoaching1_lbNotBuy").show();
+			        }
+			    }
+			    function selectUnrankedcoachingToLeague() {
+			        $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val($("#ddlUnrankedcoachingDesiredLeague").val());
+			        $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val("");
+			        fillUnrankedcoachingDivisionsTo();
+			        setUnrankedcoachingToImage();
+			        updateUnrankedcoachingPrice();
+			    }
+
+			    function selectUnrankedcoachingToDivision() {
+			        $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val($("#ddlUnrankedcoachingDesiredDivision").val());
+			        setUnrankedcoachingToImage();
+			        updateUnrankedcoachingPrice();
+			    }
+
+			    function setUnrankedcoachingFromImage() {
+			        var currLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+			        var img = "";
+			        var list = $("#cphBody_ucUnrankedcoaching1_hfFromLeagues").val();
+
+			        if (list != "") {
+			            var rows = list.split('|');
+			            for (var i = 0; i < rows.length; i++) {
+			                var values = rows[i].split(';');
+			                var leagueId = values[0];
+			                var leagueIcon = values[2];
+
+			                if (leagueId == currLeague) {
+			                    img = leagueIcon;
+			                    break;
+			                }
+			            }
+			        }
+
+			        if (img != "") {
+			            if ($("#cphBody_ucUnrankedcoaching1_imgCurrentIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+			                $("#cphBody_ucUnrankedcoaching1_imgCurrentIcon").fadeOut(200, function () {
+			                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+			                    $(this).fadeIn(200);
+			                });
+			            }
+			        }
+
+			    }
+
+			    function setUnrankedcoachingStartup() {
+			        var cfLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+			        var ctLeague = $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val();
+			        var ctDivision = $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val();
+
+			        var leaguefFound = false;
+			        var leaguetFound = false;
+			        var divisiontFound = false;
+
+			        var fleagues = $("#cphBody_ucUnrankedcoaching1_hfFromLeagues").val().split("|");
+			        var tleagues = $("#cphBody_ucUnrankedcoaching1_hfToLeagues").val().split("|");
+			        var tdivisions = $("#cphBody_ucUnrankedcoaching1_hfToDivisions").val().split("|");
+
+			        for (var i = 0; i < fleagues.length; i++) {
+			            var values = fleagues[i].split(';');
+			            if (values[0] == cfLeague) {
+
+			                leaguefFound = true;
+			                break;
+			            }
+			        }
+
+			        for (var i = 0; i < tleagues.length; i++) {
+			            var values = tleagues[i].split(';');
+			            if (values[0] == ctLeague) {
+			                leaguetFound = true;
+			                break;
+			            }
+			        }
+
+			        for (var i = 0; i < tdivisions.length; i++) {
+			            var values = tdivisions[i].split(';');
+			            if (values[0] == ctDivision) {
+			                divisiontFound = true;
+			                break;
+			            }
+			        }
+
+			        if (!leaguefFound)
+			            $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val("");
+			        if (!leaguetFound)
+			            $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val("");
+			        if (!divisiontFound)
+			            $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val("");
+
+			        fillUnrankedcoachingLeaguesFrom();
+			        fillUnrankedcoachingLeaguesTo();
+			        fillUnrankedcoachingDivisionsTo();
+			        setUnrankedcoachingFromImage();
+			        setUnrankedcoachingToImage();
+			        updateUnrankedcoachingPrice();
+			        termsOfUseUB();
+
+			    }
+
+			    function fillUnrankedcoachingLeaguesFrom() {
+			        var leaguesList = $("#cphBody_ucUnrankedcoaching1_hfFromLeagues").val();
+			        var currentLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+
+			        $("#ddlUnrankedcoachingCurrentLeague").html("");
+			        if (leaguesList != "") {
+			            var rows = leaguesList.split('|');
+			            for (var i = 0; i < rows.length; i++) {
+			                var values = rows[i].split(';');
+			                var leagueId = values[0];
+			                var leagueName = values[1];
+
+			                $("#ddlUnrankedcoachingCurrentLeague").append($("<option></option>").val(leagueId).html(leagueName));
+			            }
+			            if (currentLeague != "")
+			                $("#ddlUnrankedcoachingCurrentLeague").val(currentLeague);
+			            else {
+			                $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val($("#ddlUnrankedcoachingCurrentLeague").val());
+			            }
+			        }
+			    }
+
+			    function fillUnrankedcoachingLeaguesTo() {
+
+			        var leagueArray = []
+			        //var divisionArray = [];
+			        var currentLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+
+			        var values = $("#cphBody_ucUnrankedcoaching1_hfPrices").val()
+			        if (values != "") {
+			            var l = values.split('|');
+			            for (var i = 0; i < l.length; i++) {
+			                var check = l[i].split(';');
+			                if (currentLeague == check[1]) {
+			                    leagueArray.push(check[3]);
+			                }
+			            }
+			        }
+
+			        var leaguesList = $("#cphBody_ucUnrankedcoaching1_hfToLeagues").val();
+			        var currentLeague = $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val();
+
+			        $("#ddlUnrankedcoachingDesiredLeague").html("");
+			        if (leaguesList != "") {
+			            var rows = leaguesList.split('|');
+			            for (var i = 0; i < rows.length; i++) {
+			                var values = rows[i].split(';');
+			                var leagueId = values[0];
+			                var leagueName = values[1];
+
+			                if ($.inArray(leagueId, leagueArray) > -1)
+			                    $("#ddlUnrankedcoachingDesiredLeague").append($("<option></option>").val(leagueId).html(leagueName));
+			            }
+			            if (currentLeague != "")
+			                $("#ddlUnrankedcoachingDesiredLeague").val(currentLeague);
+			            else {
+			                $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val($("#ddlUnrankedcoachingDesiredLeague").val());
+			            }
+			        }
+			    }
+
+			    function fillUnrankedcoachingDivisionsTo() {
+			        var divisionArray = [];
+			        var currentLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+			        var currLine = getUnrankedcoachingLine(currentLeague);
+
+			        var values = $("#cphBody_ucUnrankedcoaching1_hfPrices").val()
+			        if (values != "") {
+			            var l = values.split('|');
+			            for (var i = 0; i < l.length; i++) {
+			                var check = l[i].split(';');
+			                if (currentLeague == check[1]) {
+			                    divisionArray.push(check[4]);
+			                }
+			            }
+			        }
+
+			        var divisionsList = $("#cphBody_ucUnrankedcoaching1_hfToDivisions").val();
+			        var currentLeague = $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val();
+			        var currentDivision = $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val();
+
+			        $("#ddlUnrankedcoachingDesiredDivision").html("");
+			        if (divisionsList != "") {
+			            var rows = divisionsList.split('|');
+			            for (var i = 0; i < rows.length; i++) {
+			                var values = rows[i].split(';');
+			                var divisionId = values[0];
+			                var divisionLeague = values[1];
+			                var divisionName = values[2];
+			                if (divisionLeague == currentLeague && $.inArray(divisionId, divisionArray) > -1) {
+			                    $("#ddlUnrankedcoachingDesiredDivision").append($("<option></option>").val(divisionId).html(divisionName));
+			                }
+			            }
+
+			            if (currentDivision != "")
+			                $("#ddlUnrankedcoachingDesiredDivision").val(currentDivision);
+			            else {
+			                $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val($("#ddlUnrankedcoachingDesiredDivision").val());
+			            }
+			        }
+
+			    }
+
+			    function setUnrankedcoachingToImage() {
+			        var currLeague = $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val();
+			        var currDivision = $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val();
+			        var img = "";
+			        if (currDivision != "") {
+			            var list = $("#cphBody_ucUnrankedcoaching1_hfToDivisions").val();
+			            if (list != "") {
+			                var rows = list.split('|');
+			                for (var i = 0; i < rows.length; i++) {
+			                    var values = rows[i].split(';');
+			                    var divisionId = values[0];
+			                    var divisionIcon = values[3];
+
+			                    if (divisionId == currDivision) {
+			                        img = divisionIcon;
+			                        break;
+			                    }
+
+			                }
+			            }
+
+			        }
+			        else {
+			            var list = $("#cphBody_ucUnrankedcoaching1_hfToLeagues").val();
+			            if (list != "") {
+			                var rows = list.split('|');
+			                for (var i = 0; i < rows.length; i++) {
+			                    var values = rows[i].split(';');
+			                    var leagueId = values[0];
+			                    var leagueIcon = values[2];
+
+			                    if (leagueId == currLeague) {
+			                        img = leagueIcon;
+			                        break;
+			                    }
+			                }
+			            }
+			        }
+
+			        if (img != "") {
+			            if ($("#cphBody_ucUnrankedcoaching1_imgDesiredIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+			                $("#cphBody_ucUnrankedcoaching1_imgDesiredIcon").fadeOut(200, function () {
+			                    $(this).attr('src', '{ruta_index}images/Game/' + img);
+			                    $(this).fadeIn(200);
+			                });
+			            }
+			        }    
+
+			    }
+
+			    function updateUnrankedcoachingPrice() {
+			        var fromLeague = $("#cphBody_ucUnrankedcoaching1_hfFromLeagueSelected").val();
+			        var toLeague = $("#cphBody_ucUnrankedcoaching1_hfToLeagueSelected").val();
+			        var toDivision = $("#cphBody_ucUnrankedcoaching1_hfToDivisionSelected").val();
+
+			        var currLine = getUnrankedcoachingLine(fromLeague, toLeague, toDivision);
+			        if (currLine != null) {
+			            var price = parseFloat(currLine[5]);
+                        price = price * getCurrencyRateUB();
+                        price = price.toFixed(0);
+			            if (price > 0) {
+			                $("#cphBody_ucUnrankedcoaching1_hfPrice").val(price);
+			                $("#cphBody_ucUnrankedcoaching1_lbBuyNow").html("Realizar Compra : <b>" + getCurrencySignUB() + price + "</b>");
+			                $("#cphBody_ucUnrankedcoaching1_lbNotBuy").html("Realizar Compra : <b>" + getCurrencySignUB() + price + "</b>");
+			            }
+			            else {
+			                $("#cphBody_ucUnrankedcoaching1_hfPrice").val("0");
+			                $("#cphBody_ucUnrankedcoaching1_lbBuyNow").html("Select coaching");
+			                $("#cphBody_ucUnrankedcoaching1_lbNotBuy").html("Select coaching");
+			            }
+			        }
+			    }
+
+			    function getCurrencySignUB() {
+                    if ($("#cphBody_ucUnrankedcoaching1_ddlDesiredCurrency").val() != "") {
+                        var values = $("#cphBody_ucUnrankedcoaching1_ddlDesiredCurrency").val().split(';');
+                        return values[1];
+                    }
+                    return "";
+                }
+                function getCurrencyRateUB() {
+                    if ($("#cphBody_ucUnrankedcoaching1_ddlDesiredCurrency").val() != "") {
+                        var values = $("#cphBody_ucUnrankedcoaching1_ddlDesiredCurrency").val().split(';');
+                        return parseFloat(values[2]);
+                    }
+                    return 1;
+                }
+
+
+			    function getUnrankedcoachingLine(league, toleague, todivision) {
+			        var line = null;
+			        var values = $("#cphBody_ucUnrankedcoaching1_hfPrices").val()
+			        if (values != "") {
+			            var l = values.split('|');
+			            for (var i = 0; i < l.length; i++) {
+			                var check = l[i].split(';');
+			                if (league == check[1] &&
+			                    toleague == check[3] &&
+			                    todivision == check[4]) {
+			                    line = check;
+			                    break;
+			                }
+			            }
+			        }
+			        return line;
+			    }
+                $(document).on('click','#cphBody_ucUnrankedcoaching1_lbBuyNow', function()
+                {
+                    $("#pop").css("display", "block");
+                    $("#pop-int").css("display", "block");
+                    jQuery.fn.center = function () 
+                    {
+                        this.css("position", "fixed");
+                        this.css("z-index", "901");
+                        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+                        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+                        return this;
+                    }
+
+                    $(window).resize(function () {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    });
+
+                    function centerAll() {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    }
+                    $('#pop-int').each(function () {
+                        $(this).center();
+                    });
+                });
+			</script>
+			<form style="width:700px;display:none;margin:20px auto;" id="coaching-calc5">
+				<h1 align="center" style="padding-bottom:25px;">Impulso Victorias</h1>
+				<div class="div1">
+					<center>
+						<h3>Estadística Actual</h3>
+						<img id="cphBody_ucWincoaching1_imgCurrentIcon" src="{ruta_index}images/Game/54462111-6c03-47d1-b42d-01be036c2712.png" style="height: 160px;display:inline"/>
+					</center>
+					<label>
+						<span>Liga</span>
+						<select id="ddlWincoachingCurrentLeague" name="wincoachingcurrentleague" onchange="selectWincoachingFromLeague();">
+							<option value="6">Bronce</option>
+							<option value="5">Plata</option>
+							<option value="4">Oro</option>
+							<option value="3">Platino</option>
+							<option value="2">Diamante</option>
+						</select>
+					</label>
+					<label>
+						<span>Division</span>
+						<select id="ddlWincoachingCurrentDivision" name="wincoachingcurrentdivision" onchange="selectWincoachingFromDivision();">
+							<option value="5">V</option>
+							<option value="4">IV</option>
+							<option value="3">III</option>
+							<option value="2">II</option>
+							<option value="1">I</option>
+						</select>
+					</label>
+                    <label>
+                        <input id="cphBody_ucWincoaching1_chkAgree" type="checkbox" name="ctl00$cphBody$ucWincoaching1$chkAgree" onclick="termsOfUseWB();">
+                        <b>Confirmo que toda la información introducida es correcta y estoy de acuerdo con los términos y condiciones.<br/><br/>
+                        NOTA: Porfavor revise sus ganancias de LP por partida (Sus ganancias de LP se mostraran después de una victoria en clasificatoria en la pantalla final del juego) Si tu cuenta posee ganancias de LP más bajo que lo que haz seleccionado, se requerirá el pago adicional para completar su impulso.</b>
+                    </label>
+				</div>
+				<div class="div2">
+					<center>
+						<h3>Estadísticas Deseadas</h3>
+						<img id="cphBody_ucWincoaching1_imgDesiredIcon" src="{ruta_index}images/Game/54462111-6c03-47d1-b42d-01be036c2712.png" style="height: 160px;display:inline"/>
+						<label>
+							Seleccione el número de <b>victorias</b>
+						</label>
+						<label>
+							<input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfWinAmount" id="cphBody_ucWincoaching1_hfWinAmount" value="1">
+							<div id="cphBody_ucWincoaching1_slSliderWins" style="width:150px;float:left;margin-left:50px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+								<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div>
+								<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a>
+							</div>
+							<input name="ctl00$cphBody$ucWincoaching1$txtNumberOfWins" type="text" id="cphBody_ucWincoaching1_txtNumberOfWins" class="numeric marl10 floatLeft" max="20" min="1" style="width:36px;margin-right:60px;">
+						</label>
+                        <label>
+                            <span>Moneda</span>
+                            <select id="cphBody_ucWincoaching1_ddlDesiredCurrency" onchange="updateWincoachingPrice();">
+                                <option value="USD;$US;1.00">US Dollar</option>
+                                <option value="CLP;$;500.00">Peso Chileno</option>
+                            </select>
+                        </label>
+						<label>
+							<center>
+								<a id="cphBody_ucWincoaching1_lbBuyNow" class="linkbutton pad10" style="display: none;"></a>
+								<div id="cphBody_ucWincoaching1_lbNotBuy" class="linkbutton-d pad10"></div>
+							</center>
+						</label>
+					</center>
+				</div>
+			</form>
+			<input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfPrice" id="cphBody_ucWincoaching1_hfPrice" value="4" />
+		    <input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfPrices" id="cphBody_ucWincoaching1_hfPrices" value="USD;6;5;6;4;4.00;2|USD;6;4;6;3;4.00;2|USD;6;3;6;2;4.00;2|USD;6;2;6;1;4.00;2|USD;6;1;5;10;4.00;3|USD;5;10;5;9;4.00;2|USD;5;9;5;8;4.00;2|USD;5;8;5;7;6.00;2|USD;5;7;5;6;6.00;2|USD;5;6;4;26;6.00;3|USD;4;26;4;25;8.00;2|USD;4;25;4;24;8.00;2|USD;4;24;4;23;10.00;2|USD;4;23;4;22;10.00;2|USD;4;22;3;21;10.00;2|USD;3;21;3;20;12.00;2|USD;3;20;3;19;12.00;2|USD;3;19;3;18;16.00;2|USD;3;18;3;17;16.00;2|USD;3;17;2;16;16.00;2|USD;2;16;2;15;20.00;2|USD;2;15;2;14;20.00;2|USD;2;14;2;13;22.00;2|USD;2;13;2;12;22.00;2|USD;2;12;;;22.00;0|USD;7;30;7;30;60.00;0" />
+		    <input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfLeagues" id="cphBody_ucWincoaching1_hfLeagues" value="6;Bronce;8c968910-4914-49fe-829a-b62742d27747.png|5;Plata;b88dc194-a867-422b-ae75-df885cbfb905.png|4;Oro;1466012d-4ad2-4da8-b1a7-939f589101fa.png|3;Platino;7978a7ae-bb7f-4b22-944e-3fcea402d8b9.png|2;Diamante;8af036b9-db0a-47f3-8f38-1890a9b91fa4.png|7;Retador;37e1498f-d22e-4352-8f66-4a530691f021.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfDivisions" id="cphBody_ucWincoaching1_hfDivisions" value="5;6;V;54462111-6c03-47d1-b42d-01be036c2712.png|10;5;V;62003196-fcc1-4b45-9e3a-3e84fa95db9d.png|16;2;V;210f3b0b-1faa-4e20-aa78-7ef1ee0c2139.png|21;3;V;4932644a-65a6-4475-9a4e-80be930bd8d6.png|26;4;V;b3c8b95a-82cf-4d86-8cba-f6ceffd45d65.png|4;6;IV;34c46afd-0042-44b7-9363-b52373b0d7b6.png|9;5;IV;bf91db2a-2b72-4d07-9e18-440720ed1ae9.png|15;2;IV;266848b9-8b95-490e-9041-b9d95cfcc31a.png|20;3;IV;33d258b1-e222-45ea-8518-4da73b2a0578.png|25;4;IV;ddb3ecbe-3f37-4f3b-877b-01ee03f1f0a1.png|3;6;III;1cd507e9-1426-454b-906d-ca2901b6c006.png|8;5;III;87e396f5-d22a-40fa-987b-91c32526e9ae.png|14;2;III;0c757285-76ad-455a-a8d6-884d3c9bb821.png|19;3;III;b98cb628-7cd3-4e3e-98d3-54e636505a31.png|24;4;III;8eb10d7f-3ffd-4ae2-a584-dbe443615695.png|2;6;II;bcea731d-3e32-4d77-9fa5-f767f8bfd491.png|7;5;II;92e80b91-b388-4d61-b173-d04739e43fb8.png|13;2;II;6d2eb145-76cc-4a5c-925b-eefb5307ee77.png|18;3;II;69654f19-c11d-409b-b296-0227a60e9f3d.png|23;4;II;3dc8fb37-5653-4c05-8ee8-7dbdcc3f2bf4.png|1;6;I;30852b39-89e9-4bad-9cf0-a637b6917fc1.png|6;5;I;52570517-9566-4459-911a-dde96be9e2b1.png|12;2;I;4eba264c-9bf4-4d71-b16b-81a8949b984f.png|17;3;I;f18ef92a-ec97-4642-a37a-f031306b8640.png|22;4;I;dbed347e-55e1-4b8e-a01e-712594dcb8a2.png|30;7;;d7a48073-e32c-4aa6-a35b-21ef5d08c8e3.png" />
+		    <input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfLeagueSelected" id="cphBody_ucWincoaching1_hfLeagueSelected" />
+		    <input type="hidden" name="ctl00$cphBody$ucWincoaching1$hfDivisionSelected" id="cphBody_ucWincoaching1_hfDivisionSelected" />
+		    <script type="text/javascript">
+		        function selectWincoachingFromLeague() {
+		            $("#cphBody_ucWincoaching1_hfLeagueSelected").val($("#ddlWincoachingCurrentLeague").val());
+		            $("#cphBody_ucWincoaching1_hfDivisionSelected").val("");
+		            fillWincoachingDivisions();
+		            setWincoachingImages();
+		            changeWincoachingCalculation();
+		        }
+
+		        function selectWincoachingFromDivision() {
+		            $("#cphBody_ucWincoaching1_hfDivisionSelected").val($("#ddlWincoachingCurrentDivision").val());
+		            setWincoachingImages();
+		            changeWincoachingCalculation();
+		        }
+
+		        
+		        function setWincoachingImages() {
+		            var currLeague = $("#cphBody_ucWincoaching1_hfLeagueSelected").val();
+		            var currDivision = $("#cphBody_ucWincoaching1_hfDivisionSelected").val();
+		            var img = "";
+		            if (currDivision != "") {
+		                var list = $("#cphBody_ucWincoaching1_hfDivisions").val();
+		                if (list != "") {
+		                    var rows = list.split('|');
+		                    for (var i = 0; i < rows.length; i++) {
+		                        var values = rows[i].split(';');
+		                        var divisionId = values[0];
+		                        var divisionIcon = values[3];
+
+		                        if (divisionId == currDivision) {
+		                            img = divisionIcon;
+		                            break;
+		                        }
+		                        
+		                    }
+		                }
+		                
+		            }
+		            else {
+		                var list = $("#cphBody_ucWincoaching1_hfLeagues").val();
+		                if (list != "") {
+		                    var rows = list.split('|');
+		                    for (var i = 0; i < rows.length; i++) {
+		                        var values = rows[i].split(';');
+		                        var leagueId = values[0];
+		                        var leagueIcon = values[2];
+
+		                        if (leagueId == currLeague) {
+		                            img = leagueIcon;
+		                            break;
+		                        }
+		                    }
+		                }
+		            }
+
+		            if (img != "") {
+		                if ($("#cphBody_ucWincoaching1_imgCurrentIcon").attr('src') != '{ruta_index}images/Game/' + img) {
+		                    $("#cphBody_ucWincoaching1_imgCurrentIcon").fadeOut(200, function () {
+		                        $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                        $(this).fadeIn(200);
+		                    });
+		                    $("#cphBody_ucWincoaching1_imgDesiredIcon").fadeOut(200, function () {
+		                        $(this).attr('src', '{ruta_index}images/Game/' + img);
+		                        $(this).fadeIn(200);
+		                    });
+		                }
+		            }
+		        }
+		        
+		        function fillWincoachingLeagues() {
+		            var leaguesList = $("#cphBody_ucWincoaching1_hfLeagues").val();
+		            var currentLeague = $("#cphBody_ucWincoaching1_hfLeagueSelected").val();
+
+		            $("#ddlWincoachingCurrentLeague").html("");
+		            if (leaguesList != "") {
+		                var rows = leaguesList.split('|');
+		                for (var i = 0; i < rows.length; i++) 
+		                {
+		                    var values = rows[i].split(';');
+		                    var leagueId = values[0];
+		                    var leagueName = values[1];
+
+		                    $("#ddlWincoachingCurrentLeague").append($("<option></option>").val(leagueId).html(leagueName));
+		                }
+		                if (currentLeague != "")
+		                    $("#ddlWincoachingCurrentLeague").val(currentLeague);
+		                else {
+		                    $("#cphBody_ucWincoaching1_hfLeagueSelected").val($("#ddlWincoachingCurrentLeague").val());
+		                }
+		            }
+		        }
+
+		        function fillWincoachingDivisions() {
+		            
+		            var divisionsList = $("#cphBody_ucWincoaching1_hfDivisions").val();
+		            var currentLeague = $("#cphBody_ucWincoaching1_hfLeagueSelected").val();
+		            var currentDivision = $("#cphBody_ucWincoaching1_hfDivisionSelected").val();
+
+		            $("#ddlWincoachingCurrentDivision").html("");
+		            if (divisionsList != "") {
+		                var rows = divisionsList.split('|');
+		                for (var i = 0; i < rows.length; i++) {
+		                    var values = rows[i].split(';');
+		                    var divisionId = values[0];
+		                    var divisionLeague = values[1];
+		                    var divisionName = values[2];
+		                    if (divisionLeague == currentLeague) 
+		                    {
+		                        $("#ddlWincoachingCurrentDivision").append($("<option></option>").val(divisionId).html(divisionName));
+		                    }
+		                }
+		                if(currentDivision != "")
+		                    $("#ddlWincoachingCurrentDivision").val(currentDivision);
+		                else
+		                {
+		                    $("#cphBody_ucWincoaching1_hfDivisionSelected").val($("#ddlWincoachingCurrentDivision").val());
+		                }
+		            }
+
+		        }
+
+		        $("#cphBody_ucWincoaching1_txtNumberOfWins").keyup(function () {
+		            var min = parseInt($(this).attr("min"));
+		            var max = parseInt($(this).attr("max"));
+		            var val = parseInt($(this).val());
+		            
+		            if (isNaN(val))
+		                val = 0;
+
+		            if (val < min) {
+		                val = min;
+		            }
+		            else if (val > max) {
+		                val = max;
+		            }
+		            $("#cphBody_ucWincoaching1_slSliderWins").slider({ value: val });
+		            setWincoachingPrice(val);
+		        });
+
+		        function setWincoachingPrice(value) {
+		            $("#cphBody_ucWincoaching1_hfWinAmount").val(value);
+		            $("#cphBody_ucWincoaching1_txtNumberOfWins").val($("#cphBody_ucWincoaching1_hfWinAmount").val());
+		            updateWincoachingPrice();
+		        }
+
+		        function setupWincoachingStartup() {
+		            $("#cphBody_ucWincoaching1_slSliderWins").slider({ min: 1, max: 20, range: "min", value: $("#cphBody_ucWincoaching1_hfWinAmount").val(), slide: function (event, ui) {setWincoachingPrice(ui.value);}});
+		            $("#cphBody_ucWincoaching1_txtNumberOfWins").val($("#cphBody_ucWincoaching1_hfWinAmount").val());
+
+		            var cLeague = $("#cphBody_ucWincoaching1_hfLeagueSelected").val();
+		            var cDivision = $("#cphBody_ucWincoaching1_hfDivisionSelected").val();
+
+		            var leagueFound = false;
+		            var divisionFound = false;
+		            var leagues = $("#cphBody_ucWincoaching1_hfLeagues").val().split("|");
+		            var divisions = $("#cphBody_ucWincoaching1_hfDivisions").val().split("|");
+
+		            for (var i = 0; i < leagues.length; i++) {
+		                var values = leagues[i].split(';');
+		                if (values[0] == cLeague) {
+		                    leagueFound = true;
+		                    break;
+		                }
+		            }
+
+		            for (var i = 0; i < divisions.length; i++) {
+		                var values = divisions[i].split(';');
+		                if (values[0] == cDivision) {
+		                    divisionFound = true;
+		                    break;
+		                }
+		            }
+
+		            if (!leagueFound)
+		                $("#cphBody_ucWincoaching1_hfLeagueSelected").val("");
+		            if (!divisionFound)
+		                $("#cphBody_ucWincoaching1_hfDivisionSelected").val("");
+
+		            changeWincoachingCalculation();
+		            termsOfUseWB();
+		        }
+
+		        $("#cphBody_ucWincoaching1_txtCurrentLp").keyup(function () {
+		            var min = parseInt($(this).attr("min"));
+		            var max = parseInt($(this).attr("max"));
+		            var val = parseInt($(this).val());
+
+		            if (isNaN(val))
+		                val = 0;
+
+		            if (val < min) {
+		                val = min;
+		            }
+		            else if (val > max) {
+		                val = max;
+		            }
+		            $(this).val(val);
+		            updateWincoachingPrice();
+		        });
+		        $("#cphBody_ucWincoaching1_txtCurrentLPG").keyup(function () {
+		            var min = parseInt($(this).attr("min"));
+		            var max = parseInt($(this).attr("max"));
+		            var val = parseInt($(this).val());
+
+		            if (isNaN(val))
+		                val = 0;
+
+		            if (val < min) {
+		                val = min;
+		            }
+		            else if (val > max) {
+		                val = max;
+		            }
+		            $(this).val(val);
+		            updateWincoachingPrice();
+		        });
+		        function updateWincoachingPrice() {
+		            var currLeague = $("#ddlWincoachingCurrentLeague").val();
+		            var currDivision = $("#ddlWincoachingCurrentDivision").val();
+		            var currLP = $("#cphBody_ucWincoaching1_txtCurrentLp").val();
+		            var currLPG = $("#cphBody_ucWincoaching1_txtCurrentLPG").val();
+		            var winsCount = $("#cphBody_ucWincoaching1_hfWinAmount").val();
+		            var price = getWincoachingPrice(currLeague, currDivision, currLP, currLPG, winsCount);
+                    price = price * getCurrencyRateWB();
+                    price = price.toFixed(0);
+
+		            if (price > 0) {
+		                $("#cphBody_ucWincoaching1_hfPrice").val(price);
+		                $("#cphBody_ucWincoaching1_lbBuyNow").html("Realizar Compra: <b>" + getCurrencySignWB() + price + "</b>");
+		                $("#cphBody_ucWincoaching1_lbNotBuy").html("Realizar Compra: <b>" + getCurrencySignWB() + price + "</b>");
+		            }
+		            else {
+		                $("#cphBody_ucWincoaching1_hfPrice").val("0");
+		                $("#cphBody_ucWincoaching1_lbBuyNow").html("Select coaching");
+		                $("#cphBody_ucWincoaching1_lbNotBuy").html("Select coaching");
+		            }
+		        }
+		        function changeWincoachingCalculation() {
+		            fillWincoachingLeagues();
+		            fillWincoachingDivisions();
+		            setWincoachingImages();
+		            var currLeague = $("#ddlWincoachingCurrentLeague").val();
+		            var currDivision = $("#ddlWincoachingCurrentDivision").val();
+		            var currLP = $("#cphBody_ucWincoaching1_txtCurrentLp").val();
+		            var currLPG = $("#cphBody_ucWincoaching1_txtCurrentLPG").val();
+		            var winsCount = $("#cphBody_ucWincoaching1_hfWinAmount").val();
+		            var price = getWincoachingPrice(currLeague, currDivision, currLP, currLPG, winsCount);
+
+		            if (price > 0) {
+		                $("#cphBody_ucWincoaching1_lbBuyNow").html("Realizar Compra: <b>" + getCurrencySignWB() + price + "</b>");
+		                $("#cphBody_ucWincoaching1_lbNotBuy").html("Realizar Compra: <b>" + getCurrencySignWB() + price + "</b>");
+		            }
+		            else {
+		                $("#cphBody_ucWincoaching1_lbBuyNow").html("Select coaching");
+		                $("#cphBody_ucWincoaching1_lbNotBuy").html("Select coaching");
+		            }
+		        }
+		        function termsOfUseWB() {
+		            if ($("#cphBody_ucWincoaching1_chkAgree").is(':checked') &&
+		            $("#cphBody_ucWincoaching1_hfPrice").html() != "0") {
+		                $("#cphBody_ucWincoaching1_lbBuyNow").show();
+		                $("#cphBody_ucWincoaching1_lbNotBuy").hide();
+		            }
+		            else {
+		                $("#cphBody_ucWincoaching1_lbBuyNow").hide();
+		                $("#cphBody_ucWincoaching1_lbNotBuy").show();
+		            }
+		        }
+		        function getWincoachingPrice(league, division, lp, lpg, winsCount) {
+		            var totalPrice = parseFloat("0");
+		            var currentLP = parseInt(lp);
+		            var currentLeague = league;
+		            var currentDivision = division;
+		            var currLine = getWincoachingLine(league, division);
+		            var currentPromotion = 1;
+		            for (var i = 0; i < winsCount; i++) 
+		            {
+		                if (currLine != null) {
+		                    
+		                    var price = parseFloat(currLine[5].replace(',', '.').replace(' ', ''));
+
+		                    if (currentPromotion < 5) {
+		                        currentPromotion = currentPromotion + 1;
+		                        totalPrice = totalPrice + price;
+		                    }
+		                    else {
+		                        if (currLine[3] != "" && currLine[4] != "") {
+		                            currentPromotion = 1;
+		                            totalPrice = totalPrice + price;
+		                            currentLeague = currLine[3];
+		                            currentDivision = currLine[4];
+		                            currLine = getWincoachingLine(currentLeague, currentDivision);
+		                        }
+		                        else {
+		                            totalPrice = totalPrice + price;
+		                        }
+		                    }
+		                }
+		            }
+
+		            return totalPrice;
+		        }
+
+		        function getCurrencySignWB() {
+                    if ($("#cphBody_ucWincoaching1_ddlDesiredCurrency").val() != "") {
+                        var values = $("#cphBody_ucWincoaching1_ddlDesiredCurrency").val().split(';');
+                        return values[1];
+                    }
+                    return "";
+                }
+
+                function getCurrencyRateWB() {
+                    if ($("#cphBody_ucWincoaching1_ddlDesiredCurrency").val() != "") {
+                        var values = $("#cphBody_ucWincoaching1_ddlDesiredCurrency").val().split(';');
+                        return parseFloat(values[2]);
+                    }
+
+                    return 1;
+                }
+
+		        function getWincoachingLine(league, division) {
+		            var line = null;
+		            var values = $("#cphBody_ucWincoaching1_hfPrices").val()
+		            if (values != "") {
+		                var l = values.split('|');
+		                for (var i = 0; i < l.length; i++) 
+		                {
+		                    var check = l[i].split(';');
+		                    if (league == check[1] && division == check[2]) 
+		                    {
+		                        line = check;
+		                        break;
+		                    }
+		                }
+		            }
+		            return line;
+		        }
+                $(document).on('click','#cphBody_ucWincoaching1_lbBuyNow', function()
+                {
+                    $("#pop").css("display", "block");
+                    $("#pop-int").css("display", "block");
+                    jQuery.fn.center = function () 
+                    {
+                        this.css("position", "fixed");
+                        this.css("z-index", "901");
+                        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+                        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+                        return this;
+                    }
+
+                    $(window).resize(function () {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    });
+
+                    function centerAll() {
+                        $('#pop-int').each(function () {
+                            $(this).center();
+                        });
+                    }
+                    $('#pop-int').each(function () {
+                        $(this).center();
+                    });
+                });
+		    </script>
+		</section>
+        <div class="coach-foot">
+            <div>
+                <p>¿Alguna vez ha sentido que no está en el rango que se merece? ¿Está atrapado en una liga que usted no pertenece? ¡Estamos aquí para ayudarlo a salir del famoso EloHell!
+                Nuestros expertos actuaran en su cuenta de la forma más rápida y efectiva posible. Servicio disponible para todos los servidores.
+                </p>
+            </div>
+            <div>
+                <div class="title marb10" style="padding:30px 0px 20px 0px">
+                    <h1>¿POR QUÉ USTED DEBE ELEGIR urglo.com?</h1>
+                </div>
+                <div>
+                    <p>Si usted nos elige estará optando por un servicio de primer nivel, puesto que nosotros tenemos los mejores jugadores, una plataforma completamente orientada a sus necesidades.</p>
+                    <ul>
+                        <li><strong>100% Anónimo.</strong> Nuestros jugadores son completamente profesionales y nunca hablan con nadie mientras juegan en su cuenta.</li>
+                        <li><strong>Servicio completamente seguro.</strong> Todos nuestros jugadores utilizan conexión VPN mientras utilizan su cuenta. No hay partida que nuestros refuerzos no puedan ganar.</li>
+                        <li><strong>La mejor calidad.</strong> Nuestros jugadores son seleccionados cuidadosamente, y todos están entre Diamante – Retador en la temporada actual y saben perfectamente cómo llevarte camino a la cúspide.</li>
+                        <li><strong>Las mejores herramientas.</strong> Las mejores herramientas. Hemos pensado en todo! Buscando que tú disfrutes el proceso, hemos diseñado una plataforma a medida de tus necesidades. Podrás chatear con el jugador que este en dicho momento en tú cuenta, así mismo podrás visualizar los avances de su pedido. </li>
+                        <li><b>Pausa tu pedido.</b> Pausa tu pedido. Hemos creado un sistema el cual le permite pausar y reanudad TU pedido. Cuando tu pausas el pedido, podrás acceder a tu cuenta sin ningún problema. Así mismo podrás chatear, jugar partidas normales o personalizadas sin ningún problema.</li>
+                        
+                    </ul>
+                </div>
+                <div class="title marb10" style="padding:30px 0px 20px 0px">
+                    <h1>CÓMO HACER UN PEDIDO</h1>
+                </div>
+                <div>
+                    <p>Usa la calculadora de precio para obtener el costo por el servicio que tú necesitas. Recuerda ingresar correctamente cada uno de los datos solicitados. Si tú no conoces cuáles son tus ganancias de LP, puedes hacer lo siguiente:</p>
+                    <ul>
+                        <li>Inicie sesión en tú cuenta de League of Legends y pulsa el botón de perfil.</li>
+                        <li>Anota tú nivel y división actual, por ejemplo Oro, División II.</li>
+                        <li>Para ver el número de puntos en la liga obtenidos por victoria (LP) es necesario comprobar la esquina superior izquierda de la pantalla del juego después de finalizar una victoria en clasificatoria.</li>
+                    </ul>
+                    <p>Completa con tú información de la cuenta, el formulario de la izquierda, en donde dice: " Estadística Actual”. Luego llene el otro formulario indicando a donde te gustaría llegar, en donde dice: "Estadística Deseada".</p>
+                    <p><strong>Paso dos</strong></p>
+                    <p>Confirma que la información ingresada es correcta y que está de acuerdo con nuestros términos y condiciones antes de realizar la compra. (el precio es indicado en el botón de compra)</p>
+                    <p>&nbsp;</p>
+                    <p><b>Paso tres</b></p>
+                    <p>Serás redirigido a nuestra página de registro en donde tendrás que completar dos formularios de registro, todo esto te permitirá ingresar a nuestra área de miembros.</p>
+                    <p>&nbsp;</p>
+                    <p><b>Paso cuatro</b></p>
+                    <p>Luego de ingresar como miembro, se realiza el pedido y selecciona el medio de pago (puede ser Paypal, Khipu o pago en efectivo - Esto varia segun tu ubicacion geografica). Una vez efectuado el pago hay un plazo de 12 horas hábiles para que el pedido sea asignado a un impulsador y otro de 12 horas para que comience a trabajar en él.</p>
+                    <p>&nbsp;</p>
+                    <p><b>Paso final</b></p>
+                    <p>Paso final
+                    Después de que hayas realizado el pago de su pedido podrás acceder a nuestro sitio y seguirlo. Así mismo, podrás hacer pausas de nuestros servicios en el caso de que quieras jugar algunas partidas normales o personalizadas. Podrás establecer contacto en todo momento que nuestro jugador esté disponible mediante el chat integrado con el cual consta nuestra plataforma.</p>
+                </div>
+                <div class="title marb10" style="padding:30px 0px 20px 0px">
+                    <h1>¿CÓMO FUNCIONA?</h1>
+                </div>
+                <div>
+                    <p>A partir de ahora tu cuenta estará disponible para ser trabajada por nuestro equipo de profesionales. Basta esperar a que alguno sea asignado a vuestro pedido. Esto generalmente sucede a la brevedad dependiendo únicamente de la disponibilidad de jugadores disponibles. Tu puedes solicitar un cambio de jugador en el caso de no estar conforme con el desempeño de este. Cada uno de nuestros jugadores utiliza VPN mientras juegan en tu cuenta de modo que tengas una total seguridad frente a cualquier eventualidad. Con el VPN, lo que nos permite, en pocas palabras, es volver la IP de donde se juega, ilocalizable.</p>
+                    <p>&nbsp;</p>
+                    <p>Nuestros expertos serán siempre respetuoso y bajo ningún caso utilizaran su cuenta para algún otro fin que no sea completar lo antes posible su pedido. Jamás utilizaran sus RP o PI sin antes consultar con usted mismo, no hablaran con nadie de su lista de amigos. Usted en todo momento podrá iniciar sesión en nuestra área de miembros y evidenciar el progreso de su cuenta. Siempre son bienvenidos los espectadores tanto desde una cuenta secundaria como de  Spetateus o LoLQickfind. Según nuestras estadísticas su pedido tardara cerca de 2 días luego de haber comenzado a trabajar por cada 10 victorias.</p>
+                    <p>&nbsp;</p>
+                    <p>Siéntese y disfrute de esta nueva experiencia y vea como nuestro profesional realiza el arte de jugar.</p>
+                </div>
+                <div class="title marb10" style="padding:30px 0px 20px 0px">
+                    <h1>LOS DIVERSOS TIPOS DE IMPULSO</h1>
+                    <p>LOS DIVERSOS TIPOS DE IMPULSO</p>
+                </div>
+                <div>
+                    <p>Cuando compras un impulso de Liga/División garantizado, vamos a jugar en tu cuenta hasta que lleguemos a la Liga/División que tu solicitaste cuando contrataste nuestros servicios. Si tus ganancias de LP son más bajas que las que nos indicaste, tendrás que optar entre convertir tu pedido en “victorias” o pagar una cuota adicional. Una vez que hayas adquirido nuestros servicios, te solicitamos que no juegues ninguna partida clasificatoria en solitario/duo en tu cuenta hasta que terminemos tu pedido. Si tu juegas en esta estando un trabajo en curso, transformaremos tu pedido en victorias.</p>
+                </div>
+                <div class="title marb10">
+                    <p>LA COMPRA DE VICTORIAS</p>
+                </div>
+                <div>
+                    <p>Si nosotros perdemos una victoria, cuenta como -1 victorias. De modo que si tu pides 10 victorias y nuestro jugador pierde 3 juegos, para completar el pedido tendremos que ganar 13 partidas. Esto significa que jugaremos en tu cuenta hasta que completemos realmente tu compra. Debes comprar victorias cuando tus ganancias de LP son menores que 10 LP por victoria. Cuando compres victorias puedes jugar partidas clasificatorias entre nuestros juegos, siempre y cuando te asegures de que haz pausado el servicio desde nuestra plataforma.</p>
+                </div>
+                <div class="title marb10">
+                    <p>COMPRAR SIN CLASIFICAR LIGA / DIVISIÓN IMPULSO</p>
+                </div>
+                <div>
+                    <p>Si tu, en la temporada actual, sumas 0 derrotas en clasificarías, puedes optar a comprar un Impulso de liga sin clasificar. Si tu has perdido tan solo una partida en clasificatorias tendrá que comprar victorias normales. Si tu cuenta fue oro V o superior la temporada pasada, el precio será un poco menor a que si tu no tenías ranking o estabas por debajo de oro V, debido a que tu MMR será diferente. Si tu afirmas que en la temporada pasada estabas en una liga mayor a la que realmente estabas, será necesario un pago adicional. Por favor no juegues ninguna partida clasificaría hasta que su pedido sea completado.</p>
+                </div>
+                <div class="title marb10">
+                    <p>COMPRAR SIN CLASIFICAR GANA IMPULSO</p>
+                </div>
+                <div>
+                    <p>
+                        Si deseas empezar de la mejor forma esta nueva temporada, comprar victorias sin ranking es la mejor opción para ti. Las partidas se jugaran por nuestros profesionales, Diamante o Retador, que normalmente ganan la gran mayoría de partidas que juegan. Cuando compres victorias, te pedimos que no juegues en tu propia cuenta hasta que el pedido se haya completado. Las partidas perdidas se cuentan como -1 victoria, por lo que si nuestro jugador llega a perder 2 partidas y tu has comprado previamente 10, el tendrá que realizar 12 victorias antes de que el pedido sea completado. Así mismo, ten en cuenta que si nuestro jugador lograra subir una división, tu pedido se contaría como completado, incluso si faltan partidas por jugar puesto que nosotros contemplamos que 10 victorias son 1 división.
+                    </p>
+                </div>
+            </div>
+        </div>
+	</section>	
+    <div id="pop" style="display:none;"></div>
+    <div id="pop-int" style="display:none;">
+        <center>
+            <p>Para poder realizar una compra debes estar logeado.</p>
+            <div class="linkbutton" id="cerrar-ord">Cerrar</div>
+        </center>
+    </div>
+	{footer}
+	<script type="text/javascript">
+		$("#cphBody_ucDivisioncoaching1_txtCurrentLp").keyup(function () {
+	        var min = parseInt($(this).attr("min"));
+	        var max = parseInt($(this).attr("max"));
+	        var val = parseInt($(this).val());
+
+	        if (isNaN(val))
+	            val = 0;
+
+	        if (val < min) {
+	            val = min;
+	        }
+	        else if (val > max) {
+	            val = max;
+	        }
+	        $(this).val(val);
+	        updateLeaguecoachingPrice();
+	    });
+
+	    $("#cphBody_ucDivisioncoaching1_txtCurrentLPG").keyup(function () {
+	        var min = parseInt($(this).attr("min"));
+	        var max = parseInt($(this).attr("max"));
+	        var val = parseInt($(this).val());
+
+	        if (isNaN(val))
+	            val = 0;
+
+	        if (val < min) {
+	            val = min;
+	        }
+	        else if (val > max) {
+	            val = max;
+	        }
+	        $(this).val(val);
+	        updateLeaguecoachingPrice();
+	    });
+	    
+	    $(".numeric").each(function () 
+	    {
+	        $(this).keydown(function (event)
+	        {
+	            if ($.inArray(event.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+	                (event.keyCode == 65 && event.ctrlKey === true) ||
+	                (event.keyCode >= 35 && event.keyCode <= 39)) {return;}
+	                else {
+	                        if (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105)) {
+	                        event.preventDefault();
+	                        }   
+	                    }
+	        });
+	    }); 
+        $(document).on('click','#cerrar-ord',function(){
+            $("#pop").css("display", "none");
+            $("#pop-int").css("display", "none");
+        });
+        $(document).on('click','#closetyc',function(){
+            $("#pop").css("display", "none");
+            $("#pop-tyc").css("display", "none");
+        });
+	//<![CDATA[
+coaching();setLeaguecoachingStartup();setupDuoQueuecoachingStartup();setupUnrankedWincoachingStartup();setUnrankedcoachingStartup();setupWincoachingStartup();
+//]]>
+	</script>
+</body>
+</html>
