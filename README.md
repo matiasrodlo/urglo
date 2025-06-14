@@ -98,6 +98,3 @@ This project was developed in 2014 as part of an entrepreneurial journey after h
 
 ## Note
 This is a legacy project from 2014 and may contain outdated dependencies or security practices. Use with caution in production environments.
-
-## License
-This project is proprietary and confidential. All rights reserved.
