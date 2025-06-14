@@ -1,6 +1,5 @@
 # Urglo - Esports Coaching Platform (2014)
 
-## Overview
 Urglo is a professional esports coaching platform that connects gamers from Latin America (Chile, Perú, México, Colombia, and Argentina) with experienced coaches. The platform offers personalized guidance, strategic insights, and tailored training sessions for popular games like League of Legends, CS:GO, Dota 2, and Overwatch.
 
 <p>
