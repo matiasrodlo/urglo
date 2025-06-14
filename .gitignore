@@ -1,0 +1,103 @@
+# PHP specific
+*.log
+*.cache
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+*.pid
+*.pid.lock
+*.sublime-workspace
+*.sublime-project
+
+# Configuration files
+config/*.php
+!config/config.example.php
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+.project
+.settings/
+.classpath
+.factorypath
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+public/uploads/*
+!public/uploads/.gitkeep
+assets/images/uploads/*
+!assets/images/uploads/.gitkeep
+error_log
+*.log
+logs/
+tmp/
+temp/
+
+# Cache and temporary files
+/cache/*
+/tmp/*
+!cache/.gitkeep
+!tmp/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Node modules (if any frontend build tools are used)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build directories
+/dist/
+/build/
+/public/build/
+
+# Test coverage
+/coverage/
+.phpunit.result.cache 
