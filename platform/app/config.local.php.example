@@ -1,0 +1,9 @@
+<?php
+// Local database configuration
+// Copy this file to config.local.php and update with your local database credentials
+
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'urglo_local');
+

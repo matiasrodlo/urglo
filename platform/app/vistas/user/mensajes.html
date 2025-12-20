@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Mensajes</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo.css?{time}" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="{ruta_index}js/menu.js?{time}" type="text/javascript"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97828335-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	{header}
+	<ul class="breadcrumbs">
+		<div class="wrapper-whilox">
+			<li><a href="{ruta_index}">Home</a></li>
+			<span class="separator"></span>
+			<li>Inbox</li>
+		</div>
+	</ul>
+	<section class="wrapper-whilox" style="display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;-webkit-align-items:flex-start;align-items:flex-start;overflow:hidden;">
+		<div style="margin-right:20px;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;-webkit-flex:1;flex:1;min-width:0;">
+			<div class="widgettitle" style="display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;">
+				<h4 style="margin:0;">Mensajería: <b>Inbox</b></h4>
+				<div style="display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;">
+					<a href="{ruta_index}mensajes" style="padding:6px 12px;font-size:12px;color:#fff;text-decoration:none;border-left:1px solid rgba(255,255,255,0.2);transition:background 0.15s ease;">Bandeja Entrada</a>
+					<a href="{ruta_index}mensajes/bandeja_salida" style="padding:6px 12px;font-size:12px;color:#fff;text-decoration:none;border-left:1px solid rgba(255,255,255,0.2);transition:background 0.15s ease;">Bandeja Salida</a>
+					<a href="{ruta_index}mensajes/enviar" style="padding:6px 12px;font-size:12px;color:#fff;text-decoration:none;border-left:1px solid rgba(255,255,255,0.2);transition:background 0.15s ease;">Enviar Nuevo Ticket</a>
+				</div>
+			</div>
+			<div class="topic-panel">
+				<div class="content-mensajes">
+					<ul>
+						{lista_mensajes}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div style="width:300px;margin-left:20px;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;">
+			<div class="widgettitle" style="background-color:#71B8EE;">
+				<h4>Atención al <b>cliente</b></h4>
+			</div>
+			<div class="topic-panel">
+				<p style="font-size:12px;color:#666;line-height:1.6;margin:0 0 14px 0;">Cualquier consulta no dudes en ponerte en contacto con nosotros.</p>
+				<p style="font-size:12px;color:#666;line-height:1.6;margin:0 0 14px 0;">Haz clic en "Enviar Nuevo Ticket" y coméntanos de forma clara y breve cualquier inconveniente.</p>
+				<p style="font-size:12px;color:#666;line-height:1.6;margin:0;">Recibirás una notificación cuando nuestro personal haya respondido a tu consulta.</p>
+			</div>
+		</div>
+	</section>	
+	{footer}
+</body>
+</html>

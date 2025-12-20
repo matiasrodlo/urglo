@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 800px){
+html{
+    min-width: auto !important;
+}
+.inner-col{
+    width: 100% !important;
+}
+.title{
+    margin-bottom: 10%;
+}
+}
+@media screen and (max-width: 500px){
+ul{
+    display:inline !important;
+}
+ul li{
+    padding-bottom: 10% !important;
+}
+textarea{
+	height: 130px !important;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 800px){
+p{
+    width: 100% !important;
+}
+form{
+    width: 100% !important;
+}
+input{
+    width: 100% !important;
+}
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Trabajo Libre de {usuario_lol_trabajo}</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo.css?{time}" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="{ruta_index}js/actions_coach.js?{time}" type="text/javascript"></script>
+	<script src="{ruta_index}js/jquery.autosize.js?{time}" type="text/javascript"></script>
+	<script src="{ruta_index}js/menu.js?{time}" type="text/javascript"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97828335-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	{header}
+	<ul class="breadcrumbs">
+		<li><a href="{ruta_index}">Home</a></li>
+		<span class="separator"></span>
+		<li><a href="{ruta_index}trabajos">Mis Trabajos</a></li>
+		<span class="separator"></span>
+		<li>Pedido: {tipo}</li>
+	</ul>
+	<section class="wrapper-whilox">
+		<div class="widgettitle">
+			<h4>Detalles de la orden - {tipo}</h4>
+		</div>
+		<div class="topic-panel">
+			<div class="w-ordetail">
+				<div class="w-nm">
+					<h4>{usuario_lol_trabajo}</h4>
+				</div>
+				<div style="display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: distribute;-moz-box-pack: distribute;-ms-flex-pack: distribute;-webkit-justify-content: space-around;justify-content: space-around;-webkit-box-align: center;-moz-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;width: 100%;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;overflow: hidden;">
+					<div class="w-left">
+						<h4 class="subtitle" style="margin:0 0 8px 0;font-size:13px;color:#666;">Comprado</h4>
+						<h1 style="margin:0;font-size:36px;font-weight:300;color:#71B8EE;"><div id="horas_compradas">{horas_compradas}</div></h1>
+						<h4 class="subtitle" style="margin:8px 0 0 0;font-size:13px;color:#666;">horas</h4>
+					</div>
+					<div class="w-middle">
+						<img src="{ruta_index}images/user/{img_user}" style="width:160px;height:160px;border:4px solid #71B8EE;border-radius:8px;">
+					</div>
+					<div class="w-right">
+						<h4 class="subtitle" style="margin:0 0 8px 0;font-size:13px;color:#666;">Restante</h4>
+						<h1 style="margin:0;font-size:36px;font-weight:300;color:#71B8EE;"><input type="text" name="restantes" value="{horas_restantes}" style="width:80px;text-align:center;border:1px solid #e8e8e8;border-radius:4px;padding:8px;font-size:36px;font-weight:300;color:#71B8EE;"></h1>
+						<h4 class="subtitle" style="margin:8px 0 0 0;font-size:13px;color:#666;">horas</h4>
+					</div>
+				</div>
+				<div class="w-nm" style="width:100%;max-width:400px;margin-top:20px;">
+					<div class="progress progress-striped active" style="margin-bottom:16px;">
+						<div id="cphContentPanel_divProgress" style="width: {porcentaje_progress}%" class="bar"></div>
+					</div>
+				</div>
+				<div style="display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;overflow:hidden;">
+					<div class="btn_ag" id="act_t" style="cursor:pointer;">Actualizar Trabajo</div>
+					<div class="btn_tm" id="tm_t" style="padding:10px 24px;background-color:#dd514c;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;transition:background-color 0.2s ease;text-align:center;">Terminar Trabajo</div>
+				</div>
+				<div id="rlt_act" style="margin-top:12px;"></div>
+				<div id="rlt_t" style="margin-top:12px;"></div>
+			</div>
+		</div>
+		<div class="widgettitle">
+			<h4>Intereses del usuario</h4>
+		</div>
+		<div class="topic-panel">
+			<div class="w-ordinteres">
+				<b>Intereses:</b> {intereses}
+			</div>
+		</div>
+		<div class="widgettitle">
+			<h4>Mensaje del administrador</h4>
+		</div>
+		<div class="topic-panel">
+			<div class="w-ordmsj">
+				{mensaje}
+			</div>
+		</div>
+		<div class="widgettitle">
+			<h4>Chat con {usuario_lol_trabajo}</h4>
+		</div>
+		<div class="topic-panel" style="padding:0;">
+			<div id="chatbox" class="chat-content">
+				{chat}
+				<div class="ult"></div>
+				<div id="resultado"></div>
+			</div>
+			<div class="chat-user">
+				<img src="{ruta_index}images/user/{img_coach}">
+				<textarea id="chatText" placeholder="Escribir mensaje.."></textarea>
+				<input type="hidden" id="chatboxid" value="{id_usuario}"/>
+				<input type="hidden" id="chatboxcoach" value="{id_coach}"/>
+				<input type="hidden" id="trabajo" value="{id_trabajo}" />
+				<div id="chatSend" class="btn_ag" style="cursor:pointer;">Enviar</div>
+			</div>
+		</div>
+	</section>
+	{footer}
+	<script type="text/javascript">
+	function loadLog()
+	{
+		var oldscrollHeight = $("#chatbox").height() - 20;
+		var newscrollHeight = $("#chatbox").height() - 20; 
+		if(newscrollHeight >= oldscrollHeight)
+		{
+			$("#chatbox").animate({ scrollTop: newscrollHeight }, 'normal'); 
+		}
+	}
+	$("#chatText").autosize();
+	loadLog();
+	$("input[name='restantes']").change(function(){
+		var restantes = $("input[name='restantes']").val();
+		var horas_compradas = $("#horas_compradas").html();
+		if(restantes == '0')
+		{
+			progress = 100;
+		}
+		else
+		{
+			var progress = restantes*100/horas_compradas;	
+		}
+		$("#cphContentPanel_divProgress").css("width", progress+'%');
+	});
+	function chat()
+	{
+	    var id_user = $("#chatboxid").val();
+	    var id_coach = $("#chatboxcoach").val();
+	    var trabajo = $("#trabajo").val();
+
+	    $.ajax
+	    ({  
+	        async:true,
+	        type:'POST',
+	        url: '{ruta_index}mensajes/conversacion',
+	        data: {trabajo: trabajo, id_user: id_user, id_coach: id_coach},
+	        beforeSend: function(){},
+	        timeout: 50000,
+	        success: function(data){$('#chatbox').html(data);},
+	    });
+	    return false;
+	}
+	setInterval(chat, 3000);
+   	chat();
+	</script>
+</body>
+</html>

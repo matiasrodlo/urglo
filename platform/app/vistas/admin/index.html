@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo.css" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="{ruta_index}js/menu.js" type="text/javascript"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97828335-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	{header}
+	<ul class="breadcrumbs">
+		<div class="wrapper-whilox">
+			<li><a href="{ruta_index}">Home</a></li>
+			<span class="separator"></span>
+			<li>Dashboard</li>
+		</div>
+	</ul>
+
+	<section class="wrapper-whilox">
+		<div style="display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-orient: vertical;-moz-box-orient: vertical;-webkit-box-direction: normal;-moz-box-direction: normal;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;overflow: hidden;">
+			<div class="widgettitle">
+				<h4>Últimos Pedidos de Coaching Terminados</h4>
+			</div>
+			<div class="topic-panel">
+				<table class="coaching-dash">
+					{lista_ultimos_pedidos_terminados}
+				</table>
+			</div>
+
+			<div class="widgettitle">
+				<h4>Últimos Trabajos de Coaches Terminados</h4>
+			</div>
+			<div class="topic-panel">
+				<table class="coaching-dash">
+					{lista_ultimos_trabajos_terminados}
+				</table>
+			</div>
+
+			<div class="widgettitle">
+				<h4>Últimos Pedidos de Coaching</h4>
+			</div>
+			<div class="topic-panel">
+				<table class="coaching-dash">
+					{lista_ultimos_pedidos}
+				</table>
+			</div>
+
+			<div class="widgettitle">
+				<h4>Últimos Trabajos de Coaches</h4>
+			</div>
+			<div class="topic-panel">
+				<table class="coaching-dash">
+					{lista_ultimas_trabajos}
+				</table>
+			</div>
+
+			<div class="widgettitle">
+				<h4>Últimas Calificaciones</h4>
+			</div>
+			<div class="topic-panel">
+				<ul class="userlist">
+					{lista_ultimas_calificaciones}
+				</ul>
+			</div>
+		</div>
+	</section>
+	{footer}
+</body>
+</html>

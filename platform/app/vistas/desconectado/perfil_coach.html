@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Coach {user_coach}</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo_desconectado.css" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97828335-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	{header}
+	<section class="wrapper-whilox">
+		<div class="coach-info">
+			<div class="coach-img">
+				<img src="{ruta_index}images/user/{img_perfil_coach}">
+			</div>
+			<div class="coach-level">
+				<img src="{ruta_index}images/Game/{img_level_coach}.png" align="middle">
+				<h3>{level_coach}</h3>
+			</div>
+			<script type="text/javascript">
+				$(document).on("ready", function()
+				{	
+					function cont()
+					{
+						var heightsid = $(".sid-coach").innerHeight();
+						$(".content-coach").css("min-height", +heightsid+"px");
+					}
+					cont();
+				});
+
+				$("#cphBody_slMultiplePurchase").slider({ min: 1, max: 20, range: "min", value: 1, slide: function (event, ui) {
+		                $("#cphBody_hfTeamAmount").val(ui.value);
+		                setTeamPrice();
+		            }
+		            });
+
+		        function initHourCalculators() {
+		            initSingleCalculator();
+		            initMultipleCalculator();
+		        }
+
+		        function initSingleCalculator() {
+		            $("#cphBody_slSinglePurchase").slider({ min: 1, max: 20, range: "min", value: $("#cphBody_hfSingleAmount").val(), slide: function (event, ui) { setSinglePrice(ui.value); } });
+		            var price = $("#cphBody_hfSinglePrice").val();
+		            var amount = $("#cphBody_hfSingleAmount").val();
+		            var total = price * amount;
+		            $("#cphBody_btnBuySingle").text("Compre " + amount + "h por " + total + $("#cphBody_hfCurrencySign").val());
+
+		        }
+
+		        function initMultipleCalculator() {
+		            $("#cphBody_slMultiplePurchase").slider({ min: 1, max: 20, range: "min", value: $("#cphBody_hfTeamAmount").val(), slide: function (event, ui) { setTeamPrice(ui.value); } });
+		            var price = $("#cphBody_hfTeamPrice").val();
+		            var amount = $("#cphBody_hfTeamAmount").val();
+		            var total = price * amount;
+		            $("#cphBody_btnBuyTeam").text("Compre " + amount + "h por " + total + $("#cphBody_hfCurrencySign").val());
+		        }
+
+		        function setSinglePrice(value) 
+		        {
+		            $("#cphBody_hfSingleAmount").val(value);
+		            var price = $("#cphBody_hfSinglePrice").val();
+		            var amount = $("#cphBody_hfSingleAmount").val();
+		            var total = price * amount;
+		            total = total * getCurrencyRateDB();
+        			total = total.toFixed(0);
+		            $("#cphBody_btnBuySingle").text("Compre " + amount + "h por " + total + getCurrencySignDB());
+		            $("#totalper").val(total);
+		            //$("#cphBody_slSinglePurchase").slider("value", $("#cphBody_hfTeamAmount").val());
+		        }
+		        function upgradecurrency () {
+		        	var price = $("#cphBody_hfSinglePrice").val();
+		        	price = price * getCurrencyRateDB();
+		        	price = price.toFixed(2);
+		        	$("#pre_per").text(price);
+		        	$("#cur_per").text(getCurrencySignDB);
+
+		        	var amount_single = $("#cphBody_hfSingleAmount").val();
+		        	var amount_team = $("#cphBody_hfTeamAmount").val();
+		        	
+		        	setSinglePrice(amount_single);
+		        	setTeamPrice(amount_team);
+		        }
+		        function getCurrencySignDB() {
+			    if ($("#Currency").val() != "") {
+			        var values = $("#Currency").val().split(';');
+			        return values[1];
+			    }
+			    return "";
+				}
+				function getCurrencyRateDB() {
+				    if ($("#Currency").val() != "") {
+				        var values = $("#Currency").val().split(';');
+				        return parseFloat(values[2]);
+				    }
+				    return 1;
+				}
+		        function setTeamPrice(value) {
+		            $("#cphBody_hfTeamAmount").val(value);
+		            var price = $("#cphBody_hfTeamPrice").val();
+		            var amount = $("#cphBody_hfTeamAmount").val();
+		            var total = price * amount;
+		            total = total * getCurrencyRateDB();
+        			total = total.toFixed(0);
+		            $("#cphBody_btnBuyTeam").text("Compre " + amount + "h por " + total + getCurrencySignDB());
+		            $("#totalteam").val(total);
+		            //$("#cphBody_slMultiplePurchase").slider("value", $("#cphBody_hfTeamAmount").val());
+		        }
+		        $(document).on('click','#cphBody_btnBuySingle', function(){
+		    		window.location.replace("{ruta_index}conectarse");
+		        	$("#pop").css("display", "block");
+		        	$("#pop-int").css("display", "block");
+		        	jQuery.fn.center = function () 
+					{
+					  	this.css("position", "fixed");
+					    this.css("z-index", "901");
+					    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+					    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+					    return this;
+					}
+
+				    $(window).resize(function () {
+					    $('#pop-int').each(function () {
+					        $(this).center();
+					    });
+					});
+
+					function centerAll() {
+					    $('#pop-int').each(function () {
+					        $(this).center();
+					    });
+					}
+					$('#pop-int').each(function () {
+					    $(this).center();
+					});
+		    	});
+		   		$(document).on('click','#cerrar-ord',function(){
+		        	$("#pop").css("display", "none");
+		        	$("#pop-int").css("display", "none");
+		    	});
+		    	$(document).on('click','#cphBody_btnBuyTeam', function(){
+		    		window.location.replace("{ruta_index}conectarse");
+		        	$("#pop").css("display", "block");
+		        	$("#pop-int").css("display", "block");
+		        	jQuery.fn.center = function () 
+					{
+					  	this.css("position", "fixed");
+					    this.css("z-index", "901");
+					    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+					    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + $(window).scrollLeft()) + "px");
+					    return this;
+					}
+
+				    $(window).resize(function () {
+					    $('#pop-int').each(function () {
+					        $(this).center();
+					    });
+					});
+
+					function centerAll() {
+					    $('#pop-int').each(function () {
+					        $(this).center();
+					    });
+					}
+					$('#pop-int').each(function () {
+					    $(this).center();
+					});
+		    	});
+			</script>
+			<input type="hidden" name="ctl00$cphBody$hfCurrencySign" id="cphBody_hfCurrencySign" value="$">
+			<div class="coach-purch">
+				<div class="title"><h1 style="font-size:30px;">{user_coach}</h1></div>
+				<input type="hidden" name="ctl00$cphBody$hfSinglePrice" id="cphBody_hfSinglePrice" value="{precio_personal}">
+				<input type="hidden" name="ctl00$cphBody$hfSingleAmount" id="cphBody_hfSingleAmount" value="1">
+				<input type="hidden" name="ctl00$cphBody$hfcoach" id="ctl00$cphBody$" value="{id_coach}">
+				<h3>Pecio por hora : <span id="cur_per">$US</span> <span id="pre_per">{precio_personal}</span> / h</h3>
+				<div class="currency" style="margin:10px 0px 0px 0px;">
+					<div style="display:inline-block;vertical-align:middle;">Moneda</div>
+		            <select style="display:inline-block;vertical-align:middle;width:initial;color:#000;padding:0px;box-shadow:none;" id="Currency" onchange="upgradecurrency();">
+		                <option value="USD;$US;1.00">US Dollar</option>
+		                <option value="CLP;$;500.00">Peso Chileno</option>
+		            </select>
+				</div>
+				<div class="containp">
+					<input type="hidden" id="totalper" value="{precio_personal}">
+					<h3>Entrenamientos Personales</h3>
+					<div>
+                        Horas que desea:
+                        <div id="cphBody_slSinglePurchase" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+                        	<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div>
+                        	<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a>
+                        </div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <a id="cphBody_btnBuySingle" class="linkbutton pad10"></a>
+                    <div style="display:block;margin-top:10px;">
+		                <img src="{ruta_index}images/paypal.png" width="70px" style="display:inline-block;" align="middle" />
+            		</div>
+				</div>
+				<div class="containp mar10">
+					<input type="hidden" id="totalteam" value="{precio_team}">
+					<input type="hidden" name="ctl00$cphBody$hfTeamPrice" id="cphBody_hfTeamPrice" value="{precio_team}">
+					<input type="hidden" name="ctl00$cphBody$hfTeamAmount" id="cphBody_hfTeamAmount" value="1">
+					<input type="hidden" name="ctl00$cphBody$hfpreteam" value="{precio_team}">
+					<h3>Entrenamientos de equipos</h3>
+					<div>
+	                    Horas que desea:
+	                    <div id="cphBody_slMultiplePurchase" style="float:none; position:relative;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+	                    	<div class="ui-slider-range ui-widget-header ui-corner-all  ui-slider-range-min" style="width: 0%;"></div>
+	                    	<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a>
+	                    </div>
+	                </div>
+	                <div class="clear"></div>
+	                <a id="cphBody_btnBuyTeam" class="linkbutton pad10"></a>
+	                <div style="display:block;margin-top:10px;">
+		                <img src="{ruta_index}images/paypal.png" width="70px" style="display:inline-block;" align="middle" />
+            		</div>
+				</div>
+			</div>
+		</div>
+		<div class="sid-coach">
+			<div class="pad10 center">
+				<h3>Puntuacion del entrenador</h3>
+				<div class="ratingBig">
+                    <img id="cphBody_imgRating1" class="rat{rating}" src="{ruta_index}images/rating-stars.png" align="middle">
+                </div>
+			</div>
+			<div class="pad10 center">
+				<h3>Top 4 campeones</h3>
+				<div class="topchampion">
+					<img src="{ruta_index}images/champion/{champion_img1}" width="50" align="center" title="{champion_nombre1}">
+					<img src="{ruta_index}images/champion/{champion_img2}" width="50" align="center" title="{champion_nombre2}">
+					<img src="{ruta_index}images/champion/{champion_img3}" width="50" align="center" title="{champion_nombre3}">
+					<img src="{ruta_index}images/champion/{champion_img4}" width="50" align="center" title="{champion_nombre4}">
+				</div>
+			</div>
+			<div class="pad10 center">
+				<h3>Posiciones / Roles</h3>
+				<div class="roles">
+					{roles_coach}
+				</div>
+			</div>
+			<div class="pad10 center">
+				<h3>Idiomas</h3>
+				<div class="idiomas">
+					{idiomas_coach}
+				</div>
+			</div>
+			<div class="pad10 center">
+				<h3>Opiniones de los Usuarios</h3>
+				{opiniones_usuarios}
+			</div>
+		</div>
+		<div class="content-coach">
+			{content_coach}
+		</div>
+	</div>
+	<div id="pop" style="display:none;"></div>
+	<div id="pop-int" style="display:none;">
+		<center>
+			<p>Redireccionando.. Espere un segundo, por favor.</p>
+			<div class="linkbutton" id="cerrar-ord">Cerrar</div>
+		</center>
+	</div>
+	</section>
+	<div style="clear:both;"></div>
+	{footer}
+	<script type="text/javascript">
+	//<![CDATA[
+	initHourCalculators();//]]>
+	</script>
+</body>
+</html>

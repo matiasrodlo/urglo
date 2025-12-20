@@ -1,0 +1,36 @@
+<header>
+	<a class="barmenu" style="margin-left:260px;"></a>
+</header>
+<div class="navigation-left" style="display:block;">
+	<div style="height:110px;">
+		<img style="margin: 0 auto;display:block" src="{ruta_index}images/usua.png">
+	</div>
+	<ul>
+		<li><a href="{ruta_index}"><i class="fa fa-laptop"></i> Dashboard</a></li>
+		<li><a href="{ruta_index}coaching/mis_ordenes"><i class="fa fa-shopping-cart"></i> Mis Compras</a></li>	
+		<li><a href="{ruta_index}mensajes"><i class="fa fa-envelope"></i> Soporte</a></li>
+	</ul>
+</div>
+<div class="navigation-right" style="display: block;margin-left:260px;">
+	<div id="menu-user">
+		<div class="messages" {css_msj}>
+			<a href="{ruta_index}mensajes">
+				<span class="count-msj">{mensajes_recibidos}</span>
+				<div style="clear:both;"></div>
+				<span class="icon-msj"></span>
+				<span class="label-msj">Mensajes</span>
+			</a>
+		</div>
+		<div class="perfil right">
+			<div class="info-user">
+				<img src="{ruta_index}images/user/{img_perfil}" />
+				<div class="info-perfil">
+					<span class="userinfo"><h5>{username_platform}</h5> - <i>{correo_user}</i></span>
+					<ul>
+						<li><a href="{ruta_index}perfil">Editar Perfil</a></li>
+						<li><a href="{ruta_index}cerrar_sesion">Cerrar Sesión</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>

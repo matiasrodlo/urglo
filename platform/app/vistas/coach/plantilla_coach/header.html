@@ -1,0 +1,45 @@
+<header>
+</header>
+<div class="navigation-left" style="display:block">
+	<div style="height:110px;">
+		<img style="margin: 0 auto;display:block" src="{ruta_index}images/entrenad.png">
+	</div>
+	<ul>
+		<li><a href="{ruta_index}"><i class="fa fa-laptop"></i> Dashboard</a></li>
+		<li><a href="{ruta_index}coachs"><i class="fa fa-users"></i> Entrenadores</a></li>
+		<li><a href="{ruta_index}coachs/{username_platform}"><i class="fa fa-user"></i> Mi Perfil de Coach</a></li>
+		<li class="dropdown">
+			<a href="#"><i class="fa fa-suitcase"></i> Lista de Trabajos</a>
+			<ul>
+				<li><a href="{ruta_index}trabajos">Todos</a></li>
+				<li><a href="{ruta_index}trabajos/activos">En proceso</a></li>
+				<li><a href="{ruta_index}trabajos/cancelados">Cancelados</a></li>
+				<li><a href="{ruta_index}trabajos/terminados">Terminados</a></li>
+			</ul>
+		</li>
+		<li><a href="{ruta_index}mensajes"><i class="fa fa-envelope"></i> Soporte</a></li>
+	</ul>
+</div>
+<div class="navigation-right" style="display: block;margin-left:260px;">
+	<div id="menu-user">
+		<div class="messages" {css_msj}>
+			<a href="{ruta_index}mensajes">
+				<span class="count-msj">{mensajes_recibidos}</span>
+				<div style="clear:both;"></div>
+				<span class="icon-msj"></span>
+				<span class="label-msj">Mensajes</span>
+			</a>
+		</div>
+		<div class="perfil right">
+			<div class="info-user">
+				<img src="{ruta_index}images/user/{img_perfil}" />
+				<div class="info-perfil">
+					<span class="userinfo"><h5>{username_platform}</h5> - <i>{correo_user}</i></span>
+					<ul>
+						<li><a href="{ruta_index}perfil">Editar Perfil</a></li>
+						<li><a href="{ruta_index}cerrar_sesion">Cerrar Sesión</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>

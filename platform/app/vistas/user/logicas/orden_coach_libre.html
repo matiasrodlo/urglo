@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Orden de {tipo}</title>
+	<link rel="stylesheet" type="text/css" href="{ruta_index}css/estilo.css?{time}" />
+	<link rel="icon" type="image/png" href="{ruta_index}favicon.png" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="{ruta_index}js/actions_user.js?{time}" type="text/javascript"></script>
+	<script src="{ruta_index}js/jquery.autosize.js?{time}" type="text/javascript"></script>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="{ruta_index}js/menu.js?{time}" type="text/javascript"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97828335-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	{header}
+	<ul class="breadcrumbs">
+		<div class="wrapper-whilox">
+			<li><a href="{ruta_index}">Home</a></li>
+			<span class="separator"></span>
+			<li><a href="{ruta_index}coachs">Coachs</a></li>
+			<span class="separator"></span>
+			<li><a href="{ruta_index}coachs/mis_ordenes/">Mis Ordenes</a></li>
+			<span class="separator"></span>
+			<li>Pedido: {tipo}</li>
+		</div>
+	</ul>
+	<section class="wrapper-whilox">
+		<div class="box-info" style="display:inline-block;vertical-align:top">
+			<div class="widgettitle">
+				<h4>Detalles de la orden - {tipo}</h4>
+			</div>
+			<div class="widgetcontent">
+				<div class="w-ordetail">
+					<div class="w-nm" align="center"><h4>'{user_coach}'</h4></div>
+					<div class="w-left" align="center" style="vertical-align:middle">
+						<h4 class="subtitle">Comprado</h4>
+						<h1 class="padding20">{horas_compradas}</h1>
+						<h4 class="subtitle">horas</h4>
+					</div>
+					<div class="padding10 w-middle" style="vertical-align:middle">
+						<a href="{ruta_index}coachs/{user_coach}">
+							<img src="{ruta_index}images/user/{img_coach}" style="width:160px;border:4px solid #3399dd; border-radius:5px;">
+						</a>
+					</div>
+					<div class="w-right" align="center" style="vertical-align:middle">
+						<h4 class="subtitle">Restante</h4>
+						<h1 class="padding20">{horas_restantes}</h1>
+						<h4 class="subtitle">horas</h4>
+					</div>
+					<div class="w-nm" align="center">
+						<div class="progress progress-striped active">
+	                        <div id="cphContentPanel_divProgress" style="width:{porcentaje_progress}%" class="bar"></div>
+	                    </div>
+	                </div>
+				</div>
+			</div>
+		</div>
+		<div class="span4" style="display:inline-block;">
+        	<div class="topicpanel" style="margin:0 10px;">
+        		<div clas="topic-content" align="center">
+        			<div class="alert-error">
+        				<b>La orden no esta confirmada.</b>
+        			</div>
+        			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&upload=1&business=s@urglo.com&currency_code=USD&charset=ISO-8859-1&no_shipping=1&return={ruta_index}&cancel_return={ruta_index}&custom=NDQ0MTQsMzMxMDUw&no_note=1&item_name={tipo}&amount=1&quantity=1&amount={precio_total}">
+        				<div class="btn-info padding10" align="center" style="width:90%;display:inline-block;color:#fff;margin: 10px 0px;">
+        					Pagar esta Orden con <b>PayPal</b>.
+        				</div>
+        			</a>
+        			{kiphu_ch}
+   					<a id="cancel_coach" style="text-decoration:none;">
+   						<div class="btn-danger padding10" align="center" style="width:90%;display:inline-block;color:#fff;">
+   							Cancelar esta <b>Orden</b>.
+   						</div>
+   					</a>
+   					<p style="font-size:11px;margin-top:10px;"><i>* Pagar con la misma cuenta paypal del registro.</i></p>
+        		</div>
+        	</div>
+        	{kiphu_not}
+        </div>
+	</section>	
+	{footer}
+</body>
+</html>
